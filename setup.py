@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="tmm-monitor",
-    version="%(prog)s 1.1.2",
+    version="1.1.3",
     description="Tendermint Metrics Monitor - A TUI for monitoring blockchain metrics",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
