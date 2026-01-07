@@ -12,6 +12,19 @@ A beautiful terminal-based TUI (Text User Interface) for monitoring Tendermint/C
 - 🔄 **Auto-refresh**: Configurable refresh intervals (default: 1 second)
 - 🌐 **Flexible**: Works with any Prometheus-compatible metrics endpoint
 
+## Supported Chains
+
+| Chain | Network IDs |
+|-------|-------------|
+| 0G Chain | `0gchain-16602`, `0G-mainnet-aristotle` |
+| Babylon | `bbn-1`, `bbn-test-6` |
+| Celestia | `celestia`, `mocha-4`, `arabica-11` |
+| Cosmos Hub | `cosmoshub-4`, `theta-testnet-001` |
+| Mantra | `mantra-dukong-1`, `mantra-1` |
+| Nillion | `nillion-1`, `nillion-chain-testnet-1` |
+| Terra | `phoenix-1`, `pisco-1` |
+| Xion | `xion-mainnet-1`, `xion-testnet-2` |
+
 ## Installation
 
 ### From PyPI

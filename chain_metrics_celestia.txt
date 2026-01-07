@@ -1,0 +1,852 @@
+# HELP cometbft_abci_connection_method_timing_seconds Timing for each ABCI method.
+# TYPE cometbft_abci_connection_method_timing_seconds histogram
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="0.0001"} 529448
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="0.0004"} 1.561589e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="0.002"} 2.508157e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="0.009"} 2.527063e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="0.02"} 2.527593e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="0.1"} 2.527869e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="0.65"} 2.527888e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="2"} 2.527888e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="6"} 2.527888e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="25"} 2.527888e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="check_tx",type="sync",le="+Inf"} 2.527888e+06
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="mocha-4",method="check_tx",type="sync"} 1136.8447975399408
+cometbft_abci_connection_method_timing_seconds_count{chain_id="mocha-4",method="check_tx",type="sync"} 2.527888e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="0.002"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="0.009"} 196035
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="0.02"} 211878
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="0.1"} 212538
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="0.65"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="2"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="6"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="25"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="commit",type="sync",le="+Inf"} 212579
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="mocha-4",method="commit",type="sync"} 1606.8024329219975
+cometbft_abci_connection_method_timing_seconds_count{chain_id="mocha-4",method="commit",type="sync"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="0.002"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="0.009"} 42610
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="0.02"} 212131
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="0.1"} 212578
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="0.65"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="2"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="6"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="25"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="finalize_block",type="sync",le="+Inf"} 212579
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="mocha-4",method="finalize_block",type="sync"} 2290.1714605689262
+cometbft_abci_connection_method_timing_seconds_count{chain_id="mocha-4",method="finalize_block",type="sync"} 212579
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="0.0001"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="0.0004"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="0.002"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="0.009"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="0.02"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="0.1"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="0.65"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="2"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="6"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="25"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="flush",type="sync",le="+Inf"} 419548
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="mocha-4",method="flush",type="sync"} 0.14429204300007162
+cometbft_abci_connection_method_timing_seconds_count{chain_id="mocha-4",method="flush",type="sync"} 419548
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="0.002"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="0.009"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="0.02"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="0.1"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="0.65"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="2"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="6"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="25"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="info",type="sync",le="+Inf"} 1
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="mocha-4",method="info",type="sync"} 0.001416607
+cometbft_abci_connection_method_timing_seconds_count{chain_id="mocha-4",method="info",type="sync"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="0.0004"} 3211
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="0.002"} 59374
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="0.009"} 205719
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="0.02"} 209631
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="0.1"} 210841
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="0.65"} 211086
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="2"} 211090
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="6"} 211090
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="25"} 211090
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="process_proposal",type="sync",le="+Inf"} 211090
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="mocha-4",method="process_proposal",type="sync"} 782.5833155310239
+cometbft_abci_connection_method_timing_seconds_count{chain_id="mocha-4",method="process_proposal",type="sync"} 211090
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="0.0004"} 235
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="0.002"} 105492
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="0.009"} 109015
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="0.02"} 109023
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="0.1"} 109023
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="0.65"} 109023
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="2"} 109023
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="6"} 109023
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="25"} 109023
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query",type="sync",le="+Inf"} 109023
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="mocha-4",method="query",type="sync"} 130.74299633599918
+cometbft_abci_connection_method_timing_seconds_count{chain_id="mocha-4",method="query",type="sync"} 109023
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="0.0001"} 3.604218e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="0.0004"} 3.607451e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="0.002"} 3.607675e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="0.009"} 3.607983e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="0.02"} 3.607991e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="0.1"} 3.607995e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="0.65"} 3.607997e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="2"} 3.607997e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="6"} 3.607997e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="25"} 3.607997e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="mocha-4",method="query_sequence",type="sync",le="+Inf"} 3.607997e+06
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="mocha-4",method="query_sequence",type="sync"} 60.70639765099932
+cometbft_abci_connection_method_timing_seconds_count{chain_id="mocha-4",method="query_sequence",type="sync"} 3.607997e+06
+# HELP cometbft_blocksync_block_size_bytes Size of the latest block.
+# TYPE cometbft_blocksync_block_size_bytes gauge
+cometbft_blocksync_block_size_bytes{chain_id="mocha-4"} 108519
+# HELP cometbft_blocksync_latest_block_height The height of the latest block.
+# TYPE cometbft_blocksync_latest_block_height gauge
+cometbft_blocksync_latest_block_height{chain_id="mocha-4"} 9.339986e+06
+# HELP cometbft_blocksync_num_txs Number of transactions in the latest block.
+# TYPE cometbft_blocksync_num_txs gauge
+cometbft_blocksync_num_txs{chain_id="mocha-4"} 3
+# HELP cometbft_blocksync_syncing Whether or not a node is block syncing. 1 if yes, 0 if no.
+# TYPE cometbft_blocksync_syncing gauge
+cometbft_blocksync_syncing{chain_id="mocha-4"} 0
+# HELP cometbft_blocksync_total_txs Total number of transactions.
+# TYPE cometbft_blocksync_total_txs gauge
+cometbft_blocksync_total_txs{chain_id="mocha-4"} 23
+# HELP cometbft_consensus_block_gossip_parts_received Number of block parts received by the node, separated by whether the part was relevant to the block the node is trying to gather or not.
+# TYPE cometbft_consensus_block_gossip_parts_received counter
+cometbft_consensus_block_gossip_parts_received{chain_id="mocha-4",matches_current="false"} 4821
+cometbft_consensus_block_gossip_parts_received{chain_id="mocha-4",matches_current="true"} 724333
+# HELP cometbft_consensus_block_interval_seconds Time between this and the last block.
+# TYPE cometbft_consensus_block_interval_seconds histogram
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="0.005"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="0.01"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="0.025"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="0.05"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="0.1"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="0.25"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="0.5"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="1"} 866
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="2.5"} 897
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="5"} 905
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="10"} 211335
+cometbft_consensus_block_interval_seconds_bucket{chain_id="mocha-4",le="+Inf"} 212575
+cometbft_consensus_block_interval_seconds_sum{chain_id="mocha-4"} 1.287081502919492e+06
+cometbft_consensus_block_interval_seconds_count{chain_id="mocha-4"} 212575
+# HELP cometbft_consensus_block_size_bytes Size of the block.
+# TYPE cometbft_consensus_block_size_bytes gauge
+cometbft_consensus_block_size_bytes{chain_id="mocha-4"} 45907
+# HELP cometbft_consensus_block_time_seconds BlockTimeSeconds is the duration between this block and the preceding one.
+# TYPE cometbft_consensus_block_time_seconds gauge
+cometbft_consensus_block_time_seconds{chain_id="mocha-4"} 6.042722182
+# HELP cometbft_consensus_byzantine_validators Number of validators who tried to double sign.
+# TYPE cometbft_consensus_byzantine_validators gauge
+cometbft_consensus_byzantine_validators{chain_id="mocha-4"} 0
+# HELP cometbft_consensus_byzantine_validators_power Total power of the byzantine validators.
+# TYPE cometbft_consensus_byzantine_validators_power gauge
+cometbft_consensus_byzantine_validators_power{chain_id="mocha-4"} 0
+# HELP cometbft_consensus_chain_size_bytes Size of the chain in bytes.
+# TYPE cometbft_consensus_chain_size_bytes counter
+cometbft_consensus_chain_size_bytes{chain_id="mocha-4"} 3.954358675e+10
+# HELP cometbft_consensus_duplicate_block_part Number of times we received a duplicate block part
+# TYPE cometbft_consensus_duplicate_block_part counter
+cometbft_consensus_duplicate_block_part{chain_id="mocha-4"} 10
+# HELP cometbft_consensus_duplicate_vote Number of times we received a duplicate vote
+# TYPE cometbft_consensus_duplicate_vote counter
+cometbft_consensus_duplicate_vote{chain_id="mocha-4"} 4.3196166e+07
+# HELP cometbft_consensus_full_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the latest prevote in a round where all validators voted.
+# TYPE cometbft_consensus_full_prevote_delay gauge
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="0055F722BAC1C74D33153845E9CA596BDF57E544"} 0.65058782
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="01458B61F0D7DE6E90798FE8C370413D718EB34C"} 1.10759725
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="0F533AEC2D93DAACBF94522F5C82E669F4A09D1A"} 0.68416089
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="0FDB40C1B3ED17E49061B1F577393E5B91323C99"} 0.567361124
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="11637B088406D4F3EFF52F2230C8068D230C7611"} 0.598408857
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="1457C4F885F882FEB9BAF71C067215615869995C"} 0.508323248
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="1FE7F1C617CD70EAC1C37909CEC821906105463E"} 0.638332341
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="26EFB42C96DBFA42D740333C33E2713AA050FA77"} 0.661651829
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="2A8FB5C0567D3031B6A26243BF9F3D04E706548D"} 0.49507723
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="2F334E80D3EA0AE019D6498D8DD7E0EC472E5424"} 0.7064835
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="346001263089D83465A72C6DB5EFBC32359111A3"} 0.725048498
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="3824438082C68B36ED8F5199155CD78ABBBDA30C"} 0.860873948
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="38CECDD91DAE3D8F536C080742A69FEBB6EFDBFF"} 0.650279703
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="39C407E8C4BF20F0DE0BA7EB65FEFE51FC05F889"} 0.60156269
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="3B0F1CAEEB84A5AF239580FB26D6199CB17CEB3A"} 0.683251805
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="3BFE2EF588102F19F40952DDDD3A89BA90D7351F"} 0.659011626
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="429CAA1FB25D16295C82FEEBF76F2802D98AB41B"} 0.937409125
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="469CB700B5C1D9DE8905457AE5A7BD7E3FCB75EA"} 1.026079401
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="496E841EDE9894A66965D3F6ACB088FF71953B9A"} 0.632742682
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="4A3918A6D02D25290B243A86618071374FADD87B"} 0.982187697
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="5769499735A69F335467D419764A69FAFFE29607"} 0.819110679
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="597944BC0AEDFA1D9DA7C2098FB05D7B6A2D4946"} 0.818610578
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="5AF159B8269B974F9274DAEA0F778ADD3B12707D"} 1.031566971
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="633744F3BE877E6DF590E72E99425BA653156B93"} 0.576067887
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="682EF7D2FB487050D6AD71173FCC7C983B031A4B"} 0.571902685
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="6C6F50C1E0E2A69BFC2AB7DABE0A3F091D17E666"} 0.472607799
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="70FF3B76F4D2153851B0857E708C44E927226DBE"} 0.456152795
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="75FD328A9FCB21EDBA0A450E720DDEDB12DD86FE"} 0.489183046
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="762CBA617226A799D898F134DD12661C7F1129EB"} 1.309207408
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="7744C8CE6E06E67AB9721696AA752B951C93E9E0"} 0.518824359
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="7EC8ADD79B454AC37625077453DF49FAC1BFD7E1"} 0.788340568
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="87D1611F9BA8ABF12C13B32F90469977B4C94F9A"} 0.517193139
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="9079C978817165244C051EFCE5AD163AAA905C6F"} 0.555567601
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="91AB27CC321622AC4DC778D2F1FE367CFADAC665"} 0.526105996
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="924090B949A3A3A43AEE52C4DAE342332C57B684"} 0.548263608
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="967B6B5C64615DEB574D88C1F07F23F77E6E7EBA"} 0.666099823
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="969B1B7DCAFA313131620AC163E3A09A03B49BE6"} 0.512229676
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="A04FD3C7D73B3813056E844F4471B3572D01EEA3"} 0.93781723
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="AB02715693092A860A297E602AE0EE6DC9B7155B"} 0.793153499
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="B07503589534AAAAD60836B33245410AD11CCEB9"} 0.695821967
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="BEEE6DB44A01D8005CD59904F9AEE12BE9DBA6A3"} 0.712393402
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="C822706DA92B375B6793FEC5FCAD04BB5AFE142A"} 1.039736445
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="C8E66B2FB198544C40058986AFF7BFD9B1FD6442"} 0.62106862
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="CBA82E0DF6C639D320AC0A421238F6EF93373C94"} 0.60829956
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="CD10B5095AC4541972E0C0FDE35A39CF92A040DA"} 0.644460236
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="CD34D386E534320153E1A3B02DEFB4CE0773E462"} 0.588245929
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="D2D4F5DEAA79726D050DA47AC500D09AE0B0312C"} 0.729578779
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="D87DA6AD5B598E723EE3A03BE0A6F9AB07EB0E01"} 0.979132846
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="D92E949735CFD958FE2E1EA2F7ACCFBC981059B4"} 0.710870548
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="DADD050CB46ED29570605E9F7218684A6038F97C"} 1.209982899
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="E23A9173DF68A8BE51650807E55104E6101CA7CB"} 0.925922199
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="EA24B2B3D95324B98E32D314A2CE94126558A2AC"} 0.641726192
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="EE927F115AD4FD4BC131CA311D332ADDAC62CCAC"} 0.659091442
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="F271741FA4B163F3204A5BC2570E74F146AA33D9"} 0.504632192
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="F27435F6EF24E3B55BF7D9A48AE6C3CB0BAC134F"} 0.594052415
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="FC5D2FDD18401C08B90A5EAE412CAE59C57DA043"} 0.885787025
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="FFD33A20A9533DB6ED8AE6D7E97DDCC905F1030A"} 0.559388209
+cometbft_consensus_full_prevote_delay{chain_id="mocha-4",proposer_address="FFF48F66ACE393AFC9061DD79E4BCFE062EF40FD"} 1.210919628
+# HELP cometbft_consensus_height Height of the chain.
+# TYPE cometbft_consensus_height gauge
+cometbft_consensus_height{chain_id="mocha-4"} 9.552562e+06
+# HELP cometbft_consensus_late_votes LateVotes stores the number of votes that were received by this node that correspond to earlier heights and rounds than this node is currently in.
+# TYPE cometbft_consensus_late_votes counter
+cometbft_consensus_late_votes{chain_id="mocha-4",vote_type="precommit"} 1.5545266e+07
+cometbft_consensus_late_votes{chain_id="mocha-4",vote_type="prevote"} 842475
+# HELP cometbft_consensus_latest_block_height The latest block height.
+# TYPE cometbft_consensus_latest_block_height gauge
+cometbft_consensus_latest_block_height{chain_id="mocha-4"} 9.552561e+06
+# HELP cometbft_consensus_missing_validators Number of validators who did not sign.
+# TYPE cometbft_consensus_missing_validators gauge
+cometbft_consensus_missing_validators{chain_id="mocha-4"} 33
+# HELP cometbft_consensus_missing_validators_power Total power of the missing validators.
+# TYPE cometbft_consensus_missing_validators_power gauge
+cometbft_consensus_missing_validators_power{chain_id="mocha-4"} 8.6261494e+07
+# HELP cometbft_consensus_num_txs Number of transactions.
+# TYPE cometbft_consensus_num_txs gauge
+cometbft_consensus_num_txs{chain_id="mocha-4"} 3
+# HELP cometbft_consensus_proposal_receive_count ProposalReceiveCount is the total number of proposals received by this node since process start. The metric is annotated by the status of the proposal from the application, either 'accepted' or 'rejected'.
+# TYPE cometbft_consensus_proposal_receive_count counter
+cometbft_consensus_proposal_receive_count{chain_id="mocha-4",status="accepted"} 211086
+# HELP cometbft_consensus_proposer_missed_proposals ProposerMissedProposals is the number of proposals missed by each proposer.
+# TYPE cometbft_consensus_proposer_missed_proposals counter
+cometbft_consensus_proposer_missed_proposals{chain_id="mocha-4",proposer_address="01458B61F0D7DE6E90798FE8C370413D718EB34C"} 9
+cometbft_consensus_proposer_missed_proposals{chain_id="mocha-4",proposer_address="0F533AEC2D93DAACBF94522F5C82E669F4A09D1A"} 5
+cometbft_consensus_proposer_missed_proposals{chain_id="mocha-4",proposer_address="26EFB42C96DBFA42D740333C33E2713AA050FA77"} 80
+cometbft_consensus_proposer_missed_proposals{chain_id="mocha-4",proposer_address="38CECDD91DAE3D8F536C080742A69FEBB6EFDBFF"} 1
+cometbft_consensus_proposer_missed_proposals{chain_id="mocha-4",proposer_address="682EF7D2FB487050D6AD71173FCC7C983B031A4B"} 2
+cometbft_consensus_proposer_missed_proposals{chain_id="mocha-4",proposer_address="969B1B7DCAFA313131620AC163E3A09A03B49BE6"} 2
+cometbft_consensus_proposer_missed_proposals{chain_id="mocha-4",proposer_address="CD34D386E534320153E1A3B02DEFB4CE0773E462"} 1
+cometbft_consensus_proposer_missed_proposals{chain_id="mocha-4",proposer_address="EE927F115AD4FD4BC131CA311D332ADDAC62CCAC"} 7
+cometbft_consensus_proposer_missed_proposals{chain_id="mocha-4",proposer_address="FC5D2FDD18401C08B90A5EAE412CAE59C57DA043"} 223
+# HELP cometbft_consensus_quorum_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the earliest prevote that achieved a quorum.
+# TYPE cometbft_consensus_quorum_prevote_delay gauge
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="0055F722BAC1C74D33153845E9CA596BDF57E544"} 0.356410491
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="01458B61F0D7DE6E90798FE8C370413D718EB34C"} 0.605999051
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="0F533AEC2D93DAACBF94522F5C82E669F4A09D1A"} 0.294951096
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="0FDB40C1B3ED17E49061B1F577393E5B91323C99"} 0.427851287
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="11637B088406D4F3EFF52F2230C8068D230C7611"} 0.369629538
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="1457C4F885F882FEB9BAF71C067215615869995C"} 0.379876322
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="1FE7F1C617CD70EAC1C37909CEC821906105463E"} 0.259310487
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="26EFB42C96DBFA42D740333C33E2713AA050FA77"} 0.702751394
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="2A8FB5C0567D3031B6A26243BF9F3D04E706548D"} 0.269193841
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="2F334E80D3EA0AE019D6498D8DD7E0EC472E5424"} 0.542158099
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="346001263089D83465A72C6DB5EFBC32359111A3"} 0.36826217
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="3824438082C68B36ED8F5199155CD78ABBBDA30C"} 0.279947656
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="38CECDD91DAE3D8F536C080742A69FEBB6EFDBFF"} 0.349813295
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="39C407E8C4BF20F0DE0BA7EB65FEFE51FC05F889"} 0.419277984
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="3B0F1CAEEB84A5AF239580FB26D6199CB17CEB3A"} 0.518959261
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="3BFE2EF588102F19F40952DDDD3A89BA90D7351F"} 0.380827201
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="429CAA1FB25D16295C82FEEBF76F2802D98AB41B"} 0.489659188
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="469CB700B5C1D9DE8905457AE5A7BD7E3FCB75EA"} 0.560689973
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="496E841EDE9894A66965D3F6ACB088FF71953B9A"} 0.509053765
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="4A3918A6D02D25290B243A86618071374FADD87B"} 0.508189533
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="5769499735A69F335467D419764A69FAFFE29607"} 0.269309426
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="597944BC0AEDFA1D9DA7C2098FB05D7B6A2D4946"} 0.444451286
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="5AF159B8269B974F9274DAEA0F778ADD3B12707D"} 0.485782949
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="633744F3BE877E6DF590E72E99425BA653156B93"} 0.486367349
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="682EF7D2FB487050D6AD71173FCC7C983B031A4B"} 0.472148656
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="6C6F50C1E0E2A69BFC2AB7DABE0A3F091D17E666"} 0.421803211
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="70FF3B76F4D2153851B0857E708C44E927226DBE"} 0.571913004
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="75FD328A9FCB21EDBA0A450E720DDEDB12DD86FE"} 0.29242997
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="762CBA617226A799D898F134DD12661C7F1129EB"} 0.559931641
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="7744C8CE6E06E67AB9721696AA752B951C93E9E0"} 0.267200875
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="7EC8ADD79B454AC37625077453DF49FAC1BFD7E1"} 0.270737572
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="87D1611F9BA8ABF12C13B32F90469977B4C94F9A"} 0.313760285
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="9079C978817165244C051EFCE5AD163AAA905C6F"} 0.307094659
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="91AB27CC321622AC4DC778D2F1FE367CFADAC665"} 0.415685089
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="924090B949A3A3A43AEE52C4DAE342332C57B684"} 0.295196715
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="967B6B5C64615DEB574D88C1F07F23F77E6E7EBA"} 0.394612161
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="969B1B7DCAFA313131620AC163E3A09A03B49BE6"} 0.292319583
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="A04FD3C7D73B3813056E844F4471B3572D01EEA3"} 0.336657723
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="AB02715693092A860A297E602AE0EE6DC9B7155B"} 0.325579938
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="B07503589534AAAAD60836B33245410AD11CCEB9"} 0.428246496
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="BEEE6DB44A01D8005CD59904F9AEE12BE9DBA6A3"} 0.290373588
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="C822706DA92B375B6793FEC5FCAD04BB5AFE142A"} 0.469551621
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="C8E66B2FB198544C40058986AFF7BFD9B1FD6442"} 0.504529923
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="CBA82E0DF6C639D320AC0A421238F6EF93373C94"} 0.287741391
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="CD10B5095AC4541972E0C0FDE35A39CF92A040DA"} 0.476232405
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="CD34D386E534320153E1A3B02DEFB4CE0773E462"} 0.300514111
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="D2D4F5DEAA79726D050DA47AC500D09AE0B0312C"} 0.465796549
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="D87DA6AD5B598E723EE3A03BE0A6F9AB07EB0E01"} 0.40302859
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="D92E949735CFD958FE2E1EA2F7ACCFBC981059B4"} 0.393183277
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="DADD050CB46ED29570605E9F7218684A6038F97C"} 0.880017742
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="E23A9173DF68A8BE51650807E55104E6101CA7CB"} 0.373062615
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="E94795913D94B8B493B8A6C023A6969238F7D60D"} 0.459268065
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="EA24B2B3D95324B98E32D314A2CE94126558A2AC"} 0.408098441
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="EE927F115AD4FD4BC131CA311D332ADDAC62CCAC"} 0.318638453
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="F271741FA4B163F3204A5BC2570E74F146AA33D9"} 0.317918106
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="F27435F6EF24E3B55BF7D9A48AE6C3CB0BAC134F"} 0.481601271
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="FC5D2FDD18401C08B90A5EAE412CAE59C57DA043"} 0.450800087
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="FFD33A20A9533DB6ED8AE6D7E97DDCC905F1030A"} 0.343019264
+cometbft_consensus_quorum_prevote_delay{chain_id="mocha-4",proposer_address="FFF48F66ACE393AFC9061DD79E4BCFE062EF40FD"} 0.58777284
+# HELP cometbft_consensus_round_duration_seconds Histogram of round duration.
+# TYPE cometbft_consensus_round_duration_seconds histogram
+cometbft_consensus_round_duration_seconds_bucket{chain_id="mocha-4",le="0.1"} 210923
+cometbft_consensus_round_duration_seconds_bucket{chain_id="mocha-4",le="0.2682695795279726"} 212135
+cometbft_consensus_round_duration_seconds_bucket{chain_id="mocha-4",le="0.7196856730011522"} 212480
+cometbft_consensus_round_duration_seconds_bucket{chain_id="mocha-4",le="1.9306977288832508"} 212557
+cometbft_consensus_round_duration_seconds_bucket{chain_id="mocha-4",le="5.1794746792312125"} 212576
+cometbft_consensus_round_duration_seconds_bucket{chain_id="mocha-4",le="13.894954943731381"} 213223
+cometbft_consensus_round_duration_seconds_bucket{chain_id="mocha-4",le="37.27593720314942"} 213288
+cometbft_consensus_round_duration_seconds_bucket{chain_id="mocha-4",le="100.00000000000006"} 213288
+cometbft_consensus_round_duration_seconds_bucket{chain_id="mocha-4",le="+Inf"} 213288
+cometbft_consensus_round_duration_seconds_sum{chain_id="mocha-4"} 15468.852269108089
+cometbft_consensus_round_duration_seconds_count{chain_id="mocha-4"} 213288
+# HELP cometbft_consensus_round_voting_power_percent RoundVotingPowerPercent is the percentage of the total voting power received with a round. The value begins at 0 for each round and approaches 1.0 as additional voting power is observed. The metric is labeled by vote type.
+# TYPE cometbft_consensus_round_voting_power_percent gauge
+cometbft_consensus_round_voting_power_percent{chain_id="mocha-4",vote_type="precommit"} 0
+cometbft_consensus_round_voting_power_percent{chain_id="mocha-4",vote_type="prevote"} 0.7116275854067537
+# HELP cometbft_consensus_rounds Number of rounds.
+# TYPE cometbft_consensus_rounds gauge
+cometbft_consensus_rounds{chain_id="mocha-4"} 0
+# HELP cometbft_consensus_step_duration_seconds Histogram of durations for each step in the consensus protocol.
+# TYPE cometbft_consensus_step_duration_seconds histogram
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Commit",le="0.1"} 210913
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Commit",le="0.2682695795279726"} 212134
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Commit",le="0.7196856730011522"} 212478
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Commit",le="1.9306977288832508"} 212556
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Commit",le="5.1794746792312125"} 212575
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Commit",le="13.894954943731381"} 212575
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Commit",le="37.27593720314942"} 212575
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Commit",le="100.00000000000006"} 212575
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Commit",le="+Inf"} 212575
+cometbft_consensus_step_duration_seconds_sum{chain_id="mocha-4",step="Commit"} 6602.7871894849
+cometbft_consensus_step_duration_seconds_count{chain_id="mocha-4",step="Commit"} 212575
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewHeight",le="0.1"} 212575
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewHeight",le="0.2682695795279726"} 212575
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewHeight",le="0.7196856730011522"} 212575
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewHeight",le="1.9306977288832508"} 212575
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewHeight",le="5.1794746792312125"} 212576
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewHeight",le="13.894954943731381"} 212576
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewHeight",le="37.27593720314942"} 212576
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewHeight",le="100.00000000000006"} 212576
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewHeight",le="+Inf"} 212576
+cometbft_consensus_step_duration_seconds_sum{chain_id="mocha-4",step="NewHeight"} 61.96070547700065
+cometbft_consensus_step_duration_seconds_count{chain_id="mocha-4",step="NewHeight"} 212576
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewRound",le="0.1"} 212929
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewRound",le="0.2682695795279726"} 212930
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewRound",le="0.7196856730011522"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewRound",le="1.9306977288832508"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewRound",le="5.1794746792312125"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewRound",le="13.894954943731381"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewRound",le="37.27593720314942"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewRound",le="100.00000000000006"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="NewRound",le="+Inf"} 212932
+cometbft_consensus_step_duration_seconds_sum{chain_id="mocha-4",step="NewRound"} 12.44847917200006
+cometbft_consensus_step_duration_seconds_count{chain_id="mocha-4",step="NewRound"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Precommit",le="0.1"} 11979
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Precommit",le="0.2682695795279726"} 164059
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Precommit",le="0.7196856730011522"} 185479
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Precommit",le="1.9306977288832508"} 185480
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Precommit",le="5.1794746792312125"} 185635
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Precommit",le="13.894954943731381"} 212931
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Precommit",le="37.27593720314942"} 212931
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Precommit",le="100.00000000000006"} 212931
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Precommit",le="+Inf"} 212931
+cometbft_consensus_step_duration_seconds_sum{chain_id="mocha-4",step="Precommit"} 187747.73210175493
+cometbft_consensus_step_duration_seconds_count{chain_id="mocha-4",step="Precommit"} 212931
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrecommitWait",le="0.1"} 10
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrecommitWait",le="0.2682695795279726"} 10
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrecommitWait",le="0.7196856730011522"} 10
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrecommitWait",le="1.9306977288832508"} 10
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrecommitWait",le="5.1794746792312125"} 366
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrecommitWait",le="13.894954943731381"} 366
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrecommitWait",le="37.27593720314942"} 366
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrecommitWait",le="100.00000000000006"} 366
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrecommitWait",le="+Inf"} 366
+cometbft_consensus_step_duration_seconds_sum{chain_id="mocha-4",step="PrecommitWait"} 1068.250372369
+cometbft_consensus_step_duration_seconds_count{chain_id="mocha-4",step="PrecommitWait"} 366
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Prevote",le="0.1"} 11603
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Prevote",le="0.2682695795279726"} 26359
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Prevote",le="0.7196856730011522"} 28139
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Prevote",le="1.9306977288832508"} 28161
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Prevote",le="5.1794746792312125"} 100819
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Prevote",le="13.894954943731381"} 211426
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Prevote",le="37.27593720314942"} 211426
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Prevote",le="100.00000000000006"} 211426
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Prevote",le="+Inf"} 211426
+cometbft_consensus_step_duration_seconds_sum{chain_id="mocha-4",step="Prevote"} 957618.121921618
+cometbft_consensus_step_duration_seconds_count{chain_id="mocha-4",step="Prevote"} 211426
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrevoteWait",le="0.1"} 3
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrevoteWait",le="0.2682695795279726"} 4
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrevoteWait",le="0.7196856730011522"} 4
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrevoteWait",le="1.9306977288832508"} 4
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrevoteWait",le="5.1794746792312125"} 26
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrevoteWait",le="13.894954943731381"} 26
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrevoteWait",le="37.27593720314942"} 26
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrevoteWait",le="100.00000000000006"} 26
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="PrevoteWait",le="+Inf"} 26
+cometbft_consensus_step_duration_seconds_sum{chain_id="mocha-4",step="PrevoteWait"} 66.219648915
+cometbft_consensus_step_duration_seconds_count{chain_id="mocha-4",step="PrevoteWait"} 26
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Propose",le="0.1"} 0
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Propose",le="0.2682695795279726"} 6648
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Propose",le="0.7196856730011522"} 155190
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Propose",le="1.9306977288832508"} 210902
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Propose",le="5.1794746792312125"} 211111
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Propose",le="13.894954943731381"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Propose",le="37.27593720314942"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Propose",le="100.00000000000006"} 212932
+cometbft_consensus_step_duration_seconds_bucket{chain_id="mocha-4",step="Propose",le="+Inf"} 212932
+cometbft_consensus_step_duration_seconds_sum{chain_id="mocha-4",step="Propose"} 133893.44635679963
+cometbft_consensus_step_duration_seconds_count{chain_id="mocha-4",step="Propose"} 212932
+# HELP cometbft_consensus_total_txs Total number of transactions.
+# TYPE cometbft_consensus_total_txs gauge
+cometbft_consensus_total_txs{chain_id="mocha-4"} 1.368831e+06
+# HELP cometbft_consensus_validator_last_signed_height Last height signed by this validator if the node is a validator.
+# TYPE cometbft_consensus_validator_last_signed_height gauge
+cometbft_consensus_validator_last_signed_height{chain_id="mocha-4",validator_address="4449F5AA725BD1177CBE9D7FBD5ED6EF5BF2AA39"} 9.552552e+06
+# HELP cometbft_consensus_validator_missed_blocks Amount of blocks missed per validator.
+# TYPE cometbft_consensus_validator_missed_blocks gauge
+cometbft_consensus_validator_missed_blocks{chain_id="mocha-4",validator_address="4449F5AA725BD1177CBE9D7FBD5ED6EF5BF2AA39"} 187485
+# HELP cometbft_consensus_validator_power Power of a validator.
+# TYPE cometbft_consensus_validator_power gauge
+cometbft_consensus_validator_power{chain_id="mocha-4",validator_address="4449F5AA725BD1177CBE9D7FBD5ED6EF5BF2AA39"} 2414
+# HELP cometbft_consensus_validators Number of validators.
+# TYPE cometbft_consensus_validators gauge
+cometbft_consensus_validators{chain_id="mocha-4"} 61
+# HELP cometbft_consensus_validators_power Total power of all validators.
+# TYPE cometbft_consensus_validators_power gauge
+cometbft_consensus_validators_power{chain_id="mocha-4"} 3.55884765e+08
+# HELP cometbft_mempool_already_seen_txs AlreadySeenTxs defines the number of transactions that entered the mempool which were already present in the mempool. This is a good indicator of the degree of duplication in message gossiping.
+# TYPE cometbft_mempool_already_seen_txs counter
+cometbft_mempool_already_seen_txs{chain_id="mocha-4"} 27
+# HELP cometbft_mempool_expired_txs ExpiredTxs defines transactions that were removed from the mempool due to a TTL
+# TYPE cometbft_mempool_expired_txs counter
+cometbft_mempool_expired_txs{chain_id="mocha-4"} 0
+# HELP cometbft_mempool_failed_txs FailedTxs defines the number of failed transactions. These are transactions that failed to make it into the mempool because they were deemed invalid. metrics:Number of failed transactions.
+# TYPE cometbft_mempool_failed_txs counter
+cometbft_mempool_failed_txs{chain_id="mocha-4"} 42
+# HELP cometbft_mempool_recheck_times Number of times transactions are rechecked in the mempool.
+# TYPE cometbft_mempool_recheck_times counter
+cometbft_mempool_recheck_times{chain_id="mocha-4"} 1.250315e+06
+# HELP cometbft_mempool_requested_txs RequestedTxs defines the number of times that the node requested a tx to a peer
+# TYPE cometbft_mempool_requested_txs counter
+cometbft_mempool_requested_txs{chain_id="mocha-4"} 1.278469e+06
+# HELP cometbft_mempool_rerequested_txs RerequestedTxs defines the number of times that a requested tx never received a response in time and a new request was made.
+# TYPE cometbft_mempool_rerequested_txs counter
+cometbft_mempool_rerequested_txs{chain_id="mocha-4"} 2478
+# HELP cometbft_mempool_size Number of uncommitted transactions in the mempool.
+# TYPE cometbft_mempool_size gauge
+cometbft_mempool_size{chain_id="mocha-4"} 4
+# HELP cometbft_mempool_size_bytes Total size of the mempool in bytes.
+# TYPE cometbft_mempool_size_bytes gauge
+cometbft_mempool_size_bytes{chain_id="mocha-4"} 35920
+# HELP cometbft_mempool_successful_txs SuccessfulTxs defines the number of transactions that successfully made it into a block.
+# TYPE cometbft_mempool_successful_txs counter
+cometbft_mempool_successful_txs{chain_id="mocha-4"} 1.368854e+06
+# HELP cometbft_mempool_tx_size_bytes Histogram of transaction sizes in bytes.
+# TYPE cometbft_mempool_tx_size_bytes histogram
+cometbft_mempool_tx_size_bytes_bucket{chain_id="mocha-4",le="1"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="mocha-4",le="3"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="mocha-4",le="9"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="mocha-4",le="27"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="mocha-4",le="81"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="mocha-4",le="243"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="mocha-4",le="729"} 589256
+cometbft_mempool_tx_size_bytes_bucket{chain_id="mocha-4",le="+Inf"} 1.277531e+06
+cometbft_mempool_tx_size_bytes_sum{chain_id="mocha-4"} 3.4405764548e+10
+cometbft_mempool_tx_size_bytes_count{chain_id="mocha-4"} 1.277531e+06
+# HELP cometbft_p2p_message_receive_bytes_total Number of bytes of each message type received.
+# TYPE cometbft_p2p_message_receive_bytes_total counter
+cometbft_p2p_message_receive_bytes_total{chID="0x0",chain_id="mocha-4",message_type="p2p_PexRequest",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 4544
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_HasVote",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.14085867e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_HasVote",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.21555623e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_HasVote",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.17582505e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_HasVote",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.23197992e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewRoundStep",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.0323203e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewRoundStep",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 1.0438721e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewRoundStep",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.0415716e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewRoundStep",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.0357246e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewValidBlock",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.1019277e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewValidBlock",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 1.1199793e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewValidBlock",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.1736144e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewValidBlock",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.5070107e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_VoteSetMaj23",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.6820969e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_VoteSetMaj23",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.6758916e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_VoteSetMaj23",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.7519172e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_VoteSetMaj23",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.6060214e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x22",chain_id="mocha-4",message_type="consensus_Vote",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 3.592336211e+09
+cometbft_p2p_message_receive_bytes_total{chID="0x22",chain_id="mocha-4",message_type="consensus_Vote",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 3.785687087e+09
+cometbft_p2p_message_receive_bytes_total{chID="0x22",chain_id="mocha-4",message_type="consensus_Vote",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 3.708252411e+09
+cometbft_p2p_message_receive_bytes_total{chID="0x22",chain_id="mocha-4",message_type="consensus_Vote",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 3.814646782e+09
+cometbft_p2p_message_receive_bytes_total{chID="0x23",chain_id="mocha-4",message_type="consensus_VoteSetBits",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.6110584e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x23",chain_id="mocha-4",message_type="consensus_VoteSetBits",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.6764066e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x23",chain_id="mocha-4",message_type="consensus_VoteSetBits",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.7207312e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x23",chain_id="mocha-4",message_type="consensus_VoteSetBits",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.6727603e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_SeenTx",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 5.6118395e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_SeenTx",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.1508295e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_SeenTx",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.2164562e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_SeenTx",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 5.059935e+07
+cometbft_p2p_message_receive_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Txs",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.391884683e+10
+cometbft_p2p_message_receive_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Txs",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.810450237e+09
+cometbft_p2p_message_receive_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Txs",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 9.976104685e+09
+cometbft_p2p_message_receive_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Txs",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 7.770079765e+09
+cometbft_p2p_message_receive_bytes_total{chID="0x32",chain_id="mocha-4",message_type="mempool_WantTx",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1548
+cometbft_p2p_message_receive_bytes_total{chID="0x32",chain_id="mocha-4",message_type="mempool_WantTx",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 13608
+cometbft_p2p_message_receive_bytes_total{chID="0x32",chain_id="mocha-4",message_type="mempool_WantTx",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 432
+cometbft_p2p_message_receive_bytes_total{chID="0x32",chain_id="mocha-4",message_type="mempool_WantTx",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2700
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_BlockRequest",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 255661
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_BlockRequest",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 49
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_BlockRequest",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 49
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_BlockResponse",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.334042e+06
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusRequest",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 257406
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusRequest",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1874
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusRequest",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 4
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 18
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1764
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 48
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 24
+cometbft_p2p_message_receive_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1224
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_CompactBlock",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.64257817e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_CompactBlock",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 1.659089e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_CompactBlock",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.49877398e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_CompactBlock",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.59552555e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_HaveParts",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.32630402e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_HaveParts",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.56944405e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_HaveParts",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.27560216e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_HaveParts",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.7264205e+08
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_RecoveryPart",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.7966514349e+10
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_RecoveryPart",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.0964577441e+10
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_RecoveryPart",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.498891543e+10
+cometbft_p2p_message_receive_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_RecoveryPart",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.5589823136e+10
+cometbft_p2p_message_receive_bytes_total{chID="0x51",chain_id="mocha-4",message_type="propagation_WantParts",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 17915
+cometbft_p2p_message_receive_bytes_total{chID="0x51",chain_id="mocha-4",message_type="propagation_WantParts",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 9205
+cometbft_p2p_message_receive_bytes_total{chID="0x51",chain_id="mocha-4",message_type="propagation_WantParts",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 179395
+cometbft_p2p_message_receive_bytes_total{chID="0x51",chain_id="mocha-4",message_type="propagation_WantParts",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 51512
+# HELP cometbft_p2p_message_send_bytes_total Number of bytes of each message type sent.
+# TYPE cometbft_p2p_message_send_bytes_total counter
+cometbft_p2p_message_send_bytes_total{chID="0x0",chain_id="mocha-4",message_type="p2p_PexAddrs",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 1.31206897e+08
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_HasVote",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 2.24243191e+08
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_HasVote",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.23202731e+08
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_HasVote",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.24241613e+08
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_HasVote",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.24192187e+08
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_HasVote",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.23961145e+08
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewRoundStep",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 1.0394796e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewRoundStep",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.0347937e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewRoundStep",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 1.0394758e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewRoundStep",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.0392393e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewRoundStep",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.0382472e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewValidBlock",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 3.0219574e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewValidBlock",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 3.0092121e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewValidBlock",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 3.0219054e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewValidBlock",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 3.0215289e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_NewValidBlock",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 3.0182814e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_VoteSetMaj23",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.4069126e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_VoteSetMaj23",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.4392164e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_VoteSetMaj23",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.5332087e+07
+cometbft_p2p_message_send_bytes_total{chID="0x20",chain_id="mocha-4",message_type="consensus_VoteSetMaj23",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.4610058e+07
+cometbft_p2p_message_send_bytes_total{chID="0x22",chain_id="mocha-4",message_type="consensus_Vote",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.118507039e+09
+cometbft_p2p_message_send_bytes_total{chID="0x22",chain_id="mocha-4",message_type="consensus_Vote",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 7.52112019e+08
+cometbft_p2p_message_send_bytes_total{chID="0x22",chain_id="mocha-4",message_type="consensus_Vote",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.242897756e+09
+cometbft_p2p_message_send_bytes_total{chID="0x22",chain_id="mocha-4",message_type="consensus_Vote",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.878718641e+09
+cometbft_p2p_message_send_bytes_total{chID="0x23",chain_id="mocha-4",message_type="consensus_VoteSetBits",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.8019442e+07
+cometbft_p2p_message_send_bytes_total{chID="0x23",chain_id="mocha-4",message_type="consensus_VoteSetBits",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.8788544e+07
+cometbft_p2p_message_send_bytes_total{chID="0x23",chain_id="mocha-4",message_type="consensus_VoteSetBits",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.8627704e+07
+cometbft_p2p_message_send_bytes_total{chID="0x23",chain_id="mocha-4",message_type="consensus_VoteSetBits",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.7442821e+07
+cometbft_p2p_message_send_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Message",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 3.0799986e+07
+cometbft_p2p_message_send_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Message",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 5.8251906e+07
+cometbft_p2p_message_send_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Message",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 5.7514002e+07
+cometbft_p2p_message_send_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Message",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 3.3406167e+07
+cometbft_p2p_message_send_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Txs",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 9.95293e+06
+cometbft_p2p_message_send_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Txs",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 4.0187582e+07
+cometbft_p2p_message_send_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Txs",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 5628
+cometbft_p2p_message_send_bytes_total{chID="0x31",chain_id="mocha-4",message_type="mempool_Txs",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 688743
+cometbft_p2p_message_send_bytes_total{chID="0x32",chain_id="mocha-4",message_type="mempool_Message",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.269054e+07
+cometbft_p2p_message_send_bytes_total{chID="0x32",chain_id="mocha-4",message_type="mempool_Message",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 7.674084e+06
+cometbft_p2p_message_send_bytes_total{chID="0x32",chain_id="mocha-4",message_type="mempool_Message",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 9.782388e+06
+cometbft_p2p_message_send_bytes_total{chID="0x32",chain_id="mocha-4",message_type="mempool_Message",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.5866352e+07
+cometbft_p2p_message_send_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_BlockRequest",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 35
+cometbft_p2p_message_send_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_BlockResponse",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 5.118930232e+09
+cometbft_p2p_message_send_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_BlockResponse",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 339078
+cometbft_p2p_message_send_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_BlockResponse",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 371324
+cometbft_p2p_message_send_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 1.54446e+06
+cometbft_p2p_message_send_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 13008
+cometbft_p2p_message_send_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 48
+cometbft_p2p_message_send_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 24
+cometbft_p2p_message_send_bytes_total{chID="0x40",chain_id="mocha-4",message_type="blocksync_StatusResponse",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1248
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_CompactBlock",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 1.47316446e+08
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_CompactBlock",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.17243084e+08
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_CompactBlock",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 9.5816946e+07
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_CompactBlock",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 9.4493728e+07
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_CompactBlock",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.33540804e+08
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_HaveParts",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 1.32899077e+08
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_HaveParts",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.00707075e+08
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_HaveParts",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 7.8098154e+07
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_HaveParts",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.18820664e+08
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_HaveParts",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.12928239e+08
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_RecoveryPart",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 4.6265875e+07
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_RecoveryPart",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 9.609765e+06
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_RecoveryPart",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.087885343e+09
+cometbft_p2p_message_send_bytes_total{chID="0x50",chain_id="mocha-4",message_type="propagation_RecoveryPart",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.98565518e+08
+cometbft_p2p_message_send_bytes_total{chID="0x51",chain_id="mocha-4",message_type="propagation_WantParts",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 5.03704e+06
+cometbft_p2p_message_send_bytes_total{chID="0x51",chain_id="mocha-4",message_type="propagation_WantParts",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 6.150697e+06
+cometbft_p2p_message_send_bytes_total{chID="0x51",chain_id="mocha-4",message_type="propagation_WantParts",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 4.453524e+06
+cometbft_p2p_message_send_bytes_total{chID="0x51",chain_id="mocha-4",message_type="propagation_WantParts",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 4.478963e+06
+# HELP cometbft_p2p_peer_pending_send_bytes Pending bytes to be sent to a given peer.
+# TYPE cometbft_p2p_peer_pending_send_bytes gauge
+cometbft_p2p_peer_pending_send_bytes{chain_id="mocha-4",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 0
+# HELP cometbft_p2p_peer_receive_bytes_total Number of bytes received from a given peer.
+# TYPE cometbft_p2p_peer_receive_bytes_total counter
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="mocha-4",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 4544
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.62249316e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.69953053e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.77253537e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.74685559e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 3.592336211e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 3.785687087e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 3.708252411e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 3.814646782e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.6110584e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.6764066e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.7207312e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.6727603e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x31",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.3974965225e+10
+cometbft_p2p_peer_receive_bytes_total{chID="0x31",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.831958532e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x31",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 9.998269247e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x31",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 7.820679115e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x32",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1548
+cometbft_p2p_peer_receive_bytes_total{chID="0x32",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 13608
+cometbft_p2p_peer_receive_bytes_total{chID="0x32",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 432
+cometbft_p2p_peer_receive_bytes_total{chID="0x32",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2700
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 257424
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 259299
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.33409e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 73
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1277
+cometbft_p2p_peer_receive_bytes_total{chID="0x50",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.8363402568e+10
+cometbft_p2p_peer_receive_bytes_total{chID="0x50",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.1387430746e+10
+cometbft_p2p_peer_receive_bytes_total{chID="0x50",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.5366353044e+10
+cometbft_p2p_peer_receive_bytes_total{chID="0x50",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.6022017741e+10
+cometbft_p2p_peer_receive_bytes_total{chID="0x51",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 17915
+cometbft_p2p_peer_receive_bytes_total{chID="0x51",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 9205
+cometbft_p2p_peer_receive_bytes_total{chID="0x51",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 179395
+cometbft_p2p_peer_receive_bytes_total{chID="0x51",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 51512
+# HELP cometbft_p2p_peer_send_bytes_total Number of bytes sent to a given peer.
+# TYPE cometbft_p2p_peer_send_bytes_total counter
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="mocha-4",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 1.31206897e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="mocha-4",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 2.64857561e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.87711915e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.89247589e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.90131956e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.89136489e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.118507039e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 7.52112019e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.242897756e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.878718641e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.8019442e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 2.8788544e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 2.8627704e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 2.7442821e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x31",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 4.0752916e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x31",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 9.8439488e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x31",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 5.751963e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x31",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 3.409491e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x32",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 1.269054e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x32",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 7.674084e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x32",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 9.782388e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x32",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 1.5866352e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 1.54446e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 5.11894324e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 83
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 339102
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 372572
+cometbft_p2p_peer_send_bytes_total{chID="0x50",chain_id="mocha-4",peer_id="1feea4b8b29d6bb9c51dc29d0f2029db06b7219c"} 2.80215523e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x50",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 2.64216034e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x50",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 1.83524865e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x50",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 1.301199735e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x50",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 4.45034561e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x51",chain_id="mocha-4",peer_id="3ca7c597993d8f065ab1ff58e3378a05828f3f71"} 5.03704e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x51",chain_id="mocha-4",peer_id="52d364fac77753f5ab0df76b6b21ad519e759aa9"} 6.150697e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x51",chain_id="mocha-4",peer_id="95f4463a65fddbcf5d62f363f0d036badb204c88"} 4.453524e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x51",chain_id="mocha-4",peer_id="972b7bce73f08d4654fa102e8c8a67cd4f38224d"} 4.478963e+06
+# HELP cometbft_p2p_peers Number of peers.
+# TYPE cometbft_p2p_peers gauge
+cometbft_p2p_peers{chain_id="mocha-4"} 5
+# HELP cometbft_state_block_processing_time Time spent processing FinalizeBlock
+# TYPE cometbft_state_block_processing_time histogram
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="1"} 0
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="11"} 45506
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="21"} 204150
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="31"} 212454
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="41"} 212556
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="51"} 212570
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="61"} 212575
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="71"} 212577
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="81"} 212577
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="91"} 212578
+cometbft_state_block_processing_time_bucket{chain_id="mocha-4",le="+Inf"} 212579
+cometbft_state_block_processing_time_sum{chain_id="mocha-4"} 2.919567953427049e+06
+cometbft_state_block_processing_time_count{chain_id="mocha-4"} 212579
+# HELP cometbft_state_consensus_param_updates Number of consensus parameter updates returned by the application since process start.
+# TYPE cometbft_state_consensus_param_updates counter
+cometbft_state_consensus_param_updates{chain_id="mocha-4"} 212579
+# HELP cometbft_state_validator_set_updates Number of validator set updates returned by the application since process start.
+# TYPE cometbft_state_validator_set_updates counter
+cometbft_state_validator_set_updates{chain_id="mocha-4"} 14
+# HELP go_gc_duration_seconds A summary of the wall-time pause (stop-the-world) duration in garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 9.9226e-05
+go_gc_duration_seconds{quantile="0.25"} 0.000115578
+go_gc_duration_seconds{quantile="0.5"} 0.000140191
+go_gc_duration_seconds{quantile="0.75"} 0.000176302
+go_gc_duration_seconds{quantile="1"} 0.000750365
+go_gc_duration_seconds_sum 2.10720412
+go_gc_duration_seconds_count 10982
+# HELP go_gc_gogc_percent Heap size target percentage configured by the user, otherwise 100. This value is set by the GOGC environment variable, and the runtime/debug.SetGCPercent function. Sourced from /gc/gogc:percent.
+# TYPE go_gc_gogc_percent gauge
+go_gc_gogc_percent 100
+# HELP go_gc_gomemlimit_bytes Go runtime memory limit configured by the user, otherwise math.MaxInt64. This value is set by the GOMEMLIMIT environment variable, and the runtime/debug.SetMemoryLimit function. Sourced from /gc/gomemlimit:bytes.
+# TYPE go_gc_gomemlimit_bytes gauge
+go_gc_gomemlimit_bytes 9.223372036854776e+18
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 191
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.24.6"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated in heap and currently in use. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 4.865864552e+09
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated in heap until now, even if released already. Equals to /gc/heap/allocs:bytes.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 1.332532384596e+13
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table. Equals to /memory/classes/profiling/buckets:bytes.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 3.2178763e+07
+# HELP go_memstats_frees_total Total number of heap objects frees. Equals to /gc/heap/frees:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 7.9777803849e+10
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata. Equals to /memory/classes/metadata/other:bytes.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 8.5981248e+07
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and currently in use, same as go_memstats_alloc_bytes. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 4.865864552e+09
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used. Equals to /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 9.697132544e+09
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 5.926387712e+09
+# HELP go_memstats_heap_objects Number of currently allocated objects. Equals to /gc/heap/objects:objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 4.4416058e+07
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS. Equals to /memory/classes/heap/released:bytes.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 9.13518592e+09
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes + /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 1.5623520256e+10
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.767767443983931e+09
+# HELP go_memstats_mallocs_total Total number of heap objects allocated, both live and gc-ed. Semantically a counter version for go_memstats_heap_objects gauge. Equals to /gc/heap/allocs:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 7.9822219907e+10
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures. Equals to /memory/classes/metadata/mcache/inuse:bytes.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 19328
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system. Equals to /memory/classes/metadata/mcache/inuse:bytes + /memory/classes/metadata/mcache/free:bytes.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 31408
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures. Equals to /memory/classes/metadata/mspan/inuse:bytes.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 6.881056e+07
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system. Equals to /memory/classes/metadata/mspan/inuse:bytes + /memory/classes/metadata/mspan/free:bytes.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 1.2763872e+08
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place. Equals to /gc/heap/goal:bytes.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 7.90989737e+09
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations. Equals to /memory/classes/other:bytes.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 1.5847581e+07
+# HELP go_memstats_stack_inuse_bytes Number of bytes obtained from system for stack allocator in non-CGO environments. Equals to /memory/classes/heap/stacks:bytes.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 4.456448e+06
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator. Equals to /memory/classes/heap/stacks:bytes + /memory/classes/os-stacks:bytes.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 4.456448e+06
+# HELP go_memstats_sys_bytes Number of bytes obtained from system. Equals to /memory/classes/total:byte.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 1.5889654424e+10
+# HELP go_sched_gomaxprocs_threads The current runtime.GOMAXPROCS setting, or the number of operating system threads that can execute user-level Go code simultaneously. Sourced from /sched/gomaxprocs:threads.
+# TYPE go_sched_gomaxprocs_threads gauge
+go_sched_gomaxprocs_threads 16
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 24
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 105453.38
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 524287
+# HELP process_network_receive_bytes_total Number of bytes received by the process over the network.
+# TYPE process_network_receive_bytes_total counter
+process_network_receive_bytes_total 1.40808125126e+11
+# HELP process_network_transmit_bytes_total Number of bytes sent by the process over the network.
+# TYPE process_network_transmit_bytes_total counter
+process_network_transmit_bytes_total 1.42910047975e+11
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 961
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 7.252918272e+09
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.76648047866e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.7400188928e+10
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes 1.8446744073709552e+19
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 119825
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0

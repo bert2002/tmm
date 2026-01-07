@@ -1,0 +1,210 @@
+{
+    "name": "Babylon",
+    "chain_id": [
+        "bbn-1",
+        "bbn-test-6"
+    ],
+    "endpoints": [
+        "http://localhost:26660/metrics"
+    ],
+    "metrics": {
+        "block_consensus": [
+            {
+                "name": "Block Height",
+                "metric": "consensus_height",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Latest Block Height",
+                "metric": "consensus_latest_block_height",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Block Age",
+                "metric": "block_age",
+                "type": "gauge",
+                "format": "duration"
+            },
+            {
+                "name": "Block Size",
+                "metric": "consensus_block_size_bytes",
+                "type": "gauge",
+                "format": "bytes"
+            },
+            {
+                "name": "Block Interval",
+                "metric": "consensus_block_interval_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg"
+            },
+            {
+                "name": "Catching Up",
+                "metric": "blocksync_syncing",
+                "type": "gauge",
+                "format": "bool"
+            },
+            {
+                "name": "Num Transactions",
+                "metric": "consensus_num_txs",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Total Transactions",
+                "metric": "consensus_total_txs",
+                "type": "gauge",
+                "format": "int"
+            }
+        ],
+        "validators": [
+            {
+                "name": "Validators",
+                "metric": "consensus_validators",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Total Voting Power",
+                "metric": "consensus_validators_power",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Missing Validators",
+                "metric": "consensus_missing_validators",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Missing Power",
+                "metric": "consensus_missing_validators_power",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Byzantine Validators",
+                "metric": "consensus_byzantine_validators",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Byzantine Power",
+                "metric": "consensus_byzantine_validators_power",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Precommits Counted",
+                "metric": "consensus_precommits_counted",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Precommit Stake %",
+                "metric": "consensus_precommits_staking_percentage",
+                "type": "gauge",
+                "format": "percent"
+            }
+        ],
+        "mempool": [
+            {
+                "name": "Mempool Size",
+                "metric": "mempool_size",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Mempool Bytes",
+                "metric": "mempool_size_bytes",
+                "type": "gauge",
+                "format": "bytes"
+            },
+            {
+                "name": "Failed Txs",
+                "metric": "mempool_failed_txs",
+                "type": "counter",
+                "format": "int"
+            },
+            {
+                "name": "Recheck Times",
+                "metric": "mempool_recheck_times",
+                "type": "counter",
+                "format": "int"
+            }
+        ],
+        "network": [
+            {
+                "name": "Number of Peers",
+                "metric": "p2p_peers",
+                "type": "gauge",
+                "format": "peer_count"
+            },
+            {
+                "name": "Duplicate Votes",
+                "metric": "consensus_duplicate_vote",
+                "type": "counter",
+                "format": "int"
+            },
+            {
+                "name": "Duplicate Block Parts",
+                "metric": "consensus_duplicate_block_part",
+                "type": "counter",
+                "format": "int"
+            },
+            {
+                "name": "P2P Bytes Received",
+                "metric": "p2p_peer_receive_bytes_total",
+                "type": "counter",
+                "format": "bytes_sum"
+            },
+            {
+                "name": "P2P Bytes Sent",
+                "metric": "p2p_peer_send_bytes_total",
+                "type": "counter",
+                "format": "bytes_sum"
+            }
+        ],
+        "performance": [
+            {
+                "name": "Round Duration",
+                "metric": "consensus_round_duration_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg"
+            },
+            {
+                "name": "Finalize Block Time",
+                "metric": "abci_connection_method_timing_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg",
+                "labels": {
+                    "method": "finalize_block"
+                }
+            },
+            {
+                "name": "Commit Time",
+                "metric": "abci_connection_method_timing_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg",
+                "labels": {
+                    "method": "commit"
+                }
+            },
+            {
+                "name": "Process Proposal Time",
+                "metric": "abci_connection_method_timing_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg",
+                "labels": {
+                    "method": "process_proposal"
+                }
+            }
+        ]
+    }
+}

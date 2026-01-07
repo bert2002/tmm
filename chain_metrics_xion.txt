@@ -1,0 +1,1463 @@
+# HELP cometbft_abci_connection_method_timing_seconds Timing for each ABCI method.
+# TYPE cometbft_abci_connection_method_timing_seconds histogram
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="0.0001"} 119
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="0.0004"} 353022
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="0.002"} 759871
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="0.009"} 767021
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="0.02"} 769097
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="0.1"} 769425
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="0.65"} 769454
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="2"} 769459
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="6"} 769460
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="25"} 769460
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="check_tx",type="async",le="+Inf"} 769460
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="xion-mainnet-1",method="check_tx",type="async"} 431.26942304400035
+cometbft_abci_connection_method_timing_seconds_count{chain_id="xion-mainnet-1",method="check_tx",type="async"} 769460
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="0.002"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="0.009"} 387493
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="0.02"} 682747
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="0.1"} 705278
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="0.65"} 707071
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="2"} 707470
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="6"} 707494
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="25"} 707495
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="commit",type="sync",le="+Inf"} 707495
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="xion-mainnet-1",method="commit",type="sync"} 7830.524767836224
+cometbft_abci_connection_method_timing_seconds_count{chain_id="xion-mainnet-1",method="commit",type="sync"} 707495
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="0.002"} 71906
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="0.009"} 678169
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="0.02"} 686889
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="0.1"} 706681
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="0.65"} 707400
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="2"} 707485
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="6"} 707494
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="25"} 707495
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="finalize_block",type="sync",le="+Inf"} 707495
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="xion-mainnet-1",method="finalize_block",type="sync"} 3001.9028763957594
+cometbft_abci_connection_method_timing_seconds_count{chain_id="xion-mainnet-1",method="finalize_block",type="sync"} 707495
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="0.0001"} 708670
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="0.0004"} 708682
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="0.002"} 708684
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="0.009"} 708684
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="0.02"} 708684
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="0.1"} 708684
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="0.65"} 708684
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="2"} 708684
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="6"} 708684
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="25"} 708684
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="flush",type="sync",le="+Inf"} 708684
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="xion-mainnet-1",method="flush",type="sync"} 0.4411115409999526
+cometbft_abci_connection_method_timing_seconds_count{chain_id="xion-mainnet-1",method="flush",type="sync"} 708684
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="0.0004"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="0.002"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="0.009"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="0.02"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="0.1"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="0.65"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="2"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="6"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="25"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="info",type="sync",le="+Inf"} 1
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="xion-mainnet-1",method="info",type="sync"} 0.000223265
+cometbft_abci_connection_method_timing_seconds_count{chain_id="xion-mainnet-1",method="info",type="sync"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="0.0001"} 62
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="0.0004"} 70381
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="0.002"} 190543
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="0.009"} 191611
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="0.02"} 191805
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="0.1"} 191932
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="0.65"} 192025
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="2"} 192056
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="6"} 192059
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="25"} 192059
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="list_snapshots",type="sync",le="+Inf"} 192059
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="xion-mainnet-1",method="list_snapshots",type="sync"} 175.52776956100215
+cometbft_abci_connection_method_timing_seconds_count{chain_id="xion-mainnet-1",method="list_snapshots",type="sync"} 192059
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="0.0004"} 579746
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="0.002"} 690421
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="0.009"} 704224
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="0.02"} 706088
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="0.1"} 706798
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="0.65"} 706892
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="2"} 706932
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="6"} 706937
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="25"} 706937
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="process_proposal",type="sync",le="+Inf"} 706937
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="xion-mainnet-1",method="process_proposal",type="sync"} 424.0835896570011
+cometbft_abci_connection_method_timing_seconds_count{chain_id="xion-mainnet-1",method="process_proposal",type="sync"} 706937
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="0.002"} 42
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="0.009"} 263504
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="0.02"} 289498
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="0.1"} 296878
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="0.65"} 298086
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="2"} 298381
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="6"} 298488
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="25"} 298523
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="xion-mainnet-1",method="query",type="sync",le="+Inf"} 298523
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="xion-mainnet-1",method="query",type="sync"} 3334.060265446031
+cometbft_abci_connection_method_timing_seconds_count{chain_id="xion-mainnet-1",method="query",type="sync"} 298523
+# HELP cometbft_blocksync_block_size_bytes Size of the latest block.
+# TYPE cometbft_blocksync_block_size_bytes gauge
+cometbft_blocksync_block_size_bytes{chain_id="xion-mainnet-1"} 4206
+# HELP cometbft_blocksync_latest_block_height The height of the latest block.
+# TYPE cometbft_blocksync_latest_block_height gauge
+cometbft_blocksync_latest_block_height{chain_id="xion-mainnet-1"} 1.6751718e+07
+# HELP cometbft_blocksync_num_txs Number of transactions in the latest block.
+# TYPE cometbft_blocksync_num_txs gauge
+cometbft_blocksync_num_txs{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_blocksync_syncing Whether or not a node is block syncing. 1 if yes, 0 if no.
+# TYPE cometbft_blocksync_syncing gauge
+cometbft_blocksync_syncing{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_blocksync_total_txs Total number of transactions.
+# TYPE cometbft_blocksync_total_txs gauge
+cometbft_blocksync_total_txs{chain_id="xion-mainnet-1"} 6
+# HELP cometbft_consensus_block_gossip_parts_received Number of block parts received by the node, separated by whether the part was relevant to the block the node is trying to gather or not.
+# TYPE cometbft_consensus_block_gossip_parts_received counter
+cometbft_consensus_block_gossip_parts_received{chain_id="xion-mainnet-1",matches_current="false"} 1.204704e+06
+cometbft_consensus_block_gossip_parts_received{chain_id="xion-mainnet-1",matches_current="true"} 2.8299145e+07
+# HELP cometbft_consensus_block_interval_seconds Time between this and the last block.
+# TYPE cometbft_consensus_block_interval_seconds histogram
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="0.005"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="0.01"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="0.025"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="0.05"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="0.1"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="0.25"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="0.5"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="1"} 778
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="2.5"} 580013
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="5"} 580124
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="10"} 707486
+cometbft_consensus_block_interval_seconds_bucket{chain_id="xion-mainnet-1",le="+Inf"} 707489
+cometbft_consensus_block_interval_seconds_sum{chain_id="xion-mainnet-1"} 1.744738115695221e+06
+cometbft_consensus_block_interval_seconds_count{chain_id="xion-mainnet-1"} 707489
+# HELP cometbft_consensus_block_parts Number of block parts transmitted by each peer.
+# TYPE cometbft_consensus_block_parts counter
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 760649
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 108745
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 154795
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 826118
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 144861
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 716723
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 778984
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 759603
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 104494
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 38568
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 827894
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 814088
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 73170
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 827054
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 793627
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 805865
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 819308
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 823087
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 703434
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 789626
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 541586
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 22121
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 783740
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 711460
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 694074
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 776751
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 108221
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 828608
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 718001
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 825801
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 827177
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 108627
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 827519
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 827286
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 81168
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 110813
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 820898
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 823297
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 707518
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 155449
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 816529
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 93536
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 79415
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 728971
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 756503
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 823337
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 759566
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 824061
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 822476
+cometbft_consensus_block_parts{chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 828647
+# HELP cometbft_consensus_block_size_bytes Size of the block.
+# TYPE cometbft_consensus_block_size_bytes gauge
+cometbft_consensus_block_size_bytes{chain_id="xion-mainnet-1"} 4208
+# HELP cometbft_consensus_byzantine_validators Number of validators who tried to double sign.
+# TYPE cometbft_consensus_byzantine_validators gauge
+cometbft_consensus_byzantine_validators{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_consensus_byzantine_validators_power Total power of the byzantine validators.
+# TYPE cometbft_consensus_byzantine_validators_power gauge
+cometbft_consensus_byzantine_validators_power{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_consensus_chain_size_bytes Size of the chain in bytes.
+# TYPE cometbft_consensus_chain_size_bytes counter
+cometbft_consensus_chain_size_bytes{chain_id="xion-mainnet-1"} 3.074788821e+09
+# HELP cometbft_consensus_duplicate_block_part Number of times we received a duplicate block part
+# TYPE cometbft_consensus_duplicate_block_part counter
+cometbft_consensus_duplicate_block_part{chain_id="xion-mainnet-1"} 2.7464573e+07
+# HELP cometbft_consensus_duplicate_vote Number of times we received a duplicate vote
+# TYPE cometbft_consensus_duplicate_vote counter
+cometbft_consensus_duplicate_vote{chain_id="xion-mainnet-1"} 1.630220779e+09
+# HELP cometbft_consensus_full_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the latest prevote in a round where all validators voted.
+# TYPE cometbft_consensus_full_prevote_delay gauge
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="05C334F31D0D91921D0B66E88C74509BD8665CB1"} 0.245453693
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="196E78136D1DA1C3D31D3A0B5C36069D1CEAC9FE"} 0.331933179
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="2990DC639AFE7CDA1425318AE9DAB1C37742EF52"} 0.451988498
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="2B2BE10727A478948E25FD5F0B792A4C1E78B801"} 0.381772032
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="311DCDB2CE52376E31E84EA4CB4E2EF86F741127"} 0.429800582
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="3563D82365BCCBFE8E5AEBD541A6B0EA15543FC9"} 0.314599434
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="4405C529305EAB3C33AE67D9AE8C1487B12FA6F4"} 0.333150507
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="457B3388592BB9E0E04EDFD239D3015FD5BE5208"} 0.35477061
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="48F74A81276BD20A69E8A15E321505446C4D7A88"} 0.438180832
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="4D884CAB4E26AB7E4B64D4115ABFBB063BD967DC"} 0.366702102
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="51C6886788868CFD7B98A4CC3D21F9BE40927D5B"} 0.48403466
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="52C8285FCFD8F085E301B8B55ADFFF0054B9CDF3"} 0.235718561
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="54D2A386A91F075B4B2DEDABDA754A149C696EDA"} 0.353380079
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="5A10EFE0EA4A4B16AC88678F44C5AB6A2BA8598D"} 0.320149493
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="620F31341CB858AD371C643ADC3E216EB9C7EE7C"} 0.328176448
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="636D3F847A47A01472489C28224702AA6F50F49A"} 0.30455205
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="67B9EFC834F258A59A04D158A4CA34EDA13D6E31"} 0.41589028
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="752CA6C0755A0C61BD2C21871F20E4E1CF19E251"} 0.380236422
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="75321E1CC3FDC3894DBACDB29A58A76160D72895"} 0.373582977
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="7A20161E0989FE5B0E8CBF2F468776AD0AF07C86"} 0.341153025
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="7F70369E2F25F807BC04AB830D45E5F28625F6E5"} 0.50872914
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="8B22C21E3113318B975793622ED6F6F412831163"} 0.345322766
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="8E3D68B951651A4AFEFA9102406140860CF3A5C9"} 0.308035427
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="94724D1F97978A478A06132692AC1415701AF67B"} 0.372169552
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="9F78208DF29B5BE701456AD04987F428F32F43B4"} 0.32565415
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="A4BC4DE51C68A6A9582618F482F69E48D7DFEC44"} 0.417132714
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="B38E76F951587FA58C9F060A3C645B7A4EEE0E9F"} 0.310570287
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="D743AD7DFD515373016508669C0011195D44ED87"} 0.494976799
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="DFF4B99A86BF8AABD507898C1A6F26718455889C"} 0.40897121
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="E022941D32493E111F39AF6EB3E4E7CF1C12FC00"} 0.32047903
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="E98E52FF2AC49080425EF456656B3976AF7FA2D6"} 0.316760551
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="ED311A8433C7CC24A867F10F35DC7C93F711CF57"} 0.435038319
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="FB47E4ACE94FCECA4BB8F664F8B87079765925F3"} 0.330300945
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="FB9E99EBA6FBFA66A0D18294FCC73C17A568CFCC"} 0.321249381
+cometbft_consensus_full_prevote_delay{chain_id="xion-mainnet-1",proposer_address="FD632064281DDEACBAA25D06315F632D2FEBD9E2"} 0.419741918
+# HELP cometbft_consensus_height Height of the chain.
+# TYPE cometbft_consensus_height gauge
+cometbft_consensus_height{chain_id="xion-mainnet-1"} 1.7459208e+07
+# HELP cometbft_consensus_late_votes LateVotes stores the number of votes that were received by this node that correspond to earlier heights and rounds than this node is currently in.
+# TYPE cometbft_consensus_late_votes counter
+cometbft_consensus_late_votes{chain_id="xion-mainnet-1",vote_type="precommit"} 7.30317067e+08
+cometbft_consensus_late_votes{chain_id="xion-mainnet-1",vote_type="prevote"} 1.11874449e+08
+# HELP cometbft_consensus_latest_block_height The latest block height.
+# TYPE cometbft_consensus_latest_block_height gauge
+cometbft_consensus_latest_block_height{chain_id="xion-mainnet-1"} 1.7459207e+07
+# HELP cometbft_consensus_missing_validators Number of validators who did not sign.
+# TYPE cometbft_consensus_missing_validators gauge
+cometbft_consensus_missing_validators{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_consensus_missing_validators_power Total power of the missing validators.
+# TYPE cometbft_consensus_missing_validators_power gauge
+cometbft_consensus_missing_validators_power{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_consensus_num_txs Number of transactions.
+# TYPE cometbft_consensus_num_txs gauge
+cometbft_consensus_num_txs{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_consensus_precommits_counted PrecommitsCounted is the number of precommit votes counted after the timeout commit period has ended.
+# TYPE cometbft_consensus_precommits_counted gauge
+cometbft_consensus_precommits_counted{chain_id="xion-mainnet-1"} 35
+# HELP cometbft_consensus_precommits_staking_percentage PrecommitsStakingPercentage is the voting power percentage of precommit votes once the timeout commit period has ended.
+# TYPE cometbft_consensus_precommits_staking_percentage gauge
+cometbft_consensus_precommits_staking_percentage{chain_id="xion-mainnet-1"} 1
+# HELP cometbft_consensus_proposal_receive_count ProposalReceiveCount is the total number of proposals received by this node since process start. The metric is annotated by the status of the proposal from the application, either 'accepted' or 'rejected'.
+# TYPE cometbft_consensus_proposal_receive_count counter
+cometbft_consensus_proposal_receive_count{chain_id="xion-mainnet-1",status="accepted"} 706937
+# HELP cometbft_consensus_quorum_precommit_delay Interval in seconds between the proposal timestamp and the timestamp of the earliest precommit that achieved a quorum.
+# TYPE cometbft_consensus_quorum_precommit_delay gauge
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="05C334F31D0D91921D0B66E88C74509BD8665CB1"} 0.453590217
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="196E78136D1DA1C3D31D3A0B5C36069D1CEAC9FE"} 0.503703189
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="2990DC639AFE7CDA1425318AE9DAB1C37742EF52"} 0.521230825
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="2B2BE10727A478948E25FD5F0B792A4C1E78B801"} 0.507111385
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="311DCDB2CE52376E31E84EA4CB4E2EF86F741127"} 0.562501113
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="3563D82365BCCBFE8E5AEBD541A6B0EA15543FC9"} 0.520533061
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="4405C529305EAB3C33AE67D9AE8C1487B12FA6F4"} 0.480726561
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="457B3388592BB9E0E04EDFD239D3015FD5BE5208"} 0.605687533
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="48F74A81276BD20A69E8A15E321505446C4D7A88"} 0.654852661
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="4D884CAB4E26AB7E4B64D4115ABFBB063BD967DC"} 0.558376939
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="51C6886788868CFD7B98A4CC3D21F9BE40927D5B"} 0.596440778
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="52C8285FCFD8F085E301B8B55ADFFF0054B9CDF3"} 0.521403939
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="54D2A386A91F075B4B2DEDABDA754A149C696EDA"} 0.54867608
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="5A10EFE0EA4A4B16AC88678F44C5AB6A2BA8598D"} 0.556599408
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="620F31341CB858AD371C643ADC3E216EB9C7EE7C"} 0.539834672
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="636D3F847A47A01472489C28224702AA6F50F49A"} 0.511500999
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="67B9EFC834F258A59A04D158A4CA34EDA13D6E31"} 0.554424056
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="752CA6C0755A0C61BD2C21871F20E4E1CF19E251"} 0.594302247
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="75321E1CC3FDC3894DBACDB29A58A76160D72895"} 0.567665538
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="7A20161E0989FE5B0E8CBF2F468776AD0AF07C86"} 0.493726117
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="7F70369E2F25F807BC04AB830D45E5F28625F6E5"} 0.640160115
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="8B22C21E3113318B975793622ED6F6F412831163"} 0.551341906
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="8E3D68B951651A4AFEFA9102406140860CF3A5C9"} 0.505572813
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="94724D1F97978A478A06132692AC1415701AF67B"} 0.510653963
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="9F78208DF29B5BE701456AD04987F428F32F43B4"} 0.543929881
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="A4BC4DE51C68A6A9582618F482F69E48D7DFEC44"} 0.589835012
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="B38E76F951587FA58C9F060A3C645B7A4EEE0E9F"} 0.574573342
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="D743AD7DFD515373016508669C0011195D44ED87"} 0.5974597
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="DFF4B99A86BF8AABD507898C1A6F26718455889C"} 0.595998686
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="E022941D32493E111F39AF6EB3E4E7CF1C12FC00"} 0.505511543
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="E98E52FF2AC49080425EF456656B3976AF7FA2D6"} 0.522686373
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="ED311A8433C7CC24A867F10F35DC7C93F711CF57"} 0.562336079
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="FB47E4ACE94FCECA4BB8F664F8B87079765925F3"} 0.494171315
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="FB9E99EBA6FBFA66A0D18294FCC73C17A568CFCC"} 0.528805234
+cometbft_consensus_quorum_precommit_delay{chain_id="xion-mainnet-1",proposer_address="FD632064281DDEACBAA25D06315F632D2FEBD9E2"} 0.528426028
+# HELP cometbft_consensus_quorum_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the earliest prevote that achieved a quorum.
+# TYPE cometbft_consensus_quorum_prevote_delay gauge
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="05C334F31D0D91921D0B66E88C74509BD8665CB1"} 0.163110901
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="196E78136D1DA1C3D31D3A0B5C36069D1CEAC9FE"} 0.182447455
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="2990DC639AFE7CDA1425318AE9DAB1C37742EF52"} 0.216621793
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="2B2BE10727A478948E25FD5F0B792A4C1E78B801"} 0.239727345
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="311DCDB2CE52376E31E84EA4CB4E2EF86F741127"} 0.25421703
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="3563D82365BCCBFE8E5AEBD541A6B0EA15543FC9"} 0.194137568
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="4405C529305EAB3C33AE67D9AE8C1487B12FA6F4"} 0.209955911
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="457B3388592BB9E0E04EDFD239D3015FD5BE5208"} 0.258734845
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="48F74A81276BD20A69E8A15E321505446C4D7A88"} 0.294613478
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="4D884CAB4E26AB7E4B64D4115ABFBB063BD967DC"} 0.222214541
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="51C6886788868CFD7B98A4CC3D21F9BE40927D5B"} 0.277165334
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="52C8285FCFD8F085E301B8B55ADFFF0054B9CDF3"} 0.18309902
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="54D2A386A91F075B4B2DEDABDA754A149C696EDA"} 0.230877206
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="5A10EFE0EA4A4B16AC88678F44C5AB6A2BA8598D"} 0.235091164
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="620F31341CB858AD371C643ADC3E216EB9C7EE7C"} 0.197778559
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="636D3F847A47A01472489C28224702AA6F50F49A"} 0.1822043
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="67B9EFC834F258A59A04D158A4CA34EDA13D6E31"} 0.229200522
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="752CA6C0755A0C61BD2C21871F20E4E1CF19E251"} 0.298071375
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="75321E1CC3FDC3894DBACDB29A58A76160D72895"} 0.257864008
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="7A20161E0989FE5B0E8CBF2F468776AD0AF07C86"} 0.184987271
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="7F70369E2F25F807BC04AB830D45E5F28625F6E5"} 0.387107617
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="8B22C21E3113318B975793622ED6F6F412831163"} 0.24698462
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="8E3D68B951651A4AFEFA9102406140860CF3A5C9"} 0.209665615
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="94724D1F97978A478A06132692AC1415701AF67B"} 0.187181611
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="9F78208DF29B5BE701456AD04987F428F32F43B4"} 0.203224489
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="A4BC4DE51C68A6A9582618F482F69E48D7DFEC44"} 0.299937324
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="B38E76F951587FA58C9F060A3C645B7A4EEE0E9F"} 0.201829911
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="D743AD7DFD515373016508669C0011195D44ED87"} 0.253962789
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="DFF4B99A86BF8AABD507898C1A6F26718455889C"} 0.233976666
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="E022941D32493E111F39AF6EB3E4E7CF1C12FC00"} 0.200681128
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="E98E52FF2AC49080425EF456656B3976AF7FA2D6"} 0.164722388
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="ED311A8433C7CC24A867F10F35DC7C93F711CF57"} 0.266628584
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="FB47E4ACE94FCECA4BB8F664F8B87079765925F3"} 0.226681516
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="FB9E99EBA6FBFA66A0D18294FCC73C17A568CFCC"} 0.191681766
+cometbft_consensus_quorum_prevote_delay{chain_id="xion-mainnet-1",proposer_address="FD632064281DDEACBAA25D06315F632D2FEBD9E2"} 0.217131416
+# HELP cometbft_consensus_round_duration_seconds Histogram of round duration.
+# TYPE cometbft_consensus_round_duration_seconds histogram
+cometbft_consensus_round_duration_seconds_bucket{chain_id="xion-mainnet-1",le="0.1"} 635699
+cometbft_consensus_round_duration_seconds_bucket{chain_id="xion-mainnet-1",le="0.2682695795279726"} 636067
+cometbft_consensus_round_duration_seconds_bucket{chain_id="xion-mainnet-1",le="0.7196856730011522"} 636532
+cometbft_consensus_round_duration_seconds_bucket{chain_id="xion-mainnet-1",le="1.9306977288832508"} 636841
+cometbft_consensus_round_duration_seconds_bucket{chain_id="xion-mainnet-1",le="5.1794746792312125"} 768446
+cometbft_consensus_round_duration_seconds_bucket{chain_id="xion-mainnet-1",le="13.894954943731381"} 891590
+cometbft_consensus_round_duration_seconds_bucket{chain_id="xion-mainnet-1",le="37.27593720314942"} 891590
+cometbft_consensus_round_duration_seconds_bucket{chain_id="xion-mainnet-1",le="100.00000000000006"} 891592
+cometbft_consensus_round_duration_seconds_bucket{chain_id="xion-mainnet-1",le="+Inf"} 891592
+cometbft_consensus_round_duration_seconds_sum{chain_id="xion-mainnet-1"} 1.2571829126789505e+06
+cometbft_consensus_round_duration_seconds_count{chain_id="xion-mainnet-1"} 891592
+# HELP cometbft_consensus_round_voting_power_percent RoundVotingPowerPercent is the percentage of the total voting power received with a round. The value begins at 0 for each round and approaches 1.0 as additional voting power is observed. The metric is labeled by vote type.
+# TYPE cometbft_consensus_round_voting_power_percent gauge
+cometbft_consensus_round_voting_power_percent{chain_id="xion-mainnet-1",vote_type="precommit"} 0.6817743711392561
+cometbft_consensus_round_voting_power_percent{chain_id="xion-mainnet-1",vote_type="prevote"} 1.0000000000000002
+# HELP cometbft_consensus_rounds Number of rounds.
+# TYPE cometbft_consensus_rounds gauge
+cometbft_consensus_rounds{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_consensus_step_duration_seconds Histogram of durations for each step in the consensus protocol.
+# TYPE cometbft_consensus_step_duration_seconds histogram
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Commit",le="0.1"} 695429
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Commit",le="0.2682695795279726"} 701079
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Commit",le="0.7196856730011522"} 705749
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Commit",le="1.9306977288832508"} 707295
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Commit",le="5.1794746792312125"} 707485
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Commit",le="13.894954943731381"} 707489
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Commit",le="37.27593720314942"} 707489
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Commit",le="100.00000000000006"} 707489
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Commit",le="+Inf"} 707489
+cometbft_consensus_step_duration_seconds_sum{chain_id="xion-mainnet-1",step="Commit"} 20311.482153127225
+cometbft_consensus_step_duration_seconds_count{chain_id="xion-mainnet-1",step="Commit"} 707489
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewHeight",le="0.1"} 1198
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewHeight",le="0.2682695795279726"} 2127
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewHeight",le="0.7196856730011522"} 69187
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewHeight",le="1.9306977288832508"} 707450
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewHeight",le="5.1794746792312125"} 707488
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewHeight",le="13.894954943731381"} 707489
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewHeight",le="37.27593720314942"} 707489
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewHeight",le="100.00000000000006"} 707489
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewHeight",le="+Inf"} 707489
+cometbft_consensus_step_duration_seconds_sum{chain_id="xion-mainnet-1",step="NewHeight"} 664556.613229007
+cometbft_consensus_step_duration_seconds_count{chain_id="xion-mainnet-1",step="NewHeight"} 707489
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewRound",le="0.1"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewRound",le="0.2682695795279726"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewRound",le="0.7196856730011522"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewRound",le="1.9306977288832508"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewRound",le="5.1794746792312125"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewRound",le="13.894954943731381"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewRound",le="37.27593720314942"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewRound",le="100.00000000000006"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="NewRound",le="+Inf"} 764227
+cometbft_consensus_step_duration_seconds_sum{chain_id="xion-mainnet-1",step="NewRound"} 44.93522734499781
+cometbft_consensus_step_duration_seconds_count{chain_id="xion-mainnet-1",step="NewRound"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Precommit",le="0.1"} 1121
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Precommit",le="0.2682695795279726"} 605846
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Precommit",le="0.7196856730011522"} 707415
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Precommit",le="1.9306977288832508"} 834812
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Precommit",le="5.1794746792312125"} 834846
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Precommit",le="13.894954943731381"} 834846
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Precommit",le="37.27593720314942"} 834846
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Precommit",le="100.00000000000006"} 834846
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Precommit",le="+Inf"} 834846
+cometbft_consensus_step_duration_seconds_sum{chain_id="xion-mainnet-1",step="Precommit"} 328313.39501424995
+cometbft_consensus_step_duration_seconds_count{chain_id="xion-mainnet-1",step="Precommit"} 834846
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Prevote",le="0.1"} 14543
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Prevote",le="0.2682695795279726"} 733712
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Prevote",le="0.7196856730011522"} 834032
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Prevote",le="1.9306977288832508"} 834103
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Prevote",le="5.1794746792312125"} 834112
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Prevote",le="13.894954943731381"} 834112
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Prevote",le="37.27593720314942"} 834112
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Prevote",le="100.00000000000006"} 834114
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Prevote",le="+Inf"} 834114
+cometbft_consensus_step_duration_seconds_sum{chain_id="xion-mainnet-1",step="Prevote"} 170586.18451350194
+cometbft_consensus_step_duration_seconds_count{chain_id="xion-mainnet-1",step="Prevote"} 834114
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="PrevoteWait",le="0.1"} 492670
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="PrevoteWait",le="0.2682695795279726"} 592642
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="PrevoteWait",le="0.7196856730011522"} 592671
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="PrevoteWait",le="1.9306977288832508"} 592687
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="PrevoteWait",le="5.1794746792312125"} 592694
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="PrevoteWait",le="13.894954943731381"} 592694
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="PrevoteWait",le="37.27593720314942"} 592694
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="PrevoteWait",le="100.00000000000006"} 592694
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="PrevoteWait",le="+Inf"} 592694
+cometbft_consensus_step_duration_seconds_sum{chain_id="xion-mainnet-1",step="PrevoteWait"} 38024.852429135244
+cometbft_consensus_step_duration_seconds_count{chain_id="xion-mainnet-1",step="PrevoteWait"} 592694
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Propose",le="0.1"} 47843
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Propose",le="0.2682695795279726"} 433671
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Propose",le="0.7196856730011522"} 636502
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Propose",le="1.9306977288832508"} 636811
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Propose",le="5.1794746792312125"} 764225
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Propose",le="13.894954943731381"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Propose",le="37.27593720314942"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Propose",le="100.00000000000006"} 764227
+cometbft_consensus_step_duration_seconds_bucket{chain_id="xion-mainnet-1",step="Propose",le="+Inf"} 764227
+cometbft_consensus_step_duration_seconds_sum{chain_id="xion-mainnet-1",step="Propose"} 522869.89889456786
+cometbft_consensus_step_duration_seconds_count{chain_id="xion-mainnet-1",step="Propose"} 764227
+# HELP cometbft_consensus_total_txs Total number of transactions.
+# TYPE cometbft_consensus_total_txs gauge
+cometbft_consensus_total_txs{chain_id="xion-mainnet-1"} 29920
+# HELP cometbft_consensus_validators Number of validators.
+# TYPE cometbft_consensus_validators gauge
+cometbft_consensus_validators{chain_id="xion-mainnet-1"} 35
+# HELP cometbft_consensus_validators_power Total power of all validators.
+# TYPE cometbft_consensus_validators_power gauge
+cometbft_consensus_validators_power{chain_id="xion-mainnet-1"} 6.3354209e+07
+# HELP cometbft_mempool_active_outbound_connections Number of connections being actively used for gossiping transactions (experimental feature).
+# TYPE cometbft_mempool_active_outbound_connections gauge
+cometbft_mempool_active_outbound_connections{chain_id="xion-mainnet-1"} 36
+# HELP cometbft_mempool_evicted_txs EvictedTxs defines the number of evicted transactions. These are valid transactions that passed CheckTx and make it into the mempool but later became invalid. metrics:Number of evicted transactions.
+# TYPE cometbft_mempool_evicted_txs counter
+cometbft_mempool_evicted_txs{chain_id="xion-mainnet-1"} 6
+# HELP cometbft_mempool_failed_txs FailedTxs defines the number of failed transactions. These are transactions that failed to make it into the mempool because they were deemed invalid. metrics:Number of failed transactions.
+# TYPE cometbft_mempool_failed_txs counter
+cometbft_mempool_failed_txs{chain_id="xion-mainnet-1"} 764546
+# HELP cometbft_mempool_recheck_times Number of times transactions are rechecked in the mempool.
+# TYPE cometbft_mempool_recheck_times counter
+cometbft_mempool_recheck_times{chain_id="xion-mainnet-1"} 1200
+# HELP cometbft_mempool_size Number of uncommitted transactions in the mempool.
+# TYPE cometbft_mempool_size gauge
+cometbft_mempool_size{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_mempool_size_bytes Total size of the mempool in bytes.
+# TYPE cometbft_mempool_size_bytes gauge
+cometbft_mempool_size_bytes{chain_id="xion-mainnet-1"} 0
+# HELP cometbft_mempool_tx_size_bytes Histogram of transaction sizes in bytes.
+# TYPE cometbft_mempool_tx_size_bytes histogram
+cometbft_mempool_tx_size_bytes_bucket{chain_id="xion-mainnet-1",le="1"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="xion-mainnet-1",le="3"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="xion-mainnet-1",le="9"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="xion-mainnet-1",le="27"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="xion-mainnet-1",le="81"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="xion-mainnet-1",le="243"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="xion-mainnet-1",le="729"} 708
+cometbft_mempool_tx_size_bytes_bucket{chain_id="xion-mainnet-1",le="+Inf"} 3714
+cometbft_mempool_tx_size_bytes_sum{chain_id="xion-mainnet-1"} 4.9902905e+07
+cometbft_mempool_tx_size_bytes_count{chain_id="xion-mainnet-1"} 3714
+# HELP cometbft_p2p_message_receive_bytes_total Number of bytes of each message type received.
+# TYPE cometbft_p2p_message_receive_bytes_total counter
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="blocksync_BlockRequest"} 9555
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="blocksync_BlockResponse"} 67946
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="blocksync_StatusRequest"} 238
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="blocksync_StatusResponse"} 584581
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_BlockPart"} 1.30267233189e+11
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_HasVote"} 2.3929236196e+10
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_NewRoundStep"} 2.057592648e+09
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_NewValidBlock"} 1.370720582e+09
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_Proposal"} 5.167900141e+09
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_Vote"} 3.39434395713e+11
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_VoteSetBits"} 1.26252087e+08
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_VoteSetMaj23"} 5.13160073e+08
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="mempool_Txs"} 3.59057655e+09
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="p2p_PexAddrs"} 7.87964381e+08
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="p2p_PexRequest"} 49492
+cometbft_p2p_message_receive_bytes_total{chain_id="xion-mainnet-1",message_type="statesync_SnapshotsRequest"} 384118
+# HELP cometbft_p2p_message_send_bytes_total Number of bytes of each message type sent.
+# TYPE cometbft_p2p_message_send_bytes_total counter
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="blocksync_BlockRequest"} 98
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="blocksync_BlockResponse"} 6.041874e+06
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="blocksync_StatusResponse"} 605628
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_BlockPart"} 1.1667155206e+11
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_HasVote"} 2.5252782099e+10
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_NewRoundStep"} 1.803747541e+09
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_NewValidBlock"} 1.44457777e+09
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_Proposal"} 4.622117856e+09
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_Vote"} 2.60824693354e+11
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_VoteSetBits"} 2.23690069e+08
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="consensus_VoteSetMaj23"} 3.98321702e+08
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="mempool_Txs"} 1.784762771e+09
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="p2p_PexAddrs"} 6.2871402e+07
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="p2p_PexRequest"} 423096
+cometbft_p2p_message_send_bytes_total{chain_id="xion-mainnet-1",message_type="statesync_SnapshotsResponse"} 3.636810288e+09
+# HELP cometbft_p2p_peer_pending_send_bytes Pending bytes to be sent to a given peer.
+# TYPE cometbft_p2p_peer_pending_send_bytes gauge
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="28c0a839c2ecc9393e10c92b3f94d770fb12f35f"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="327fb4151de9f78f29ff10714085e347a4e3c836"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 100
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="8e1b90ba9371241ee717c7e92354af61381bc5ae"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 0
+# HELP cometbft_p2p_peer_receive_bytes_total Number of bytes received from a given peer.
+# TYPE cometbft_p2p_peer_receive_bytes_total counter
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 6.216258e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 1.327073e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 2.171725e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="20e1000e88125698264454a884812746c2eb4807"} 7.0102709e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 3.169845e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="28c0a839c2ecc9393e10c92b3f94d770fb12f35f"} 1.2678195e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 2.116547e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 5.604652e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 3.590432e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="327fb4151de9f78f29ff10714085e347a4e3c836"} 4
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 1.690262e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 5.162624e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 566245
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 2.814024e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 1.2038585e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 826641
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 8.217737e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 1.3052294e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 7.580952e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 1.0027438e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 1.0485877e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 1.3143807e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 3.146005e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 2.515846e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 269366
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 3.577042e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="8e1b90ba9371241ee717c7e92354af61381bc5ae"} 1.3045995e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 7.88264e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 7.408234e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 3.128964e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 1.488648e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="9faaa331e7abface760b326b74a86fc1e8a40b2e"} 127711
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 3.129047e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 7.565334e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 6.54817e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 1.0949229e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 1.213748e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0"} 6.272296e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 4.099053e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 1.2286517e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 1.124589e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 2.544567e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 8.471891e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 1.2629792e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 8.371649e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 2.191744e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 1.2743763e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 1.44419e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 3.38215783e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 4.991496e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 7.657019e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 3.523752e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 5.417138e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 1.2727682e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 3.807363e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 3.250662e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 7.11584582e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 9.7375821e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 1.40702836e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 7.69912166e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 1.34330461e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 7.44776552e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 7.41184708e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 7.41945716e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 1.00448369e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 3.4585863e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 7.69709092e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 7.68183964e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 6.7780876e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 7.4395075e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 7.31902026e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 7.26399253e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 7.68516321e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 7.39107129e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 7.21199039e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 7.46860524e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 4.87353418e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 2.1055754e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 7.41088316e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 7.43378376e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 7.13857231e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 7.0094475e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 9.7747206e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 7.43559774e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 7.4354332e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 7.44004134e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 7.4362005e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 9.7629114e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 7.68320583e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 7.70007864e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 7.5466975e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 1.80324776e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 7.68620204e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 7.43625532e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 7.35550284e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 1.41152162e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 7.6570815e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 8.9114713e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 8.1848661e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 7.52379149e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 6.80998802e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 7.43619902e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 7.41551825e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 7.4400611e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 7.41364268e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 7.68812048e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 3.491215811e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 5.08134569e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 7.17117352e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 3.793915364e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 6.61675581e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 3.30066127e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 3.572379726e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 3.485064319e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 4.81794901e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 1.82718459e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 3.799722822e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 3.731666335e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 3.39256711e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 3.797485374e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 3.635783226e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 3.699203463e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 3.763404426e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 3.778638211e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 3.231393784e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 3.632253878e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 2.486029384e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 1.02678308e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 3.59318407e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 3.2556865e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 3.172540336e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 3.56356787e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 5.05297076e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 3.805534826e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 3.28571968e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 3.792641963e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 3.799133958e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 5.07657624e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 3.800188024e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 3.79719247e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 3.74190155e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 5.10556646e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 3.770754113e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 3.774974783e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 3.23166626e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 7.17687393e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 3.737825353e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 4.28084345e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 3.56095787e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 3.356888292e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 3.474625383e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 3.78144336e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 3.491813278e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 3.77771022e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 3.774615844e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 3.805664447e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 9.0374373e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 1.308526006e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 1.844987407e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 9.91201511e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 1.743847084e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 3.081539612e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 7.464602112e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 8.649318203e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 1.204606546e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 4.63661039e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 9.880407208e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 9.586082707e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 8.79483626e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 9.948822663e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 9.293834435e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 9.689164125e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 9.771841367e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 9.897812846e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 6.431963894e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 7.048575651e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 6.510111845e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 2.57291476e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 7.507765233e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 9.904772871e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 9.562132813e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 9.301009965e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 1.294155153e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 9.971131576e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 9.915183883e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 9.930045934e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 9.905265611e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 1.313257396e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 9.933721304e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 9.886150571e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 9.56680226e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 1.00745767e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 9.828015104e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 9.742794018e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 9.732682021e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 1.799141228e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 9.490570044e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 1.086379711e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 8.58087839e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 6.866439111e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 9.053226179e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 9.891299175e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 7.272703957e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 9.722537589e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 9.822048214e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 9.973809055e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 2.459537e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 367356
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 582870
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 3.789806e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 475296
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 7.567104e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 6.888808e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 2.905978e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 292566
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 166556
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 2.414708e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 2.577369e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 235734
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 2.71802e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 2.476056e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 3.00725e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 3.984527e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 2.775452e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 6.689326e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 4.648826e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 2.076394e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 130056
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 6.871598e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 1.75432e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 947436
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 1.917073e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 381850
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 2.58554e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 1.786855e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 3.061452e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 3.090264e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 384316
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 2.721224e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 2.760442e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 237052
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 1.839047e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 3.475378e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 2.407196e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 907191
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 427166
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 2.365184e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 579597
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 198040
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 6.774863e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 2.56739e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 2.965958e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 6.315764e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 2.377634e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 2.792698e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 2.529964e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 9.8672728e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 2.1054932e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 2.5509033e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 1.06362938e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 1.1522823e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 1.06261958e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 4.9679288e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 9.9383033e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 5.920412e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 9.370033e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 4.9904501e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 5.0083031e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 1.2120469e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 1.06066474e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 1.04823996e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 1.0224513e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 1.06123664e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 1.04451086e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 9.589511e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 1.06357582e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 6.9898045e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 3.912483e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 4.96734e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 1.06374186e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 1.01443508e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 9.996331e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 2.1061811e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 1.06268672e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 1.06371312e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 1.06285257e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 1.06364022e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 5.875404e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 1.06242624e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 1.06230848e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 1.2327149e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 2.3886478e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 4.9898413e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 1.05850824e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 1.0199753e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 2.5463701e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 1.05301212e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 1.0518109e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 6.03308e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 1.0454256e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 4.7101321e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 1.06354711e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 1.061334e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 1.05602036e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 1.05526912e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 1.06266011e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 108
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 12
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 589
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 60
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="28c0a839c2ecc9393e10c92b3f94d770fb12f35f"} 184
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 857
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 27
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 36
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 9835
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 13268
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 24
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 44
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 300
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 12
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 60
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 1493
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 60
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 36
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 60
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 2683
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 36
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 300
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 60
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 27
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="8e1b90ba9371241ee717c7e92354af61381bc5ae"} 190
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 24
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 468
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 480
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 34009
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="9faaa331e7abface760b326b74a86fc1e8a40b2e"} 1454
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 36
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 24
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 152
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 84
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 11
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 72
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 144
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 27
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 12
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 48
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 1239
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 456
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 108
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 922
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 348
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 556128
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 36
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 34045
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 36
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 96
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 1356
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 108
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 36
+cometbft_p2p_peer_receive_bytes_total{chID="0x60",chain_id="xion-mainnet-1",peer_id="28c0a839c2ecc9393e10c92b3f94d770fb12f35f"} 191846
+cometbft_p2p_peer_receive_bytes_total{chID="0x60",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 224
+cometbft_p2p_peer_receive_bytes_total{chID="0x60",chain_id="xion-mainnet-1",peer_id="8e1b90ba9371241ee717c7e92354af61381bc5ae"} 191874
+cometbft_p2p_peer_receive_bytes_total{chID="0x60",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 174
+# HELP cometbft_p2p_peer_send_bytes_total Number of bytes sent to a given peer.
+# TYPE cometbft_p2p_peer_send_bytes_total counter
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 1.664014e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 73110
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 297484
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="20e1000e88125698264454a884812746c2eb4807"} 104380
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 1.957047e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="28c0a839c2ecc9393e10c92b3f94d770fb12f35f"} 3.185428e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 83241
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 847776
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 1.921223e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="327fb4151de9f78f29ff10714085e347a4e3c836"} 4044
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 510736
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 468739
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 64882
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 1.727912e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 2.514155e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 466814
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 691650
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 3.096164e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 721635
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 1.899814e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 283346
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 3.028423e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 1.84618e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 1.797058e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 139117
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 1.78028e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="8e1b90ba9371241ee717c7e92354af61381bc5ae"} 3.051891e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 481391
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 735271
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 1.944556e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 147938
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="9faaa331e7abface760b326b74a86fc1e8a40b2e"} 1.427326e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 1.727837e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 899422
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 1.102321e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 269596
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 370227
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0"} 103556
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 606440
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 21214
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 284533
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 355596
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 1.520418e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 3.215245e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 782133
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 287665
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 2.508781e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 631073
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 117203
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 277208
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 264940
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 2.05914e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 344816
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 3.14419e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 1.505149e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 1.93277e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 6.83448296e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 9.6995819e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 1.40852908e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 7.42822024e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="28c0a839c2ecc9393e10c92b3f94d770fb12f35f"} 7.2934067e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 1.31066346e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 7.4231423e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 7.40033901e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 6.99055509e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 1.04636109e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 3.4680924e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 7.40014127e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 7.40079399e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 6.5227178e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 7.40908332e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 7.3707712e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 7.24857288e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 7.41371596e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 7.36146046e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 6.97295458e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 7.42518015e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 4.86488915e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 2.0346371e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 7.39913977e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="8e1b90ba9371241ee717c7e92354af61381bc5ae"} 7.29620229e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 7.41003493e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 7.18389268e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 7.04790573e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 9.7115393e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="9faaa331e7abface760b326b74a86fc1e8a40b2e"} 268609
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 7.40218192e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 7.40462015e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 7.42907127e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 7.41097475e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 9.713196e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 7.38677649e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 7.40495896e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 7.2434169e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 1.74790723e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 7.43162908e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 7.36458833e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 7.37687717e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 1.39278869e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 7.37504113e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 8.6119683e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 7.863689e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 7.27710357e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 6.77350805e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 7.42647079e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 7.40917935e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 7.3671802e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 7.38019148e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 7.40323426e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 2.229515177e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 4.44456672e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 7.21040571e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 3.668894182e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 5.75614932e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 3.650781832e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 2.8805993e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 3.224277752e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 4.59145918e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 1.82366189e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 2.950711279e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 3.373485319e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 2.37763036e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 3.449756546e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 2.865478951e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 3.59955918e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 3.722242136e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 3.270920337e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 2.400595333e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 3.464619803e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 2.432749179e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 9.4899956e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 2.708686197e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 2.804843252e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 3.42042447e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 3.443613986e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 4.59006841e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 3.124752318e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 2.867879893e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 3.710606554e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 2.976177217e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 4.56864849e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 2.428699159e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 3.302832548e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 2.56899181e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 8.53004101e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 3.793941336e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 2.698662038e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 3.58509586e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 6.52793923e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 3.385288523e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 3.98547488e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 4.06334115e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 3.634449924e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 2.997829508e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 3.746978854e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 3.733075063e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 2.735162232e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 3.634988309e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 3.176758597e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 3.048610708e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 8.85525955e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 1.847484765e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 9.088974081e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 1.178321937e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 9.829805617e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 5.075265329e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 6.600661291e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 9.05501378e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 4.62456669e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 5.567842554e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 6.678875145e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 2.91197602e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 6.861144078e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 3.741450583e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 8.796137319e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 9.657994909e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 6.38721518e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 3.854985073e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 9.652758182e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 6.062508211e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 2.19231334e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 4.999188636e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 6.41183845e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 8.658399922e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 8.371726656e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 8.8789314e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 5.86890645e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 5.938294504e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 9.559186945e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 5.972722255e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 9.11142912e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 3.400831763e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 6.476985928e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 3.50594023e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 2.029995169e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 9.895433983e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 3.484894822e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 8.961543832e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 1.26902051e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 6.671894304e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 9.09773206e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 9.85237676e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 8.906705927e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 5.909678373e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 9.407952446e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 9.223262732e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 3.526585236e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 9.058444931e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 6.082610723e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 7.026256e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 841956
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 618675
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 5.802797e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 1.135915e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 5.620007e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 8.055062e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 5.708081e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 715209
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 124526
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 6.794067e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 6.015043e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 681047
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 6.178083e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 6.84207e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 4.877694e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 5.623094e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 6.438274e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 7.775923e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 5.827947e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 3.406677e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 179569
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 8.070793e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 6.74453e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 2.843313e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 2.872648e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 844914
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 6.733031e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 6.879929e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 4.212712e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 7.042979e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 822969
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 7.951984e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 6.450628e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 726171
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 1.63346e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 3.872263e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 7.268432e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 3.084736e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 1.056111e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 5.817963e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 758000
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 478992
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 6.094398e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 5.901228e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 4.893554e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 5.527493e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 7.258631e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 4.736043e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 6.824192e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 2.8180856e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 5.551907e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 7.733998e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 4.9910017e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 6.39029e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 4.9903243e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 4.9354507e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 4.7793109e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 5.329014e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 2.4914e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 4.948817e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 3.9578419e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 3.025239e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 4.9503165e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 4.5434936e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 4.8626103e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 4.9829914e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 4.9202773e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 4.6275909e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 4.9922988e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 2.5191369e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 777445
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 4.9089927e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 4.9873878e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 4.6932346e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 4.7093206e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 5.878434e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 4.9533581e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 4.976933e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 4.9912832e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 4.9569509e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 5.856135e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 4.8371106e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 4.965005e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 2.647778e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 1.9492074e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 4.9912576e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 4.688888e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 4.8648882e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 7.607153e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 4.8529388e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 6.572578e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 7.155808e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 4.906527e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 4.7006596e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 4.990738e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 4.9776014e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 4.1323536e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 4.9634808e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 4.9568945e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="07cacc2ef34cdb4c7beee690388c0f7af93971d3"} 108
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="08ef8ee6eb81dd24635158300330e8d64133edee"} 12
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="158a304b305dafdacc1a4f39159646ba39723658"} 417621
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="20efa598b30b4ea43d95700fa10f0b65478ab120"} 60
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="28c0a839c2ecc9393e10c92b3f94d770fb12f35f"} 1104
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 490863
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="2f64f37899dbb112cd4ba46d83613a21fefe4fd2"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="319e69dce2019ac9ac40a02b2f9be22ce07b1ee9"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="342a607f2a2887c36c4dd77fea78ac6bcbb95921"} 536612
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="3fe3e1ed127c6ac6ca7e4045e3872c3ed4f06f4a"} 3.979648e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="40ea1632327b9a6af0c3d66966e0a287785d7020"} 24
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="48befa904efae8200009c5fcc4cb808fa12f4b62"} 48
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="517eb4630023f0ad0fd64c816cfa7a42cebeb71e"} 300
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="5300e1b327d0ab93d816068ef5887ebc0f986db2"} 12
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="5a83a68707c877591b7bdb5213943e3eb19eff79"} 72
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="5e6cf7680b1c8c73812bd3dadf76e40686a4dfa9"} 97999
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="5ea7cb545012815a6fffcb759648c01f4b597265"} 60
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="726ca6ebb1bbdf9136b0b8b32becff6399bf62ca"} 48
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="766af9cd08365704f7962d3071d1a9c684a88005"} 60
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="819f2408ee0decff4bc3bd3b57135ca665285c1f"} 6888
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="820f106a4e53fc0f37b9adeb54fe42936997e663"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="866ddb7a807311efd9448a56e84281e2b868678c"} 300
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="894d59ac2daea4c7675d262b551dcac0db0f3690"} 60
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="8d7f93898440c74a5476d457b9e3a236ec1b766c"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="8e1b90ba9371241ee717c7e92354af61381bc5ae"} 1140
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="901dc1b9e514f33606e67e7e4a74a753f2ceca95"} 24
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="977961549966cfac563ccec18da3f4a690ac6977"} 8700
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="98416f480894740934cdc4d6249d247e93816847"} 480
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="9a591e70fd2537cd7a3cac531941a2709f92db98"} 85
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="9faaa331e7abface760b326b74a86fc1e8a40b2e"} 9000
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="a1f939e59ed5b776e46dc7939231c4601f84e55e"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="a50ace087b7263afba4ee9185be9aca94d3f899e"} 24
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c"} 70015
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="ab28293c3bb5fcd84df618202630cf1000b2ccaf"} 84
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="ade30bf5a8cfbe88784e9809662356dcbc07887d"} 12
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="bc9284ddd58faab258417dd995f7e1c0ade8a335"} 84
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="c36b658e1e2725542faa14063bfe4f9659286406"} 144
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="c7da5197da45daef932ddee0394430713ba90856"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="c8ed83a26888573504de4ae9eb65c23922b6d475"} 12
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 72
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="d73fdeaf45c7c6beaef4107704fd35ba1c3377d2"} 89335
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="dcb058145646585a792edca02dfbf16b3e9ff25f"} 1104
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="dd10f7e077328a4e9be8206759bfbd90d9a16ee4"} 108
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 205426
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e1f9c4ac32e007ebbf617c0586021391677c7e9e"} 348
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e4bd1c9ec11cdceb438a16bdc7c49e4d4ebbfbce"} 556332
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e87fad05b18d29b13d2122fa453610bd006a9ae1"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="e8e1f51a24ebab41263787d9668d3c66d1e66682"} 121
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="ebe019103e8b0995332710fb10c3ae0c0b4bfe15"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="edfb452dd763bfc76de9493403e968f7daa1d539"} 96
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="ee59df1dc7084eb75331050701ba8165f02b218b"} 171623
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="f2c295f2ddee0b8af3d31ad56ea222e29ccd730e"} 1008
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="xion-mainnet-1",peer_id="f9da3329b0516c2e9cca78f827d7eb6ca441107c"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x60",chain_id="xion-mainnet-1",peer_id="28c0a839c2ecc9393e10c92b3f94d770fb12f35f"} 1.816397928e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x60",chain_id="xion-mainnet-1",peer_id="2ba33179c17780568eff9a49d3d055a17003111a"} 2.120832e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x60",chain_id="xion-mainnet-1",peer_id="8e1b90ba9371241ee717c7e92354af61381bc5ae"} 1.816644096e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x60",chain_id="xion-mainnet-1",peer_id="e018f6a49a23724da24bfbf2bcc3eb8d9c0a859e"} 1.647432e+06
+# HELP cometbft_p2p_peers Number of peers.
+# TYPE cometbft_p2p_peers gauge
+cometbft_p2p_peers{chain_id="xion-mainnet-1"} 36
+# HELP cometbft_state_block_processing_time Time spent processing FinalizeBlock
+# TYPE cometbft_state_block_processing_time histogram
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="1"} 0
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="11"} 679434
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="21"} 687218
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="31"} 694012
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="41"} 698342
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="51"} 701818
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="61"} 703635
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="71"} 705038
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="81"} 705966
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="91"} 706419
+cometbft_state_block_processing_time_bucket{chain_id="xion-mainnet-1",le="+Inf"} 707495
+cometbft_state_block_processing_time_sum{chain_id="xion-mainnet-1"} 3.3078357711479664e+06
+cometbft_state_block_processing_time_count{chain_id="xion-mainnet-1"} 707495
+# HELP cometbft_state_consensus_param_updates Number of consensus parameter updates returned by the application since process start.
+# TYPE cometbft_state_consensus_param_updates counter
+cometbft_state_consensus_param_updates{chain_id="xion-mainnet-1"} 707495
+# HELP cometbft_state_validator_set_updates Number of validator set updates returned by the application since process start.
+# TYPE cometbft_state_validator_set_updates counter
+cometbft_state_validator_set_updates{chain_id="xion-mainnet-1"} 794
+# HELP go_gc_duration_seconds A summary of the wall-time pause (stop-the-world) duration in garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 0.000191995
+go_gc_duration_seconds{quantile="0.25"} 0.000274796
+go_gc_duration_seconds{quantile="0.5"} 0.000325267
+go_gc_duration_seconds{quantile="0.75"} 0.000475296
+go_gc_duration_seconds{quantile="1"} 0.002424618
+go_gc_duration_seconds_sum 11.762410714
+go_gc_duration_seconds_count 22165
+# HELP go_gc_gogc_percent Heap size target percentage configured by the user, otherwise 100. This value is set by the GOGC environment variable, and the runtime/debug.SetGCPercent function. Sourced from /gc/gogc:percent.
+# TYPE go_gc_gogc_percent gauge
+go_gc_gogc_percent 100
+# HELP go_gc_gomemlimit_bytes Go runtime memory limit configured by the user, otherwise math.MaxInt64. This value is set by the GOMEMLIMIT environment variable, and the runtime/debug.SetMemoryLimit function. Sourced from /gc/gomemlimit:bytes.
+# TYPE go_gc_gomemlimit_bytes gauge
+go_gc_gomemlimit_bytes 9.223372036854776e+18
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 436
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.25.4"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated in heap and currently in use. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 5.198886448e+09
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated in heap until now, even if released already. Equals to /gc/heap/allocs:bytes.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 8.3044906604672e+13
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table. Equals to /memory/classes/profiling/buckets:bytes.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 3.0474426e+07
+# HELP go_memstats_frees_total Total number of heap objects frees. Equals to /gc/heap/frees:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 1.428101354701e+12
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata. Equals to /memory/classes/metadata/other:bytes.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 1.20625776e+08
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and currently in use, same as go_memstats_alloc_bytes. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 5.198886448e+09
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used. Equals to /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 3.1647744e+09
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 8.010326016e+09
+# HELP go_memstats_heap_objects Number of currently allocated objects. Equals to /gc/heap/objects:objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 6.9770843e+07
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS. Equals to /memory/classes/heap/released:bytes.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 7.63912192e+08
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes + /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 1.1175100416e+10
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.7677675285739524e+09
+# HELP go_memstats_mallocs_total Total number of heap objects allocated, both live and gc-ed. Semantically a counter version for go_memstats_heap_objects gauge. Equals to /gc/heap/allocs:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 1.428171125544e+12
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures. Equals to /memory/classes/metadata/mcache/inuse:bytes.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 4832
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system. Equals to /memory/classes/metadata/mcache/inuse:bytes + /memory/classes/metadata/mcache/free:bytes.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 15704
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures. Equals to /memory/classes/metadata/mspan/inuse:bytes.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 1.3905264e+08
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system. Equals to /memory/classes/metadata/mspan/inuse:bytes + /memory/classes/metadata/mspan/free:bytes.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 1.9383264e+08
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place. Equals to /gc/heap/goal:bytes.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 9.619078634e+09
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations. Equals to /memory/classes/other:bytes.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 1.9759806e+07
+# HELP go_memstats_stack_inuse_bytes Number of bytes obtained from system for stack allocator in non-CGO environments. Equals to /memory/classes/heap/stacks:bytes.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 6.914048e+06
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator. Equals to /memory/classes/heap/stacks:bytes + /memory/classes/os-stacks:bytes.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 6.914048e+06
+# HELP go_memstats_sys_bytes Number of bytes obtained from system. Equals to /memory/classes/total:byte.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 1.1546722816e+10
+# HELP go_sched_gomaxprocs_threads The current runtime.GOMAXPROCS setting, or the number of operating system threads that can execute user-level Go code simultaneously. Sourced from /sched/gomaxprocs:threads.
+# TYPE go_sched_gomaxprocs_threads gauge
+go_sched_gomaxprocs_threads 4
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 18
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 2.20198655e+06
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP process_network_receive_bytes_total Number of bytes received by the process over the network.
+# TYPE process_network_receive_bytes_total counter
+process_network_receive_bytes_total 9.28374301347e+11
+# HELP process_network_transmit_bytes_total Number of bytes sent by the process over the network.
+# TYPE process_network_transmit_bytes_total counter
+process_network_transmit_bytes_total 7.98805099093e+11
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 639
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 1.091084288e+10
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.76602279161e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.4597722112e+10
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes 1.8446744073709552e+19
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 165727
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0

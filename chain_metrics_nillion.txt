@@ -1,0 +1,954 @@
+# HELP cometbft_abci_connection_method_timing_seconds Timing for each ABCI method.
+# TYPE cometbft_abci_connection_method_timing_seconds histogram
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="0.0004"} 486
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="0.002"} 2603
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="0.009"} 2818
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="0.02"} 3024
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="0.1"} 3059
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="0.65"} 3067
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="2"} 3067
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="6"} 3067
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="25"} 3067
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="check_tx",type="async",le="+Inf"} 3067
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="nillion-chain-testnet-1",method="check_tx",type="async"} 8.456644017999977
+cometbft_abci_connection_method_timing_seconds_count{chain_id="nillion-chain-testnet-1",method="check_tx",type="async"} 3067
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="0.002"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="0.009"} 1.078497e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="0.02"} 1.135214e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="0.1"} 1.159093e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="0.65"} 1.263284e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="2"} 1.264931e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="6"} 1.265155e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="25"} 1.26517e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="commit",type="sync",le="+Inf"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="nillion-chain-testnet-1",method="commit",type="sync"} 32423.423996647212
+cometbft_abci_connection_method_timing_seconds_count{chain_id="nillion-chain-testnet-1",method="commit",type="sync"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="0.002"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="0.009"} 893071
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="0.02"} 1.256727e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="0.1"} 1.26422e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="0.65"} 1.264999e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="2"} 1.26514e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="6"} 1.26517e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="25"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync",le="+Inf"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync"} 11527.242364216583
+cometbft_abci_connection_method_timing_seconds_count{chain_id="nillion-chain-testnet-1",method="finalize_block",type="sync"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="0.0001"} 1.265163e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="0.0004"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="0.002"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="0.009"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="0.02"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="0.1"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="0.65"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="2"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="6"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="25"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="flush",type="sync",le="+Inf"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="nillion-chain-testnet-1",method="flush",type="sync"} 0.6451746470000137
+cometbft_abci_connection_method_timing_seconds_count{chain_id="nillion-chain-testnet-1",method="flush",type="sync"} 1.265171e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="0.0004"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="0.002"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="0.009"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="0.02"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="0.1"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="0.65"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="2"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="6"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="25"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="info",type="sync",le="+Inf"} 1
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="nillion-chain-testnet-1",method="info",type="sync"} 0.000130537
+cometbft_abci_connection_method_timing_seconds_count{chain_id="nillion-chain-testnet-1",method="info",type="sync"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="0.0004"} 1.607331e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="0.002"} 1.671069e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="0.009"} 1.671278e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="0.02"} 1.671321e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="0.1"} 1.671322e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="0.65"} 1.671322e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="2"} 1.671322e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="6"} 1.671322e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="25"} 1.671322e+06
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync",le="+Inf"} 1.671322e+06
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync"} 453.0784402520085
+cometbft_abci_connection_method_timing_seconds_count{chain_id="nillion-chain-testnet-1",method="process_proposal",type="sync"} 1.671322e+06
+# HELP cometbft_blocksync_block_size_bytes Size of the latest block.
+# TYPE cometbft_blocksync_block_size_bytes gauge
+cometbft_blocksync_block_size_bytes{chain_id="nillion-chain-testnet-1"} 3474
+# HELP cometbft_blocksync_latest_block_height The height of the latest block.
+# TYPE cometbft_blocksync_latest_block_height gauge
+cometbft_blocksync_latest_block_height{chain_id="nillion-chain-testnet-1"} 1.8391828e+07
+# HELP cometbft_blocksync_num_txs Number of transactions in the latest block.
+# TYPE cometbft_blocksync_num_txs gauge
+cometbft_blocksync_num_txs{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_blocksync_syncing Whether or not a node is block syncing. 1 if yes, 0 if no.
+# TYPE cometbft_blocksync_syncing gauge
+cometbft_blocksync_syncing{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_blocksync_total_txs Total number of transactions.
+# TYPE cometbft_blocksync_total_txs gauge
+cometbft_blocksync_total_txs{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_consensus_block_gossip_parts_received Number of block parts received by the node, separated by whether the part was relevant to the block the node is trying to gather or not.
+# TYPE cometbft_consensus_block_gossip_parts_received counter
+cometbft_consensus_block_gossip_parts_received{chain_id="nillion-chain-testnet-1",matches_current="false"} 4.08302e+06
+cometbft_consensus_block_gossip_parts_received{chain_id="nillion-chain-testnet-1",matches_current="true"} 1.3866382e+07
+# HELP cometbft_consensus_block_interval_seconds Time between this and the last block.
+# TYPE cometbft_consensus_block_interval_seconds histogram
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.005"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.01"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.025"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.05"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.1"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.25"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.5"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="1"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="2.5"} 756450
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="5"} 803507
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="10"} 1.260027e+06
+cometbft_consensus_block_interval_seconds_bucket{chain_id="nillion-chain-testnet-1",le="+Inf"} 1.265169e+06
+cometbft_consensus_block_interval_seconds_sum{chain_id="nillion-chain-testnet-1"} 5.525739522902233e+06
+cometbft_consensus_block_interval_seconds_count{chain_id="nillion-chain-testnet-1"} 1.265169e+06
+# HELP cometbft_consensus_block_parts Number of block parts transmitted by each peer.
+# TYPE cometbft_consensus_block_parts counter
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 798202
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 1.206131e+06
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 419477
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 814540
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 192016
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 658556
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 798714
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 3315
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 1.492907e+06
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 809032
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 207321
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 1.106848e+06
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 1.564634e+06
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 729259
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 152576
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 1.289946e+06
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 2580
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 1.487158e+06
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 9136
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 832470
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 775559
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 734499
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 444564
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 124355
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 21466
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 917220
+cometbft_consensus_block_parts{chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 356921
+# HELP cometbft_consensus_block_size_bytes Size of the block.
+# TYPE cometbft_consensus_block_size_bytes gauge
+cometbft_consensus_block_size_bytes{chain_id="nillion-chain-testnet-1"} 2820
+# HELP cometbft_consensus_byzantine_validators Number of validators who tried to double sign.
+# TYPE cometbft_consensus_byzantine_validators gauge
+cometbft_consensus_byzantine_validators{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_consensus_byzantine_validators_power Total power of the byzantine validators.
+# TYPE cometbft_consensus_byzantine_validators_power gauge
+cometbft_consensus_byzantine_validators_power{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_consensus_chain_size_bytes Size of the chain in bytes.
+# TYPE cometbft_consensus_chain_size_bytes counter
+cometbft_consensus_chain_size_bytes{chain_id="nillion-chain-testnet-1"} 4.005562367e+09
+# HELP cometbft_consensus_duplicate_block_part Number of times we received a duplicate block part
+# TYPE cometbft_consensus_duplicate_block_part counter
+cometbft_consensus_duplicate_block_part{chain_id="nillion-chain-testnet-1"} 1.2148905e+07
+# HELP cometbft_consensus_duplicate_vote Number of times we received a duplicate vote
+# TYPE cometbft_consensus_duplicate_vote counter
+cometbft_consensus_duplicate_vote{chain_id="nillion-chain-testnet-1"} 5.8819377e+08
+# HELP cometbft_consensus_full_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the latest prevote in a round where all validators voted.
+# TYPE cometbft_consensus_full_prevote_delay gauge
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="01458B61F0D7DE6E90798FE8C370413D718EB34C"} 0.282716114
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="0B38EA813162CB2DAAAABCAFE9C628E02FB13436"} 0.411354807
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="1C4E1E001A41D3C28F66DD4FB19E686B4C7A86E8"} 0.279502197
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="2279C53939D2F5BA46A98F6ACF20059811D5927C"} 0.187300435
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="4EFF3AED8476667A0AEC4D17C7F6A7E86E2E4F69"} 0.265564283
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="9256B951B9DAD91E92F035502EF7721FFAB87213"} 0.269359501
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="95547B0284F482756D33B58B460B90A766EA95A6"} 0.506261365
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="A22A78344193D15E03BE491A5BAB70041105738A"} 0.446083866
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="AA591E10BE57E5132B863836169893FF1B43ED60"} 0.377238258
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="C9BAA2B828DD6B7F339119E0B869EE9BB1C18DD0"} 0.306088378
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="D957263975D60DAC011819C45189FDAE1217FF81"} 0.26628996
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="D989BE87EA80A07F4C4742912EF7072754F8B57F"} 0.26056009
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="E0CCC3E72E5B06AA6092FE3E6D8E9F3CF11F4BE4"} 0.264444638
+cometbft_consensus_full_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="FCFCB9AD9E8B86C0F6616CFE971F3D5D67E7FB63"} 0.270508984
+# HELP cometbft_consensus_height Height of the chain.
+# TYPE cometbft_consensus_height gauge
+cometbft_consensus_height{chain_id="nillion-chain-testnet-1"} 1.9656998e+07
+# HELP cometbft_consensus_late_votes LateVotes stores the number of votes that were received by this node that correspond to earlier heights and rounds than this node is currently in.
+# TYPE cometbft_consensus_late_votes counter
+cometbft_consensus_late_votes{chain_id="nillion-chain-testnet-1",vote_type="precommit"} 2.75013654e+08
+cometbft_consensus_late_votes{chain_id="nillion-chain-testnet-1",vote_type="prevote"} 8.6299682e+07
+# HELP cometbft_consensus_latest_block_height The latest block height.
+# TYPE cometbft_consensus_latest_block_height gauge
+cometbft_consensus_latest_block_height{chain_id="nillion-chain-testnet-1"} 1.9656997e+07
+# HELP cometbft_consensus_missing_validators Number of validators who did not sign.
+# TYPE cometbft_consensus_missing_validators gauge
+cometbft_consensus_missing_validators{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_consensus_missing_validators_power Total power of the missing validators.
+# TYPE cometbft_consensus_missing_validators_power gauge
+cometbft_consensus_missing_validators_power{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_consensus_num_txs Number of transactions.
+# TYPE cometbft_consensus_num_txs gauge
+cometbft_consensus_num_txs{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_consensus_proposal_receive_count ProposalReceiveCount is the total number of proposals received by this node since process start. The metric is annotated by the status of the proposal from the application, either 'accepted' or 'rejected'.
+# TYPE cometbft_consensus_proposal_receive_count counter
+cometbft_consensus_proposal_receive_count{chain_id="nillion-chain-testnet-1",status="accepted"} 1.671322e+06
+# HELP cometbft_consensus_quorum_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the earliest prevote that achieved a quorum.
+# TYPE cometbft_consensus_quorum_prevote_delay gauge
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="01458B61F0D7DE6E90798FE8C370413D718EB34C"} 0.189423814
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="03DADEB13DEEF8773726F1C6A73540603BBE8015"} 0.139326928
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="0B38EA813162CB2DAAAABCAFE9C628E02FB13436"} 0.177163699
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="1033CA8EBD49EA16C673C22E124FCC79F534C2F7"} 0.132466625
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="1C4E1E001A41D3C28F66DD4FB19E686B4C7A86E8"} 0.142330857
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="2279C53939D2F5BA46A98F6ACF20059811D5927C"} 0.039811048
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="4DC7DB6D00DD55A37D9ED908869C2020918BEBAD"} 0.193877941
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="4EFF3AED8476667A0AEC4D17C7F6A7E86E2E4F69"} 0.116220211
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="6DEF7D066A203C639E90C87004DA178112379397"} 0.083665844
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="9256B951B9DAD91E92F035502EF7721FFAB87213"} 0.127255864
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="95547B0284F482756D33B58B460B90A766EA95A6"} 0.590461475
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="9B2EB0899EAE59341F6C978D6EEA1A39F3FC51BA"} 0.117654065
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="A22A78344193D15E03BE491A5BAB70041105738A"} 0.317430514
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="A7EB4CFDC359F27C00E59C1A1284B118F895F1AF"} 0.193734671
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="AA591E10BE57E5132B863836169893FF1B43ED60"} 0.151340963
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="AFBA27250258A7E26E7D3C0DF6A0049961C60505"} 0.122967938
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="BEB493F10BDCA33B79A541274209C0A1D6D20789"} 0.155808117
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="C3DAAF46D2C88EBA1BADA62E12CFEB9857FDF325"} 0.192466202
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="C9BAA2B828DD6B7F339119E0B869EE9BB1C18DD0"} 0.169276722
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="CF30B3E2FDEAF5487A98D79884F69964A06BDB08"} 0.188553973
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="D957263975D60DAC011819C45189FDAE1217FF81"} 0.118771742
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="D989BE87EA80A07F4C4742912EF7072754F8B57F"} 0.128368059
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="E0CCC3E72E5B06AA6092FE3E6D8E9F3CF11F4BE4"} 0.139248418
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="E1245378A7E2A63126095508B28FA7FC233AA1AC"} 0.230728739
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="E4A5CB8D0CC8F8C15D8A1CB960E48058C191676E"} 0.295867675
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="ED85E7C34D79EC22A31ADBABD31D49676582DA61"} 0.130296987
+cometbft_consensus_quorum_prevote_delay{chain_id="nillion-chain-testnet-1",proposer_address="FCFCB9AD9E8B86C0F6616CFE971F3D5D67E7FB63"} 0.118649336
+# HELP cometbft_consensus_round_duration_seconds Histogram of round duration.
+# TYPE cometbft_consensus_round_duration_seconds histogram
+cometbft_consensus_round_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.1"} 454739
+cometbft_consensus_round_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.2682695795279726"} 454794
+cometbft_consensus_round_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",le="0.7196856730011522"} 454895
+cometbft_consensus_round_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",le="1.9306977288832508"} 505643
+cometbft_consensus_round_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",le="5.1794746792312125"} 1.373344e+06
+cometbft_consensus_round_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",le="13.894954943731381"} 1.381537e+06
+cometbft_consensus_round_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",le="37.27593720314942"} 1.381555e+06
+cometbft_consensus_round_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",le="100.00000000000006"} 1.381555e+06
+cometbft_consensus_round_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",le="+Inf"} 1.381558e+06
+cometbft_consensus_round_duration_seconds_sum{chain_id="nillion-chain-testnet-1"} 2.378929741179805e+06
+cometbft_consensus_round_duration_seconds_count{chain_id="nillion-chain-testnet-1"} 1.381558e+06
+# HELP cometbft_consensus_round_voting_power_percent RoundVotingPowerPercent is the percentage of the total voting power received with a round. The value begins at 0 for each round and approaches 1.0 as additional voting power is observed. The metric is labeled by vote type.
+# TYPE cometbft_consensus_round_voting_power_percent gauge
+cometbft_consensus_round_voting_power_percent{chain_id="nillion-chain-testnet-1",vote_type="precommit"} 0
+cometbft_consensus_round_voting_power_percent{chain_id="nillion-chain-testnet-1",vote_type="prevote"} 0.9999959674260096
+# HELP cometbft_consensus_rounds Number of rounds.
+# TYPE cometbft_consensus_rounds gauge
+cometbft_consensus_rounds{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_consensus_step_duration_seconds Histogram of durations for each step in the consensus protocol.
+# TYPE cometbft_consensus_step_duration_seconds histogram
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Commit",le="0.1"} 1.13166e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Commit",le="0.2682695795279726"} 1.227309e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Commit",le="0.7196856730011522"} 1.261297e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Commit",le="1.9306977288832508"} 1.264561e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Commit",le="5.1794746792312125"} 1.265145e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Commit",le="13.894954943731381"} 1.265166e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Commit",le="37.27593720314942"} 1.265169e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Commit",le="100.00000000000006"} 1.265169e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Commit",le="+Inf"} 1.265169e+06
+cometbft_consensus_step_duration_seconds_sum{chain_id="nillion-chain-testnet-1",step="Commit"} 59480.94518214471
+cometbft_consensus_step_duration_seconds_count{chain_id="nillion-chain-testnet-1",step="Commit"} 1.265169e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewHeight",le="0.1"} 30
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewHeight",le="0.2682695795279726"} 90
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewHeight",le="0.7196856730011522"} 1119
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewHeight",le="1.9306977288832508"} 35911
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewHeight",le="5.1794746792312125"} 1.265051e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewHeight",le="13.894954943731381"} 1.26517e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewHeight",le="37.27593720314942"} 1.26517e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewHeight",le="100.00000000000006"} 1.26517e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewHeight",le="+Inf"} 1.26517e+06
+cometbft_consensus_step_duration_seconds_sum{chain_id="nillion-chain-testnet-1",step="NewHeight"} 3.986911212830109e+06
+cometbft_consensus_step_duration_seconds_count{chain_id="nillion-chain-testnet-1",step="NewHeight"} 1.26517e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewRound",le="0.1"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewRound",le="0.2682695795279726"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewRound",le="0.7196856730011522"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewRound",le="1.9306977288832508"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewRound",le="5.1794746792312125"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewRound",le="13.894954943731381"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewRound",le="37.27593720314942"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewRound",le="100.00000000000006"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="NewRound",le="+Inf"} 920070
+cometbft_consensus_step_duration_seconds_sum{chain_id="nillion-chain-testnet-1",step="NewRound"} 56.633306496999694
+cometbft_consensus_step_duration_seconds_count{chain_id="nillion-chain-testnet-1",step="NewRound"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Precommit",le="0.1"} 491855
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Precommit",le="0.2682695795279726"} 1.264847e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Precommit",le="0.7196856730011522"} 1.265203e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Precommit",le="1.9306977288832508"} 1.730283e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Precommit",le="5.1794746792312125"} 1.730411e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Precommit",le="13.894954943731381"} 1.730413e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Precommit",le="37.27593720314942"} 1.730413e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Precommit",le="100.00000000000006"} 1.730413e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Precommit",le="+Inf"} 1.730413e+06
+cometbft_consensus_step_duration_seconds_sum{chain_id="nillion-chain-testnet-1",step="Precommit"} 665161.74320364
+cometbft_consensus_step_duration_seconds_count{chain_id="nillion-chain-testnet-1",step="Precommit"} 1.730413e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Prevote",le="0.1"} 977332
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Prevote",le="0.2682695795279726"} 1.681762e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Prevote",le="0.7196856730011522"} 1.684134e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Prevote",le="1.9306977288832508"} 1.684216e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Prevote",le="5.1794746792312125"} 1.684231e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Prevote",le="13.894954943731381"} 1.684231e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Prevote",le="37.27593720314942"} 1.684232e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Prevote",le="100.00000000000006"} 1.684232e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Prevote",le="+Inf"} 1.684234e+06
+cometbft_consensus_step_duration_seconds_sum{chain_id="nillion-chain-testnet-1",step="Prevote"} 147716.8969504838
+cometbft_consensus_step_duration_seconds_count{chain_id="nillion-chain-testnet-1",step="Prevote"} 1.684234e+06
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="PrevoteWait",le="0.1"} 21811
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="PrevoteWait",le="0.2682695795279726"} 23209
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="PrevoteWait",le="0.7196856730011522"} 23465
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="PrevoteWait",le="1.9306977288832508"} 449550
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="PrevoteWait",le="5.1794746792312125"} 449639
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="PrevoteWait",le="13.894954943731381"} 449640
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="PrevoteWait",le="37.27593720314942"} 449640
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="PrevoteWait",le="100.00000000000006"} 449640
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="PrevoteWait",le="+Inf"} 449640
+cometbft_consensus_step_duration_seconds_sum{chain_id="nillion-chain-testnet-1",step="PrevoteWait"} 427607.3132253935
+cometbft_consensus_step_duration_seconds_count{chain_id="nillion-chain-testnet-1",step="PrevoteWait"} 449640
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Propose",le="0.1"} 253293
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Propose",le="0.2682695795279726"} 464609
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Propose",le="0.7196856730011522"} 904489
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Propose",le="1.9306977288832508"} 906591
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Propose",le="5.1794746792312125"} 920068
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Propose",le="13.894954943731381"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Propose",le="37.27593720314942"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Propose",le="100.00000000000006"} 920070
+cometbft_consensus_step_duration_seconds_bucket{chain_id="nillion-chain-testnet-1",step="Propose",le="+Inf"} 920070
+cometbft_consensus_step_duration_seconds_sum{chain_id="nillion-chain-testnet-1",step="Propose"} 238763.50927099184
+cometbft_consensus_step_duration_seconds_count{chain_id="nillion-chain-testnet-1",step="Propose"} 920070
+# HELP cometbft_consensus_total_txs Total number of transactions.
+# TYPE cometbft_consensus_total_txs gauge
+cometbft_consensus_total_txs{chain_id="nillion-chain-testnet-1"} 2322
+# HELP cometbft_consensus_validators Number of validators.
+# TYPE cometbft_consensus_validators gauge
+cometbft_consensus_validators{chain_id="nillion-chain-testnet-1"} 22
+# HELP cometbft_consensus_validators_power Total power of all validators.
+# TYPE cometbft_consensus_validators_power gauge
+cometbft_consensus_validators_power{chain_id="nillion-chain-testnet-1"} 1.15558946e+08
+# HELP cometbft_mempool_active_outbound_connections Number of connections being actively used for gossiping transactions (experimental feature).
+# TYPE cometbft_mempool_active_outbound_connections gauge
+cometbft_mempool_active_outbound_connections{chain_id="nillion-chain-testnet-1"} 10
+# HELP cometbft_mempool_failed_txs Number of failed transactions.
+# TYPE cometbft_mempool_failed_txs counter
+cometbft_mempool_failed_txs{chain_id="nillion-chain-testnet-1"} 546
+# HELP cometbft_mempool_recheck_times Number of times transactions are rechecked in the mempool.
+# TYPE cometbft_mempool_recheck_times counter
+cometbft_mempool_recheck_times{chain_id="nillion-chain-testnet-1"} 258
+# HELP cometbft_mempool_size Number of uncommitted transactions in the mempool.
+# TYPE cometbft_mempool_size gauge
+cometbft_mempool_size{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_mempool_size_bytes Total size of the mempool in bytes.
+# TYPE cometbft_mempool_size_bytes gauge
+cometbft_mempool_size_bytes{chain_id="nillion-chain-testnet-1"} 0
+# HELP cometbft_mempool_tx_size_bytes Histogram of transaction sizes in bytes.
+# TYPE cometbft_mempool_tx_size_bytes histogram
+cometbft_mempool_tx_size_bytes_bucket{chain_id="nillion-chain-testnet-1",le="1"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="nillion-chain-testnet-1",le="3"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="nillion-chain-testnet-1",le="9"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="nillion-chain-testnet-1",le="27"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="nillion-chain-testnet-1",le="81"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="nillion-chain-testnet-1",le="243"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="nillion-chain-testnet-1",le="729"} 2151
+cometbft_mempool_tx_size_bytes_bucket{chain_id="nillion-chain-testnet-1",le="+Inf"} 2263
+cometbft_mempool_tx_size_bytes_sum{chain_id="nillion-chain-testnet-1"} 857637
+cometbft_mempool_tx_size_bytes_count{chain_id="nillion-chain-testnet-1"} 2263
+# HELP cometbft_p2p_message_receive_bytes_total Number of bytes of each message type received.
+# TYPE cometbft_p2p_message_receive_bytes_total counter
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="blocksync_BlockResponse"} 27774
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="blocksync_StatusResponse"} 8547
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_BlockPart"} 5.7686319373e+10
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_HasVote"} 9.294536972e+09
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_NewRoundStep"} 1.144037772e+09
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_NewValidBlock"} 6.93290014e+08
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_Proposal"} 2.78739157e+09
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_Vote"} 1.31736395149e+11
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_VoteSetBits"} 6.0722431e+07
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_VoteSetMaj23"} 2.39921438e+08
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="mempool_Txs"} 8.818698e+06
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="p2p_PexAddrs"} 8.8429835e+07
+cometbft_p2p_message_receive_bytes_total{chain_id="nillion-chain-testnet-1",message_type="p2p_PexRequest"} 90932
+# HELP cometbft_p2p_message_send_bytes_total Number of bytes of each message type sent.
+# TYPE cometbft_p2p_message_send_bytes_total counter
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="blocksync_BlockRequest"} 56
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="blocksync_StatusResponse"} 8592
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_BlockPart"} 3.3821671191e+10
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_HasVote"} 9.248533799e+09
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_NewRoundStep"} 1.229543469e+09
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_NewValidBlock"} 1.028096914e+09
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_Proposal"} 2.057632752e+09
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_Vote"} 7.414290596e+10
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_VoteSetBits"} 9.1069056e+07
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="consensus_VoteSetMaj23"} 1.45374249e+08
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="mempool_Txs"} 7.684677e+06
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="p2p_PexAddrs"} 5.14660257e+08
+cometbft_p2p_message_send_bytes_total{chain_id="nillion-chain-testnet-1",message_type="p2p_PexRequest"} 42960
+# HELP cometbft_p2p_peer_pending_send_bytes Pending bytes to be sent to a given peer.
+# TYPE cometbft_p2p_peer_pending_send_bytes gauge
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 170
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 100
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 187
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 183
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 212
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 210
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 216
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 100
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 204
+cometbft_p2p_peer_pending_send_bytes{chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 0
+# HELP cometbft_p2p_peer_receive_bytes_total Number of bytes received from a given peer.
+# TYPE cometbft_p2p_peer_receive_bytes_total counter
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 3.046308e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 2.61359e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 1.0294814e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="20e1000e88125698264454a884812746c2eb4807"} 51902
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 2.28462e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 492716
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 2.480967e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 4.763928e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 197623
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 2.751766e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 2.565854e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 518934
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 2.020128e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 4.502387e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 2.50355e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 3.399317e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 3.42464e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 125972
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 2.206156e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 228702
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0"} 577021
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 1.154774e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="babc3f3f7804933265ec9c40ad94f4da8e9e0017"} 257316
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="c06d93fb95cfbbe69bffea605661e8cc53d15733"} 257939
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 1.734657e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 1.861841e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 2.244378e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 1.950925e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="d1d43cc7c7aef715957289fd96a114ecaa7ba756"} 1130
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 132883
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 1.985731e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 6.032894e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 4.98665553e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 7.30132505e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 3.00723514e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 5.24476191e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 1.25679361e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 3.9728185e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 5.19717223e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 2.270529e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 9.11869182e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 5.06831916e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 1.42226136e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 6.83806783e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 9.64829994e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 4.83486951e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 9.6321294e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 9.16422034e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 1.589895e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 9.47668726e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 6.158677e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 5.03736711e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 4.65872993e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 4.37834625e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 2.92323517e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 8.1014294e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 1.337757e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 5.9129517e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 2.26173002e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 2.723825186e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 3.9921307e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 1.51548525e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 2.760329926e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 6.62088457e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 2.17982603e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 2.780605205e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 1.2018861e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 5.002588346e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 2.784294671e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 7.56570544e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 3.661504295e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 5.223832681e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 2.474578243e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 5.22642993e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 4.284590787e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 8.373652e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 5.013023847e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 3.3005115e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 2.77474239e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 2.536016244e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 2.391212154e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 1.533165095e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 4.30588291e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 7.267526e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 3.140636781e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 1.203359939e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 5.917080814e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 8.692169012e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 2.601313673e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 6.091271085e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 1.485929318e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 4.78222475e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 6.13093558e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 2.8108932e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 1.0716900228e+10
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 6.152699286e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 1.815122978e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 7.818529787e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 1.1173786945e+10
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 5.539361064e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 1.140346075e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 9.69790946e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 1.7733996e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 1.0951350525e+10
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 7.6263035e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 6.009338835e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 5.472427013e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 5.06500058e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 3.551241855e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 9.66609414e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 1.54523955e+08
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 7.067853806e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 2.620363148e+09
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 2.18046e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 3.82527e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 2.337982e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 2.630951e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 560417
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 2.018726e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 2.548528e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 9156
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 4.632071e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 2.239528e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 579523
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 4.168119e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 4.846552e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 2.927988e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 427389
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 5.682289e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 7130
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 5.979641e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 24794
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 2.466774e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 2.392225e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 2.275088e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 1.383883e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 379307
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 66631
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 2.900413e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 1.231596e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 389555
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 590335
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 243158
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 407561
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 97027
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 288286
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 421521
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 3180
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 722916
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 426783
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 108183
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 516096
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 736779
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 360821
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 77005
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 692301
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 752016
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 7981
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 376154
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 362377
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 342248
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 204643
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 68432
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 10243
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 442349
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 170748
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 156
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 108
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 5688
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 192
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 60
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 48
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 108
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 48
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 216
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 168
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 13914
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 204
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 132
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 72
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 288
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 60
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 12
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 13983
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 36
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 132
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 84
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 84
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 36
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 216
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 24
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 180
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 72
+# HELP cometbft_p2p_peer_send_bytes_total Number of bytes sent to a given peer.
+# TYPE cometbft_p2p_peer_send_bytes_total counter
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 2.6863117e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 3.9032591e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 1.9168573e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="20e1000e88125698264454a884812746c2eb4807"} 164
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 1.9663283e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 5.645766e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 5.880934e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 2.4801548e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 82509
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 4.1999561e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 2.3607193e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 5.091395e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 3.2831443e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 4.7271922e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 1.9997842e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 6.236194e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 5.2729956e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 18
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 1.7604902e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 209804
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0"} 548
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 2.5976659e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="babc3f3f7804933265ec9c40ad94f4da8e9e0017"} 458
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="c06d93fb95cfbbe69bffea605661e8cc53d15733"} 486
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 2.4388983e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 2.072445e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 1.9066193e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 5.327663e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="d1d43cc7c7aef715957289fd96a114ecaa7ba756"} 696
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 257884
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 2.4090726e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 6.149756e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 5.07467874e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 7.53063647e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 3.18361602e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 5.37853552e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 1.27771922e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 4.1070471e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 5.3543819e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 2.322757e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 9.40376594e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 5.1683307e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 1.45589925e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 6.98933641e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 9.7952193e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 4.93882438e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 9.7873454e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 9.22104336e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 1.607024e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 9.83372098e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 6.226158e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 5.18611178e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 4.75860099e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 4.46472153e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 2.96737401e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 8.2277065e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 1.3431604e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 6.09937553e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 2.28916456e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 7.87184505e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 2.266957721e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 8.36779032e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 2.007184147e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 5.27250979e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 1.250141487e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 2.111682977e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 8.512153e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 2.059376605e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 6.82047677e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 5.71557834e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 1.995010331e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 2.260462926e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 2.103771343e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 1.44432807e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 4.57341602e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 2.761982e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 3.616439751e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 2.0626666e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 1.270441419e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 8.26258615e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 1.163130094e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 1.236995955e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 2.11312571e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 3.1785598e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 2.513240921e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 8.00541827e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 8.20313209e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 4.260214148e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 3.309426131e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 4.634588121e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 1.115725715e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 2.444947924e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 4.592991714e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 1.6268786e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 3.93590832e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 7.84124797e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 1.265994647e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 3.685747687e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 4.450904559e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 4.709835724e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 1.66045122e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 9.776034692e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 5.603116e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 8.615060714e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 3.323094e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 2.202484246e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 1.036268099e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 2.125803807e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 2.844156168e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 3.36402336e+08
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 7.4310346e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 5.362704854e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 1.537810038e+09
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 5.019388e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 6.460431e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 1.802751e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 3.595967e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 804131
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 3.351573e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 3.550396e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 15443
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 8.232037e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 5.255128e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 906793
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 5.792443e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 8.390215e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 2.968269e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 963808
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 5.416179e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 15324
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 6.681098e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 48657
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 4.535004e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 4.843101e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 3.84795e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 1.906562e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 732612
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 108910
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 4.004638e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 1.820248e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 227969
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 534355
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 214991
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 395439
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 94884
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 271589
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 409859
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 3180
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 655542
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 184813
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 106766
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 491401
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 663585
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 352334
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 41539
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 675588
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 328
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 730603
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 7677
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 328649
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 159616
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 324152
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 199133
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 48320
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 8977
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 429563
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 123825
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="1a46024b7eb973c05f8f51c032bd2f7ddd6e9d77"} 156
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="1a507869873fa1774f101e704bc7b9cc1549a21c"} 108
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="1f0910e8021748d24c943359b4f89c91800597e0"} 5700
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="25d9320d62fd1987c10f6536924e0ddddbbd7cf4"} 192
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="25f16167fb89ef4d7f67750426c78284397ba11e"} 60
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="37b858e3dc887298e0baf2099f2248a339f070bc"} 48
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="3df0ed6df871fb80b5fab5ca09ca27e497184025"} 108
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="58a9abcf9f032ceab2634c088efc8a65726eb058"} 48
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="58f1c7da6e46d264e84b4b00fdfe6050167f6cf1"} 216
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="5a5986767f0b752a3e40098950df2378cbe1a2bf"} 168
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="5d756d42d59783bb8f35a4cc84a070db013c6605"} 64
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="7004b5ab387d27ba449b07a19a0a3af431bebb3d"} 204
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="7183c9519d5040a3569f2cabae5d67174e639ce7"} 132
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="721fe16875a18267f5a79f664df51a9cc53281cd"} 96
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="73a2f0ef7dd9b573440e09611f03fb69827c4794"} 288
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="7b9200dfdf1dc308c49199fb062b932ca42cdbf5"} 60
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="96c1c0bcada9c2d59c8a4333015d2ca14c6ca246"} 12
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="a86fc25226609a73a2eef37fed002db1d136beb4"} 124
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="a98484ac9cb8235bd6a65cdf7648107e3d14dab4"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="b8b9c0b6de9c6d0380019cf183a534cc9c26a325"} 132
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="c0715da9d20a37416570a3f9ae7da903e86dcca0"} 84
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="c207cf5136c1ccbd239a8c8442dd748adff60234"} 84
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="cb6ae22e1e89d029c55f2cb400b0caa19cbe5523"} 36
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="cf9496455eda17405a2d90c587dd0f55f4993506"} 216
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="d205d6be2c30e945827feae667530668d947a060"} 24
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="e4855d41f3e66d961215d48ac8eabe309cfd4437"} 180
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="nillion-chain-testnet-1",peer_id="f59852bf053ba017a0c4f4ea064294b9ef74926c"} 72
+# HELP cometbft_p2p_peers Number of peers.
+# TYPE cometbft_p2p_peers gauge
+cometbft_p2p_peers{chain_id="nillion-chain-testnet-1"} 10
+# HELP cometbft_state_block_processing_time Time spent processing FinalizeBlock
+# TYPE cometbft_state_block_processing_time histogram
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="1"} 0
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="11"} 888247
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="21"} 1.243327e+06
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="31"} 1.261879e+06
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="41"} 1.262861e+06
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="51"} 1.263363e+06
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="61"} 1.263679e+06
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="71"} 1.263862e+06
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="81"} 1.264006e+06
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="91"} 1.264124e+06
+cometbft_state_block_processing_time_bucket{chain_id="nillion-chain-testnet-1",le="+Inf"} 1.265171e+06
+cometbft_state_block_processing_time_sum{chain_id="nillion-chain-testnet-1"} 1.375847143260909e+07
+cometbft_state_block_processing_time_count{chain_id="nillion-chain-testnet-1"} 1.265171e+06
+# HELP cometbft_state_consensus_param_updates Number of consensus parameter updates returned by the application since process start.
+# TYPE cometbft_state_consensus_param_updates counter
+cometbft_state_consensus_param_updates{chain_id="nillion-chain-testnet-1"} 1.265171e+06
+# HELP cometbft_state_validator_set_updates Number of validator set updates returned by the application since process start.
+# TYPE cometbft_state_validator_set_updates counter
+cometbft_state_validator_set_updates{chain_id="nillion-chain-testnet-1"} 73
+# HELP go_gc_duration_seconds A summary of the pause duration of garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 8.1093e-05
+go_gc_duration_seconds{quantile="0.25"} 0.000105783
+go_gc_duration_seconds{quantile="0.5"} 0.000143895
+go_gc_duration_seconds{quantile="0.75"} 0.000241448
+go_gc_duration_seconds{quantile="1"} 0.001412876
+go_gc_duration_seconds_sum 10.156856375
+go_gc_duration_seconds_count 43874
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 146
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.22.3"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated and still in use.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 2.812601792e+09
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated, even if freed.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 2.4584663516024e+13
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 1.431239e+07
+# HELP go_memstats_frees_total Total number of frees.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 2.77530378657e+11
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 3.26884e+07
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and still in use.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 2.812601792e+09
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 1.125982208e+09
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use.
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 3.049578496e+09
+# HELP go_memstats_heap_objects Number of allocated objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 3.9852902e+07
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 6.50215424e+08
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 4.175560704e+09
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.7677674561236048e+09
+# HELP go_memstats_lookups_total Total number of pointer lookups.
+# TYPE go_memstats_lookups_total counter
+go_memstats_lookups_total 0
+# HELP go_memstats_mallocs_total Total number of mallocs.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 2.77570231559e+11
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 4800
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 15600
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 4.74928e+07
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 5.330112e+07
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 5.368413136e+09
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 6.705634e+06
+# HELP go_memstats_stack_inuse_bytes Number of bytes in use by the stack allocator.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 1.900544e+06
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 1.900544e+06
+# HELP go_memstats_sys_bytes Number of bytes obtained from system.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 4.284484392e+09
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 14
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 847230.92
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 256
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 3.888095232e+09
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.7622417363e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 5.609598976e+09
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes 1.8446744073709552e+19
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 543703
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0

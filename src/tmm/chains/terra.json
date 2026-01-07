@@ -1,0 +1,198 @@
+{
+    "name": "Terra",
+    "chain_id": [
+        "phoenix-1",
+        "pisco-1"
+    ],
+    "endpoints": [
+        "http://localhost:26660/metrics"
+    ],
+    "metrics": {
+        "block_consensus": [
+            {
+                "name": "Block Height",
+                "metric": "tendermint_consensus_height",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Latest Block Height",
+                "metric": "tendermint_consensus_latest_block_height",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Block Age",
+                "metric": "block_age",
+                "type": "gauge",
+                "format": "duration"
+            },
+            {
+                "name": "Block Size",
+                "metric": "tendermint_consensus_block_size_bytes",
+                "type": "gauge",
+                "format": "bytes"
+            },
+            {
+                "name": "Block Interval",
+                "metric": "tendermint_consensus_block_interval_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg"
+            },
+            {
+                "name": "Catching Up",
+                "metric": "tendermint_blocksync_syncing",
+                "type": "gauge",
+                "format": "bool"
+            },
+            {
+                "name": "Num Transactions",
+                "metric": "tendermint_consensus_num_txs",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Total Transactions",
+                "metric": "tendermint_consensus_total_txs",
+                "type": "gauge",
+                "format": "int"
+            }
+        ],
+        "validators": [
+            {
+                "name": "Validators",
+                "metric": "tendermint_consensus_validators",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Total Voting Power",
+                "metric": "tendermint_consensus_validators_power",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Missing Validators",
+                "metric": "tendermint_consensus_missing_validators",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Missing Power",
+                "metric": "tendermint_consensus_missing_validators_power",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Byzantine Validators",
+                "metric": "tendermint_consensus_byzantine_validators",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Byzantine Power",
+                "metric": "tendermint_consensus_byzantine_validators_power",
+                "type": "gauge",
+                "format": "int"
+            }
+        ],
+        "mempool": [
+            {
+                "name": "Mempool Size",
+                "metric": "tendermint_mempool_size",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Mempool Bytes",
+                "metric": "tendermint_mempool_size_bytes",
+                "type": "gauge",
+                "format": "bytes"
+            },
+            {
+                "name": "Failed Txs",
+                "metric": "tendermint_mempool_failed_txs",
+                "type": "counter",
+                "format": "int"
+            },
+            {
+                "name": "Recheck Times",
+                "metric": "tendermint_mempool_recheck_times",
+                "type": "counter",
+                "format": "int"
+            }
+        ],
+        "network": [
+            {
+                "name": "Number of Peers",
+                "metric": "tendermint_p2p_peers",
+                "type": "gauge",
+                "format": "peer_count"
+            },
+            {
+                "name": "Duplicate Votes",
+                "metric": "tendermint_consensus_duplicate_vote",
+                "type": "counter",
+                "format": "int"
+            },
+            {
+                "name": "Duplicate Block Parts",
+                "metric": "tendermint_consensus_duplicate_block_part",
+                "type": "counter",
+                "format": "int"
+            },
+            {
+                "name": "P2P Bytes Received",
+                "metric": "tendermint_p2p_peer_receive_bytes_total",
+                "type": "counter",
+                "format": "bytes_sum"
+            },
+            {
+                "name": "P2P Bytes Sent",
+                "metric": "tendermint_p2p_peer_send_bytes_total",
+                "type": "counter",
+                "format": "bytes_sum"
+            }
+        ],
+        "performance": [
+            {
+                "name": "Round Duration",
+                "metric": "tendermint_consensus_round_duration_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg"
+            },
+            {
+                "name": "Finalize Block Time",
+                "metric": "tendermint_abci_connection_method_timing_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg",
+                "labels": {
+                    "method": "finalize_block"
+                }
+            },
+            {
+                "name": "Commit Time",
+                "metric": "tendermint_abci_connection_method_timing_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg",
+                "labels": {
+                    "method": "commit"
+                }
+            },
+            {
+                "name": "Process Proposal Time",
+                "metric": "tendermint_abci_connection_method_timing_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg",
+                "labels": {
+                    "method": "process_proposal"
+                }
+            }
+        ]
+    }
+}

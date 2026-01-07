@@ -1,0 +1,756 @@
+# HELP go_gc_duration_seconds A summary of the wall-time pause (stop-the-world) duration in garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 7.4968e-05
+go_gc_duration_seconds{quantile="0.25"} 0.000126178
+go_gc_duration_seconds{quantile="0.5"} 0.000172001
+go_gc_duration_seconds{quantile="0.75"} 0.000265064
+go_gc_duration_seconds{quantile="1"} 0.000978206
+go_gc_duration_seconds_sum 5.149130745
+go_gc_duration_seconds_count 26470
+# HELP go_gc_gogc_percent Heap size target percentage configured by the user, otherwise 100. This value is set by the GOGC environment variable, and the runtime/debug.SetGCPercent function. Sourced from /gc/gogc:percent
+# TYPE go_gc_gogc_percent gauge
+go_gc_gogc_percent 100
+# HELP go_gc_gomemlimit_bytes Go runtime memory limit configured by the user, otherwise math.MaxInt64. This value is set by the GOMEMLIMIT environment variable, and the runtime/debug.SetMemoryLimit function. Sourced from /gc/gomemlimit:bytes
+# TYPE go_gc_gomemlimit_bytes gauge
+go_gc_gomemlimit_bytes 9.223372036854776e+18
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 73
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.23.6"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated in heap and currently in use. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 9.97101936e+08
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated in heap until now, even if released already. Equals to /gc/heap/allocs:bytes.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 1.8109158493472e+13
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table. Equals to /memory/classes/profiling/buckets:bytes.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 3.55631436e+08
+# HELP go_memstats_frees_total Total number of heap objects frees. Equals to /gc/heap/frees:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 2.36145714519e+11
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata. Equals to /memory/classes/metadata/other:bytes.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 1.9799224e+07
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and currently in use, same as go_memstats_alloc_bytes. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 9.97101936e+08
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used. Equals to /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 4.38493184e+08
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 1.279041536e+09
+# HELP go_memstats_heap_objects Number of currently allocated objects. Equals to /gc/heap/objects:objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 4.687249e+06
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS. Equals to /memory/classes/heap/released:bytes.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 4.4253184e+07
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes + /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 1.71753472e+09
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.7677674966759996e+09
+# HELP go_memstats_mallocs_total Total number of heap objects allocated, both live and gc-ed. Semantically a counter version for go_memstats_heap_objects gauge. Equals to /gc/heap/allocs:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 2.36150401768e+11
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures. Equals to /memory/classes/metadata/mcache/inuse:bytes.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 4800
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system. Equals to /memory/classes/metadata/mcache/inuse:bytes + /memory/classes/metadata/mcache/free:bytes.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 15600
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures. Equals to /memory/classes/metadata/mspan/inuse:bytes.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 1.22744e+07
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system. Equals to /memory/classes/metadata/mspan/inuse:bytes + /memory/classes/metadata/mspan/free:bytes.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 1.987776e+07
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place. Equals to /gc/heap/goal:bytes.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 1.597505936e+09
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations. Equals to /memory/classes/other:bytes.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 2.879012e+06
+# HELP go_memstats_stack_inuse_bytes Number of bytes obtained from system for stack allocator in non-CGO environments. Equals to /memory/classes/heap/stacks:bytes.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 2.031616e+06
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator. Equals to /memory/classes/heap/stacks:bytes + /memory/classes/os-stacks:bytes.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 2.031616e+06
+# HELP go_memstats_sys_bytes Number of bytes obtained from system. Equals to /memory/classes/total:byte.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 2.117769368e+09
+# HELP go_sched_gomaxprocs_threads The current runtime.GOMAXPROCS setting, or the number of operating system threads that can execute user-level Go code simultaneously. Sourced from /sched/gomaxprocs:threads
+# TYPE go_sched_gomaxprocs_threads gauge
+go_sched_gomaxprocs_threads 4
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 14
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 364826.29
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 65535
+# HELP process_network_receive_bytes_total Number of bytes received by the process over the network.
+# TYPE process_network_receive_bytes_total counter
+process_network_receive_bytes_total 4.43989138303e+11
+# HELP process_network_transmit_bytes_total Number of bytes sent by the process over the network.
+# TYPE process_network_transmit_bytes_total counter
+process_network_transmit_bytes_total 3.10157292309e+11
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 492
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 2.530967552e+09
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.76520296677e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 4.14595072e+09
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes 1.8446744073709552e+19
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 247706
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0
+# HELP tendermint_abci_connection_method_timing_seconds Timing for each ABCI method.
+# TYPE tendermint_abci_connection_method_timing_seconds histogram
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="0.0001"} 1623
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="0.0004"} 169910
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="0.002"} 796927
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="0.009"} 851469
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="0.02"} 852091
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="0.1"} 852390
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="0.65"} 853158
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="2"} 853340
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="6"} 853360
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="25"} 853360
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="check_tx",type="async",le="+Inf"} 853360
+tendermint_abci_connection_method_timing_seconds_sum{chain_id="phoenix-1",method="check_tx",type="async"} 1238.639410879023
+tendermint_abci_connection_method_timing_seconds_count{chain_id="phoenix-1",method="check_tx",type="async"} 853360
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="0.0001"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="0.0004"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="0.002"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="0.009"} 194927
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="0.02"} 392363
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="0.1"} 406317
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="0.65"} 428893
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="2"} 436967
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="6"} 440640
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="25"} 441919
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="commit",type="sync",le="+Inf"} 441923
+tendermint_abci_connection_method_timing_seconds_sum{chain_id="phoenix-1",method="commit",type="sync"} 44952.19329044272
+tendermint_abci_connection_method_timing_seconds_count{chain_id="phoenix-1",method="commit",type="sync"} 441923
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="0.0001"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="0.0004"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="0.002"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="0.009"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="0.02"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="0.1"} 364388
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="0.65"} 429300
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="2"} 439564
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="6"} 441923
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="25"} 441923
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="finalize_block",type="sync",le="+Inf"} 441923
+tendermint_abci_connection_method_timing_seconds_sum{chain_id="phoenix-1",method="finalize_block",type="sync"} 52239.114019470544
+tendermint_abci_connection_method_timing_seconds_count{chain_id="phoenix-1",method="finalize_block",type="sync"} 441923
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="0.0001"} 489629
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="0.0004"} 489631
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="0.002"} 489633
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="0.009"} 489633
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="0.02"} 489633
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="0.1"} 489633
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="0.65"} 489633
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="2"} 489633
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="6"} 489633
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="25"} 489633
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="flush",type="sync",le="+Inf"} 489633
+tendermint_abci_connection_method_timing_seconds_sum{chain_id="phoenix-1",method="flush",type="sync"} 0.386918717000008
+tendermint_abci_connection_method_timing_seconds_count{chain_id="phoenix-1",method="flush",type="sync"} 489633
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="0.0001"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="0.0004"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="0.002"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="0.009"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="0.02"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="0.1"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="0.65"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="2"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="6"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="25"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="info",type="sync",le="+Inf"} 1
+tendermint_abci_connection_method_timing_seconds_sum{chain_id="phoenix-1",method="info",type="sync"} 0.000211105
+tendermint_abci_connection_method_timing_seconds_count{chain_id="phoenix-1",method="info",type="sync"} 1
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="0.0001"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="0.0004"} 675
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="0.002"} 848
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="0.009"} 849
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="0.02"} 849
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="0.1"} 849
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="0.65"} 849
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="2"} 849
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="6"} 849
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="25"} 849
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="prepare_proposal",type="sync",le="+Inf"} 849
+tendermint_abci_connection_method_timing_seconds_sum{chain_id="phoenix-1",method="prepare_proposal",type="sync"} 0.293777751
+tendermint_abci_connection_method_timing_seconds_count{chain_id="phoenix-1",method="prepare_proposal",type="sync"} 849
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="0.0001"} 0
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="0.0004"} 400254
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="0.002"} 437612
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="0.009"} 437722
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="0.02"} 437732
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="0.1"} 437733
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="0.65"} 437734
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="2"} 437734
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="6"} 437734
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="25"} 437734
+tendermint_abci_connection_method_timing_seconds_bucket{chain_id="phoenix-1",method="process_proposal",type="sync",le="+Inf"} 437734
+tendermint_abci_connection_method_timing_seconds_sum{chain_id="phoenix-1",method="process_proposal",type="sync"} 132.08694789400147
+tendermint_abci_connection_method_timing_seconds_count{chain_id="phoenix-1",method="process_proposal",type="sync"} 437734
+# HELP tendermint_blocksync_block_size_bytes Size of the latest block.
+# TYPE tendermint_blocksync_block_size_bytes gauge
+tendermint_blocksync_block_size_bytes{chain_id="phoenix-1"} 11540
+# HELP tendermint_blocksync_latest_block_height The height of the latest block.
+# TYPE tendermint_blocksync_latest_block_height gauge
+tendermint_blocksync_latest_block_height{chain_id="phoenix-1"} 1.8660234e+07
+# HELP tendermint_blocksync_num_txs Number of transactions in the latest block.
+# TYPE tendermint_blocksync_num_txs gauge
+tendermint_blocksync_num_txs{chain_id="phoenix-1"} 3
+# HELP tendermint_blocksync_syncing Whether or not a node is block syncing. 1 if yes, 0 if no.
+# TYPE tendermint_blocksync_syncing gauge
+tendermint_blocksync_syncing{chain_id="phoenix-1"} 0
+# HELP tendermint_blocksync_total_txs Total number of transactions.
+# TYPE tendermint_blocksync_total_txs gauge
+tendermint_blocksync_total_txs{chain_id="phoenix-1"} 605
+# HELP tendermint_consensus_block_gossip_parts_received Number of block parts received by the node, separated by whether the part was relevant to the block the node is trying to gather or not.
+# TYPE tendermint_consensus_block_gossip_parts_received counter
+tendermint_consensus_block_gossip_parts_received{chain_id="phoenix-1",matches_current="false"} 3670
+tendermint_consensus_block_gossip_parts_received{chain_id="phoenix-1",matches_current="true"} 445904
+# HELP tendermint_consensus_block_interval_seconds Time between this and the last block.
+# TYPE tendermint_consensus_block_interval_seconds histogram
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="0.005"} 0
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="0.01"} 0
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="0.025"} 0
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="0.05"} 0
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="0.1"} 0
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="0.25"} 0
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="0.5"} 0
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="1"} 0
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="2.5"} 2561
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="5"} 12380
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="10"} 441177
+tendermint_consensus_block_interval_seconds_bucket{chain_id="phoenix-1",le="+Inf"} 441706
+tendermint_consensus_block_interval_seconds_sum{chain_id="phoenix-1"} 2.564478437359332e+06
+tendermint_consensus_block_interval_seconds_count{chain_id="phoenix-1"} 441706
+# HELP tendermint_consensus_block_parts Number of block parts transmitted by each peer.
+# TYPE tendermint_consensus_block_parts counter
+tendermint_consensus_block_parts{chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 448714
+# HELP tendermint_consensus_block_size_bytes Size of the block.
+# TYPE tendermint_consensus_block_size_bytes gauge
+tendermint_consensus_block_size_bytes{chain_id="phoenix-1"} 13953
+# HELP tendermint_consensus_byzantine_validators Number of validators who tried to double sign.
+# TYPE tendermint_consensus_byzantine_validators gauge
+tendermint_consensus_byzantine_validators{chain_id="phoenix-1"} 0
+# HELP tendermint_consensus_byzantine_validators_power Total power of the byzantine validators.
+# TYPE tendermint_consensus_byzantine_validators_power gauge
+tendermint_consensus_byzantine_validators_power{chain_id="phoenix-1"} 0
+# HELP tendermint_consensus_chain_size_bytes Size of the chain in bytes.
+# TYPE tendermint_consensus_chain_size_bytes counter
+tendermint_consensus_chain_size_bytes{chain_id="phoenix-1"} 7.491065334e+09
+# HELP tendermint_consensus_duplicate_block_part Number of times we received a duplicate block part
+# TYPE tendermint_consensus_duplicate_block_part counter
+tendermint_consensus_duplicate_block_part{chain_id="phoenix-1"} 4
+# HELP tendermint_consensus_duplicate_vote Number of times we received a duplicate vote
+# TYPE tendermint_consensus_duplicate_vote counter
+tendermint_consensus_duplicate_vote{chain_id="phoenix-1"} 56900
+# HELP tendermint_consensus_full_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the latest prevote in a round where all validators voted.
+# TYPE tendermint_consensus_full_prevote_delay gauge
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="05F2A6AE0DDA13963C6BD19B468FCB9C0333FDBA"} 0.592422794
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="0B5185DFE952894F9B30F30AA1297498B911DE52"} 0.83082828
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="0C5891B286670CEDB0953472A59006B2B2894011"} 0.441633235
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="17F3EA82539270B51489C2DFCDE627EFB571126B"} 0.455197842
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="1947BAB3F5D380705D65947A1EA780B3A2242584"} 0.544307657
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="19CD09D2D9149F25B1E45EE34896F0955DCDAC17"} 1.173094027
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="1A6593FD6BDFC0C13BBD065008579589762B95EA"} 0.591918338
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="1A9C846918E7432385744829DA63EE62A4B8DF93"} 0.553472341
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="1B264B03B17FEA189CB871FCBEAA4EC543DED901"} 0.61836248
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="1B2EC02124375D94452105F0D29814C8859FA7B4"} 0.574234421
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="21BF557E61A521634B4A36A93C2FA76A29B6BB8E"} 0.885913741
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="221BA5495C0CBF5620709073F82F3068095C3E02"} 0.634807715
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="256A21FDB45BB5911385774C2991CD92FF6CBB44"} 0.639472133
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="291F25211081DC7AECF6E396DDA3A9AEA9D939EC"} 0.68888644
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="2B9C2C6AC846345D29E5451B3B6E118AAF1872C0"} 0.950112284
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="2C2500F4AEA30FF52F2F674F5A31FF939E6163DD"} 1.756222057
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="2DFEB0A77EA3941B047DADE49DB3DB0CDCED8A45"} 0.522260157
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="2FDCFF5B6422F8E29D7DDE00DC5E4ECF3FC76521"} 0.572313081
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="313A2FC29C0B184E912E1EA12B5E23C34E9DA013"} 0.865147534
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="3168666EEA7688F792C4ABB3BA0CF6722C95A43C"} 0.528325287
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="3A5DF2935BF1005BDC342016575AB3BAADBC72E3"} 0.606056311
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="3E17816DBE76D5ECC4C3E8C30C557F0071CA2EDF"} 0.566686664
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="3F24BD200EE3226E2AA3C4672E5E1B26E436E2AF"} 0.600669585
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="3FEF5D162A994AAF3F48F6147843179E2372CAF0"} 0.805645239
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="421B90C68CC68257B280C715710A6A00837CE4EF"} 0.585049454
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="421C3C877C31CF1644715848EDB1AEEC7A12AB4F"} 0.986552438
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="42E146E7103C3559C60E3D8E94EF32372D277B71"} 0.604498969
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="455395F0B6D93C33E26FCF4E44FEFB6B6F3F170A"} 0.535882607
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="4802F6BB4317D75EFA7F370E21E8DC4196CF23A0"} 0.732169296
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="49B0979A48BFC937D1608010F4E0C56FA5CF0F68"} 1.031646578
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="4D8479B0A9D3FE3806A3D3E9D3BB6E033B0EAB7F"} 0.587901828
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="5150CFC168D03884D7F4B24268A8DE181435DD93"} 0.589446816
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="548FA667FE31325969AAD99B553CBB49D683811E"} 0.804101958
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="54C452BCD7F4768E940305555AB894A98FE08B9E"} 0.469685566
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="56B0DF71C5DD942B1C8F478174E6A94022C70AF3"} 0.676645851
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="58779F2B30A95ABDD4ACB70D9A1FCE240685A45A"} 0.620221972
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="58825EFB8B1B8AED372D32742827FFE01D6FB682"} 0.768383847
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="590441E1D01445FE3C8EE755EAB107590C322665"} 0.568917349
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="5CF51663BB8B0E5A771699DCA59871BD6F77C7B2"} 0.72165419
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="60F9EB16E4B998E5052E46EA209C620FFEC96A18"} 0.600391911
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="6283E86EE130D5A17B166FD09640C4191956C812"} 0.632421446
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="63A6230891927E830B313C66ECBA2157BDE5F018"} 0.732723785
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="66AECDC208534D569633F46C337AC85780E49435"} 0.630083595
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="68D02947EB450DCB13EF0406C90AFF70225116F6"} 0.493503636
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="72C509712C9BB437E1AD3222F833AE005BB8FDE7"} 0.889778272
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="76F1939F28DD87014E4CB608A68F609934E485BA"} 0.486489236
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="777373DF482C6B1D7DAFD5D107ECC8A8A17A8100"} 1.017186577
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="7B3DFDC2D901C99F5DCDD8C4242EB03AF984E0E9"} 0.782411314
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="7BF0362D0AC559F95AAA4CDE334F3CB5751B86B0"} 0.652740742
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="7FF6293607F97CAB86277387A8B09462F8AC04BF"} 0.604589831
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="877D2C8AD5EBB39778440A941CE47E480636B9C5"} 0.729020104
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="8A375756F881F83B413B3C15CB9E5328304E5898"} 0.658866523
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="8AE0439E6C66304B67EA8D064917FCC259BE9FDE"} 0.806879494
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="8F6AFD1ADAA1A117C178C57C373DD69EBBE4B206"} 0.712103784
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="90C3ABA56EEA9F8FAA2707E77B77611D6E6B0A08"} 0.815628978
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="922ADC197963862517E9738320D0529FDA6330BE"} 0.540548495
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="94A4110868AF8076E4E0A264D1F1A665C750CE81"} 0.791113235
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="996EE07076DF8E63904F9E0E835B630DA9325546"} 0.544435988
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="9C290E0A06A489FDE16702BB940698677778AA9B"} 0.897924423
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="9DD5F0B529E73ED4D882E3377FA1AEC686EA9B6F"} 0.516751831
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="9E3D9F2D519B2DA2D137B3F5D9FAB255FAFB5812"} 0.580836397
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="9ED42FF42CAA1E54A5EA25FB620A3627B3C40A20"} 0.534858667
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="A0A4870B3C34CCE43F0BA84E582393250CFCD6DA"} 0.593684221
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="A2F71B9CF251E095E3EAE0661DF59189DB964105"} 0.862384317
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="A3A26DB01FF26B811D84550876F31B0223402C0A"} 0.544723699
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="A550A1CD72271E422CDEAA94120E05A122FA9DD4"} 0.535676
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="A85C21BD66F3A25BC3CEC724756165B5C0802921"} 0.830302705
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="A90AC2158B770C4AEE6752C577B5692C36D32BE3"} 0.734749523
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="ADD82A33BB21D7B3D3800CB1CCF104C96848B256"} 0.725187874
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="AE049431F950EE5A5C338141FDDBCBE6558D8BB3"} 0.597767893
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="B0DE8E2CB8FCEED9BA30E5BE31B6DC0B3AE6857A"} 0.532990577
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="B57D3F7383E60CDBE681C519A63A4D7AE78DAD7C"} 0.861067514
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="B6D4C1E65433E982D1B7F671ED4507E3378CD03C"} 0.595736564
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="BA6B098FB7132CDB6E4B6C1DA1C1845051DFDF3F"} 0.772028339
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="BCEF60E3DC680D2D8D033A8EEE9669B52F32D80C"} 0.89125826
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="BCFDC3813411FE4E265F10CB1FB179FBDA188AA2"} 0.547193426
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="C24A7D204E0A07736EAF8A7E76820CD868565B0E"} 0.980054721
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="C28F95D32E0B4076DB8DDF58826649FAB3B9B96B"} 0.774873297
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="C7385B6D785E33168BCA30F4CA4B6F984C70430B"} 0.634005155
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="C74723B80356A80A34A43759D9C62E6D7BB983A9"} 0.509559117
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="C7D7F29FDBEE0D780BA5B7235F63D7FCD498192F"} 0.689441063
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="C7E97B374E04FBD5132E023947883B7623725C59"} 0.504278302
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="CB55FA8BD6E622C870DE22DBE5666625DCE58EE1"} 47.145186332
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="CC94C979CEFD78F51C5D7CA4DD1A9887FFB7E80E"} 0.80045503
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="CF5D011238A0A03335C3FA325D54EF2019E848CC"} 0.656301563
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="D0CA0ED5667FA94421CFC694C05F4BB3D410F3D1"} 0.619359901
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="D122B41E5606684D34AD7A60FB7C56CE1C13AD3A"} 0.594859599
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="D1E0CBC66454B653F5C8CCE26D54A0625A86A6FD"} 0.620289476
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="D26EE2E72AF72AAA0D0013AF3F4E6AA3E9BCF672"} 0.684119821
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="D27E740B67AB98F1CAC0974BC50E77796838EB48"} 0.529103887
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="D2FC01B9E248CEED2C5FC1C3DFD68BD0347C4F7F"} 0.646917225
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="D369AB309D6F669B1AAEB8E6CA47FF83F2E7ED60"} 0.530510513
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="DC15AF739CD64AE729A014012ECB877DA3ACAA79"} 0.761294725
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="E0F05AD295B822E732529DE650E71A9989365C49"} 0.747218731
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="E1C9DE1FB8FFDD8B411E34627998057A43DB01B2"} 0.794336106
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="E1E61E7F58292F86B33C93D5B72BE4DBA2FBF9D2"} 1.243332038
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="E4FDA67F7C58317D09C962EE8F2FB6FF6EC23BFC"} 0.669618404
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="E5E945647D92AD415888713A1DA364FE42CCA777"} 0.867467142
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="EEA0B7C6329C8A55335781FC61E7122AF7836A7D"} 0.877847846
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="F0EB6E9B281B5B7559E14C6B5189FC6BCF6D015B"} 0.523531959
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="F45E88307E3C532912DE543C8AE740D97D0C7F04"} 0.92488086
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="F83109A06FD18DE8B7920437C50FD89AB9CAA97B"} 0.655878479
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="F8D93F465274628E94F3DAB43C05F3BA691D800E"} 0.742369634
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="F9E901FB4BEA6692F253B04BB94C1D0AB5805005"} 0.703515566
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="FA2416FFA45325B0AC9287933A92DF504F9B2A61"} 0.595496996
+tendermint_consensus_full_prevote_delay{chain_id="phoenix-1",proposer_address="FFCE9C203E43138D662A72BE34CBDFDE3D73CA12"} 0.758491214
+# HELP tendermint_consensus_height Height of the chain.
+# TYPE tendermint_consensus_height gauge
+tendermint_consensus_height{chain_id="phoenix-1"} 1.9101941e+07
+# HELP tendermint_consensus_late_votes LateVotes stores the number of votes that were received by this node that correspond to earlier heights and rounds than this node is currently in.
+# TYPE tendermint_consensus_late_votes counter
+tendermint_consensus_late_votes{chain_id="phoenix-1",vote_type="precommit"} 1.7939801e+07
+tendermint_consensus_late_votes{chain_id="phoenix-1",vote_type="prevote"} 3935
+# HELP tendermint_consensus_latest_block_height The latest block height.
+# TYPE tendermint_consensus_latest_block_height gauge
+tendermint_consensus_latest_block_height{chain_id="phoenix-1"} 1.910194e+07
+# HELP tendermint_consensus_missing_validators Number of validators who did not sign.
+# TYPE tendermint_consensus_missing_validators gauge
+tendermint_consensus_missing_validators{chain_id="phoenix-1"} 0
+# HELP tendermint_consensus_missing_validators_power Total power of the missing validators.
+# TYPE tendermint_consensus_missing_validators_power gauge
+tendermint_consensus_missing_validators_power{chain_id="phoenix-1"} 0
+# HELP tendermint_consensus_num_txs Number of transactions.
+# TYPE tendermint_consensus_num_txs gauge
+tendermint_consensus_num_txs{chain_id="phoenix-1"} 0
+# HELP tendermint_consensus_proposal_create_count ProposalCreationCount is the total number of proposals created by this node since process start. The metric is annotated by the status of the proposal from the application, either 'accepted' or 'rejected'.
+# TYPE tendermint_consensus_proposal_create_count counter
+tendermint_consensus_proposal_create_count{chain_id="phoenix-1"} 849
+# HELP tendermint_consensus_proposal_receive_count ProposalReceiveCount is the total number of proposals received by this node since process start. The metric is annotated by the status of the proposal from the application, either 'accepted' or 'rejected'.
+# TYPE tendermint_consensus_proposal_receive_count counter
+tendermint_consensus_proposal_receive_count{chain_id="phoenix-1",status="accepted"} 437734
+# HELP tendermint_consensus_quorum_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the earliest prevote that achieved a quorum.
+# TYPE tendermint_consensus_quorum_prevote_delay gauge
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="05F2A6AE0DDA13963C6BD19B468FCB9C0333FDBA"} 0.284433622
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="0B5185DFE952894F9B30F30AA1297498B911DE52"} 0.463992339
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="0C5891B286670CEDB0953472A59006B2B2894011"} 0.239936656
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="0FCC2CCB3989426341D3AFD4E489FD083907926F"} 0.287426919
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="17F3EA82539270B51489C2DFCDE627EFB571126B"} 0.275321129
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="1947BAB3F5D380705D65947A1EA780B3A2242584"} 0.24379051
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="19CD09D2D9149F25B1E45EE34896F0955DCDAC17"} 0.296347219
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="1A6593FD6BDFC0C13BBD065008579589762B95EA"} 0.346549455
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="1A9C846918E7432385744829DA63EE62A4B8DF93"} 0.292918146
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="1B264B03B17FEA189CB871FCBEAA4EC543DED901"} 0.252290152
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="1B2EC02124375D94452105F0D29814C8859FA7B4"} 0.235613587
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="21BF557E61A521634B4A36A93C2FA76A29B6BB8E"} 0.28351976
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="221BA5495C0CBF5620709073F82F3068095C3E02"} 0.321495038
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="256A21FDB45BB5911385774C2991CD92FF6CBB44"} 0.246217983
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="291F25211081DC7AECF6E396DDA3A9AEA9D939EC"} 0.19802061
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="2B9C2C6AC846345D29E5451B3B6E118AAF1872C0"} 0.644162493
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="2C2500F4AEA30FF52F2F674F5A31FF939E6163DD"} 0.307359367
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="2DFEB0A77EA3941B047DADE49DB3DB0CDCED8A45"} 0.273799231
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="2FDCFF5B6422F8E29D7DDE00DC5E4ECF3FC76521"} 0.221783219
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="313A2FC29C0B184E912E1EA12B5E23C34E9DA013"} 0.412128992
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="3168666EEA7688F792C4ABB3BA0CF6722C95A43C"} 0.185100864
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="381C932AE926D0E55DF7185FE675BFCDF264064B"} 0.262390936
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="38A0228039875141752828FB72AEBE4210811807"} 0.251692714
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="3A5DF2935BF1005BDC342016575AB3BAADBC72E3"} 0.345014416
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="3AA5F7CCE1D179ECC5F439F3E784C7081C9B210F"} 0.269556793
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="3B832ABE63841892CD87B3D3AA2001800EBC49EB"} 0.280016073
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="3E17816DBE76D5ECC4C3E8C30C557F0071CA2EDF"} 0.409811033
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="3F24BD200EE3226E2AA3C4672E5E1B26E436E2AF"} 0.336180774
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="3FEF5D162A994AAF3F48F6147843179E2372CAF0"} 0.531772496
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="421B90C68CC68257B280C715710A6A00837CE4EF"} 0.292861672
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="421C3C877C31CF1644715848EDB1AEEC7A12AB4F"} 0.574219819
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="42E146E7103C3559C60E3D8E94EF32372D277B71"} 0.292746757
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="455395F0B6D93C33E26FCF4E44FEFB6B6F3F170A"} 0.294628701
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="4802F6BB4317D75EFA7F370E21E8DC4196CF23A0"} 0.243967732
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="49B0979A48BFC937D1608010F4E0C56FA5CF0F68"} 0.462832237
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="4BFB28B2B6582973DA25EBBFB707E724F7E8C2ED"} 0.227549948
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="4D8479B0A9D3FE3806A3D3E9D3BB6E033B0EAB7F"} 0.274668519
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="4DEE86A2776C6654B3BF3444B5670386A9045DCA"} 0.266485189
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="5150CFC168D03884D7F4B24268A8DE181435DD93"} 0.355198093
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="548FA667FE31325969AAD99B553CBB49D683811E"} 0.38277532
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="54C452BCD7F4768E940305555AB894A98FE08B9E"} 0.236143016
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="56B0DF71C5DD942B1C8F478174E6A94022C70AF3"} 0.407857163
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="58779F2B30A95ABDD4ACB70D9A1FCE240685A45A"} 0.254400465
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="58825EFB8B1B8AED372D32742827FFE01D6FB682"} 0.317691225
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="590441E1D01445FE3C8EE755EAB107590C322665"} 0.251348249
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="5CF51663BB8B0E5A771699DCA59871BD6F77C7B2"} 0.286377759
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="60F9EB16E4B998E5052E46EA209C620FFEC96A18"} 0.288349331
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="6283E86EE130D5A17B166FD09640C4191956C812"} 0.33371417
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="6299AB906B502A39CA8C4F27D4B28BABDDDE0835"} 0.33810785
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="63A6230891927E830B313C66ECBA2157BDE5F018"} 0.291434878
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="66AECDC208534D569633F46C337AC85780E49435"} 0.302492572
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="684AB771ABA3E1EFB5CCC98694981CA56978E695"} 0.208773553
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="68D02947EB450DCB13EF0406C90AFF70225116F6"} 0.2569356
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="6DD86A945B37170CFA8990CACB48A4AD90B48B85"} 0.248648657
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="6EDD2F4FD95ADBBEB29DBDC19DE6EF8123321835"} 0.246126542
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="72C509712C9BB437E1AD3222F833AE005BB8FDE7"} 0.294130478
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="76F1939F28DD87014E4CB608A68F609934E485BA"} 0.243439112
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="777373DF482C6B1D7DAFD5D107ECC8A8A17A8100"} 0.291854632
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="7844B6B47A4AF1A34D7D113ADC6CDF57FC8284ED"} 0.247226756
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="7B3DFDC2D901C99F5DCDD8C4242EB03AF984E0E9"} 0.35185533
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="7BF0362D0AC559F95AAA4CDE334F3CB5751B86B0"} 0.27803845
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="7FAE7C8DA9EF36DAEC89FC22934501D4BAC93917"} 0.337042688
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="7FF6293607F97CAB86277387A8B09462F8AC04BF"} 0.301058107
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="877D2C8AD5EBB39778440A941CE47E480636B9C5"} 0.322706997
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="8A375756F881F83B413B3C15CB9E5328304E5898"} 0.39228698
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="8AE0439E6C66304B67EA8D064917FCC259BE9FDE"} 0.388282045
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="8D3659FB8C11BFEB3EAE2E5F317C34A18A4B316A"} 0.3500607
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="8E37F90AF8CD48E11183915852B8E62B3DA013EB"} 0.289981351
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="8F6AFD1ADAA1A117C178C57C373DD69EBBE4B206"} 0.297216201
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="90C3ABA56EEA9F8FAA2707E77B77611D6E6B0A08"} 0.479767519
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="922ADC197963862517E9738320D0529FDA6330BE"} 0.363988015
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="94A4110868AF8076E4E0A264D1F1A665C750CE81"} 0.553044857
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="9685FFDA6BE1FAAAAA8BA9F73D724964985DC5D5"} 0.24551112
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="996EE07076DF8E63904F9E0E835B630DA9325546"} 0.399244974
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="9C290E0A06A489FDE16702BB940698677778AA9B"} 0.647349698
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="9DD5F0B529E73ED4D882E3377FA1AEC686EA9B6F"} 0.275644549
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="9E3D9F2D519B2DA2D137B3F5D9FAB255FAFB5812"} 0.303087232
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="9ED42FF42CAA1E54A5EA25FB620A3627B3C40A20"} 0.285692157
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="A0A4870B3C34CCE43F0BA84E582393250CFCD6DA"} 0.457214941
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="A2F71B9CF251E095E3EAE0661DF59189DB964105"} 0.897003865
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="A3A26DB01FF26B811D84550876F31B0223402C0A"} 0.283684482
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="A3A399D84109AD15BB1E654257B0AC8EE0BAACEE"} 0.2563719
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="A550A1CD72271E422CDEAA94120E05A122FA9DD4"} 0.273019825
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="A85C21BD66F3A25BC3CEC724756165B5C0802921"} 0.381035866
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="A90AC2158B770C4AEE6752C577B5692C36D32BE3"} 0.469360128
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="AB1C8D4AA90C5000E78BA9CE0D45B7199B1EA6CB"} 0.228843831
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="ADD82A33BB21D7B3D3800CB1CCF104C96848B256"} 0.285920853
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="AE049431F950EE5A5C338141FDDBCBE6558D8BB3"} 0.418428
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="B0DE8E2CB8FCEED9BA30E5BE31B6DC0B3AE6857A"} 0.312340742
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="B57D3F7383E60CDBE681C519A63A4D7AE78DAD7C"} 0.76496751
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="B6D4C1E65433E982D1B7F671ED4507E3378CD03C"} 0.287150864
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="BA6B098FB7132CDB6E4B6C1DA1C1845051DFDF3F"} 0.354928691
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="BCEF60E3DC680D2D8D033A8EEE9669B52F32D80C"} 0.452360922
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="BCFDC3813411FE4E265F10CB1FB179FBDA188AA2"} 0.26242642
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="C24A7D204E0A07736EAF8A7E76820CD868565B0E"} 0.489070084
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="C28F95D32E0B4076DB8DDF58826649FAB3B9B96B"} 0.456970257
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="C7385B6D785E33168BCA30F4CA4B6F984C70430B"} 0.388570241
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="C74723B80356A80A34A43759D9C62E6D7BB983A9"} 0.255804832
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="C7D7F29FDBEE0D780BA5B7235F63D7FCD498192F"} 0.241477972
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="C7E97B374E04FBD5132E023947883B7623725C59"} 0.337532792
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="CB55FA8BD6E622C870DE22DBE5666625DCE58EE1"} 46.879702031
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="CC94C979CEFD78F51C5D7CA4DD1A9887FFB7E80E"} 0.331538813
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="CF5D011238A0A03335C3FA325D54EF2019E848CC"} 0.264110268
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="D0CA0ED5667FA94421CFC694C05F4BB3D410F3D1"} 0.242390148
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="D122B41E5606684D34AD7A60FB7C56CE1C13AD3A"} 0.269587679
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="D1E0CBC66454B653F5C8CCE26D54A0625A86A6FD"} 0.420753536
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="D26EE2E72AF72AAA0D0013AF3F4E6AA3E9BCF672"} 0.373579854
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="D27E740B67AB98F1CAC0974BC50E77796838EB48"} 0.223891869
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="D2FC01B9E248CEED2C5FC1C3DFD68BD0347C4F7F"} 0.251086075
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="D369AB309D6F669B1AAEB8E6CA47FF83F2E7ED60"} 0.276665358
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="D92F5047016732EB622543D9682BDE7991AD27B6"} 0.416120508
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="DC15AF739CD64AE729A014012ECB877DA3ACAA79"} 0.342105901
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="E0F05AD295B822E732529DE650E71A9989365C49"} 0.397008189
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="E196EED4C94D4FC3072343416964C348EA878FDE"} 0.248908415
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="E1C9DE1FB8FFDD8B411E34627998057A43DB01B2"} 0.539057804
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="E1E61E7F58292F86B33C93D5B72BE4DBA2FBF9D2"} 0.293285677
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="E4FDA67F7C58317D09C962EE8F2FB6FF6EC23BFC"} 0.310729441
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="E5E945647D92AD415888713A1DA364FE42CCA777"} 0.516904381
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="EEA0B7C6329C8A55335781FC61E7122AF7836A7D"} 0.155440074
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="F0EB6E9B281B5B7559E14C6B5189FC6BCF6D015B"} 0.25717504
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="F45E88307E3C532912DE543C8AE740D97D0C7F04"} 0.529801036
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="F83109A06FD18DE8B7920437C50FD89AB9CAA97B"} 0.36099205
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="F8D93F465274628E94F3DAB43C05F3BA691D800E"} 0.332488384
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="F9E901FB4BEA6692F253B04BB94C1D0AB5805005"} 0.53420223
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="FA2416FFA45325B0AC9287933A92DF504F9B2A61"} 0.376919041
+tendermint_consensus_quorum_prevote_delay{chain_id="phoenix-1",proposer_address="FFCE9C203E43138D662A72BE34CBDFDE3D73CA12"} 0.315908081
+# HELP tendermint_consensus_round_duration_seconds Histogram of round duration.
+# TYPE tendermint_consensus_round_duration_seconds histogram
+tendermint_consensus_round_duration_seconds_bucket{chain_id="phoenix-1",le="0.1"} 421867
+tendermint_consensus_round_duration_seconds_bucket{chain_id="phoenix-1",le="0.2682695795279726"} 422039
+tendermint_consensus_round_duration_seconds_bucket{chain_id="phoenix-1",le="0.7196856730011522"} 422367
+tendermint_consensus_round_duration_seconds_bucket{chain_id="phoenix-1",le="1.9306977288832508"} 422929
+tendermint_consensus_round_duration_seconds_bucket{chain_id="phoenix-1",le="5.1794746792312125"} 424151
+tendermint_consensus_round_duration_seconds_bucket{chain_id="phoenix-1",le="13.894954943731381"} 425083
+tendermint_consensus_round_duration_seconds_bucket{chain_id="phoenix-1",le="37.27593720314942"} 425134
+tendermint_consensus_round_duration_seconds_bucket{chain_id="phoenix-1",le="100.00000000000006"} 425136
+tendermint_consensus_round_duration_seconds_bucket{chain_id="phoenix-1",le="+Inf"} 425137
+tendermint_consensus_round_duration_seconds_sum{chain_id="phoenix-1"} 6891.208716127061
+tendermint_consensus_round_duration_seconds_count{chain_id="phoenix-1"} 425137
+# HELP tendermint_consensus_round_voting_power_percent RoundVotingPowerPercent is the percentage of the total voting power received with a round. The value begins at 0 for each round and approaches 1.0 as additional voting power is observed. The metric is labeled by vote type.
+# TYPE tendermint_consensus_round_voting_power_percent gauge
+tendermint_consensus_round_voting_power_percent{chain_id="phoenix-1",vote_type="precommit"} 0.6691955517305661
+tendermint_consensus_round_voting_power_percent{chain_id="phoenix-1",vote_type="prevote"} 0.9810355963524006
+# HELP tendermint_consensus_rounds Number of rounds.
+# TYPE tendermint_consensus_rounds gauge
+tendermint_consensus_rounds{chain_id="phoenix-1"} 0
+# HELP tendermint_consensus_step_duration_seconds Histogram of durations for each step in the consensus protocol.
+# TYPE tendermint_consensus_step_duration_seconds histogram
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Commit",le="0.1"} 302753
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Commit",le="0.2682695795279726"} 373646
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Commit",le="0.7196856730011522"} 415242
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Commit",le="1.9306977288832508"} 433150
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Commit",le="5.1794746792312125"} 439932
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Commit",le="13.894954943731381"} 441557
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Commit",le="37.27593720314942"} 441703
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Commit",le="100.00000000000006"} 441705
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Commit",le="+Inf"} 441706
+tendermint_consensus_step_duration_seconds_sum{chain_id="phoenix-1",step="Commit"} 105633.99152358137
+tendermint_consensus_step_duration_seconds_count{chain_id="phoenix-1",step="Commit"} 441706
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewHeight",le="0.1"} 1947
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewHeight",le="0.2682695795279726"} 2083
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewHeight",le="0.7196856730011522"} 4120
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewHeight",le="1.9306977288832508"} 9434
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewHeight",le="5.1794746792312125"} 441511
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewHeight",le="13.894954943731381"} 441705
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewHeight",le="37.27593720314942"} 441705
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewHeight",le="100.00000000000006"} 441706
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewHeight",le="+Inf"} 441706
+tendermint_consensus_step_duration_seconds_sum{chain_id="phoenix-1",step="NewHeight"} 2.0725686035997705e+06
+tendermint_consensus_step_duration_seconds_count{chain_id="phoenix-1",step="NewHeight"} 441706
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewRound",le="0.1"} 424570
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewRound",le="0.2682695795279726"} 424571
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewRound",le="0.7196856730011522"} 424572
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewRound",le="1.9306977288832508"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewRound",le="5.1794746792312125"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewRound",le="13.894954943731381"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewRound",le="37.27593720314942"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewRound",le="100.00000000000006"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="NewRound",le="+Inf"} 424573
+tendermint_consensus_step_duration_seconds_sum{chain_id="phoenix-1",step="NewRound"} 31.08701779999919
+tendermint_consensus_step_duration_seconds_count{chain_id="phoenix-1",step="NewRound"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Precommit",le="0.1"} 12284
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Precommit",le="0.2682695795279726"} 202094
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Precommit",le="0.7196856730011522"} 440163
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Precommit",le="1.9306977288832508"} 442142
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Precommit",le="5.1794746792312125"} 442312
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Precommit",le="13.894954943731381"} 442314
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Precommit",le="37.27593720314942"} 442314
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Precommit",le="100.00000000000006"} 442315
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Precommit",le="+Inf"} 442316
+tendermint_consensus_step_duration_seconds_sum{chain_id="phoenix-1",step="Precommit"} 118035.55172715963
+tendermint_consensus_step_duration_seconds_count{chain_id="phoenix-1",step="Precommit"} 442316
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Prevote",le="0.1"} 156041
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Prevote",le="0.2682695795279726"} 409780
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Prevote",le="0.7196856730011522"} 436462
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Prevote",le="1.9306977288832508"} 438234
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Prevote",le="5.1794746792312125"} 438381
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Prevote",le="13.894954943731381"} 438448
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Prevote",le="37.27593720314942"} 438491
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Prevote",le="100.00000000000006"} 438507
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Prevote",le="+Inf"} 438510
+tendermint_consensus_step_duration_seconds_sum{chain_id="phoenix-1",step="Prevote"} 59755.939946642095
+tendermint_consensus_step_duration_seconds_count{chain_id="phoenix-1",step="Prevote"} 438510
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="PrevoteWait",le="0.1"} 294109
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="PrevoteWait",le="0.2682695795279726"} 322548
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="PrevoteWait",le="0.7196856730011522"} 322803
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="PrevoteWait",le="1.9306977288832508"} 322991
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="PrevoteWait",le="5.1794746792312125"} 323027
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="PrevoteWait",le="13.894954943731381"} 323027
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="PrevoteWait",le="37.27593720314942"} 323027
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="PrevoteWait",le="100.00000000000006"} 323027
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="PrevoteWait",le="+Inf"} 323027
+tendermint_consensus_step_duration_seconds_sum{chain_id="phoenix-1",step="PrevoteWait"} 6787.74220219304
+tendermint_consensus_step_duration_seconds_count{chain_id="phoenix-1",step="PrevoteWait"} 323027
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Propose",le="0.1"} 7790
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Propose",le="0.2682695795279726"} 50971
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Propose",le="0.7196856730011522"} 379313
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Propose",le="1.9306977288832508"} 423429
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Propose",le="5.1794746792312125"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Propose",le="13.894954943731381"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Propose",le="37.27593720314942"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Propose",le="100.00000000000006"} 424573
+tendermint_consensus_step_duration_seconds_bucket{chain_id="phoenix-1",step="Propose",le="+Inf"} 424573
+tendermint_consensus_step_duration_seconds_sum{chain_id="phoenix-1",step="Propose"} 201704.80066517743
+tendermint_consensus_step_duration_seconds_count{chain_id="phoenix-1",step="Propose"} 424573
+# HELP tendermint_consensus_total_txs Total number of transactions.
+# TYPE tendermint_consensus_total_txs gauge
+tendermint_consensus_total_txs{chain_id="phoenix-1"} 637589
+# HELP tendermint_consensus_validator_last_signed_height Last height signed by this validator if the node is a validator.
+# TYPE tendermint_consensus_validator_last_signed_height gauge
+tendermint_consensus_validator_last_signed_height{chain_id="phoenix-1",validator_address="9C290E0A06A489FDE16702BB940698677778AA9B"} 1.910194e+07
+# HELP tendermint_consensus_validator_missed_blocks Amount of blocks missed per validator.
+# TYPE tendermint_consensus_validator_missed_blocks gauge
+tendermint_consensus_validator_missed_blocks{chain_id="phoenix-1",validator_address="9C290E0A06A489FDE16702BB940698677778AA9B"} 4604
+# HELP tendermint_consensus_validator_power Power of a validator.
+# TYPE tendermint_consensus_validator_power gauge
+tendermint_consensus_validator_power{chain_id="phoenix-1",validator_address="9C290E0A06A489FDE16702BB940698677778AA9B"} 702754
+# HELP tendermint_consensus_validators Number of validators.
+# TYPE tendermint_consensus_validators gauge
+tendermint_consensus_validators{chain_id="phoenix-1"} 127
+# HELP tendermint_consensus_validators_power Total power of all validators.
+# TYPE tendermint_consensus_validators_power gauge
+tendermint_consensus_validators_power{chain_id="phoenix-1"} 3.62972078e+08
+# HELP tendermint_mempool_active_outbound_connections Number of connections being actively used for gossiping transactions (experimental feature).
+# TYPE tendermint_mempool_active_outbound_connections gauge
+tendermint_mempool_active_outbound_connections{chain_id="phoenix-1"} 1
+# HELP tendermint_mempool_evicted_txs EvictedTxs defines the number of evicted transactions. These are valid transactions that passed CheckTx and make it into the mempool but later became invalid. metrics:Number of evicted transactions.
+# TYPE tendermint_mempool_evicted_txs counter
+tendermint_mempool_evicted_txs{chain_id="phoenix-1"} 10271
+# HELP tendermint_mempool_failed_txs FailedTxs defines the number of failed transactions. These are transactions that failed to make it into the mempool because they were deemed invalid. metrics:Number of failed transactions.
+# TYPE tendermint_mempool_failed_txs counter
+tendermint_mempool_failed_txs{chain_id="phoenix-1"} 4192
+# HELP tendermint_mempool_recheck_times Number of times transactions are rechecked in the mempool.
+# TYPE tendermint_mempool_recheck_times counter
+tendermint_mempool_recheck_times{chain_id="phoenix-1"} 217228
+# HELP tendermint_mempool_size Number of uncommitted transactions in the mempool.
+# TYPE tendermint_mempool_size gauge
+tendermint_mempool_size{chain_id="phoenix-1"} 0
+# HELP tendermint_mempool_size_bytes Total size of the mempool in bytes.
+# TYPE tendermint_mempool_size_bytes gauge
+tendermint_mempool_size_bytes{chain_id="phoenix-1"} 0
+# HELP tendermint_mempool_tx_size_bytes Histogram of transaction sizes in bytes.
+# TYPE tendermint_mempool_tx_size_bytes histogram
+tendermint_mempool_tx_size_bytes_bucket{chain_id="phoenix-1",le="1"} 0
+tendermint_mempool_tx_size_bytes_bucket{chain_id="phoenix-1",le="3"} 0
+tendermint_mempool_tx_size_bytes_bucket{chain_id="phoenix-1",le="9"} 0
+tendermint_mempool_tx_size_bytes_bucket{chain_id="phoenix-1",le="27"} 0
+tendermint_mempool_tx_size_bytes_bucket{chain_id="phoenix-1",le="81"} 0
+tendermint_mempool_tx_size_bytes_bucket{chain_id="phoenix-1",le="243"} 0
+tendermint_mempool_tx_size_bytes_bucket{chain_id="phoenix-1",le="729"} 154335
+tendermint_mempool_tx_size_bytes_bucket{chain_id="phoenix-1",le="+Inf"} 631940
+tendermint_mempool_tx_size_bytes_sum{chain_id="phoenix-1"} 1.380068754e+09
+tendermint_mempool_tx_size_bytes_count{chain_id="phoenix-1"} 631940
+# HELP tendermint_p2p_message_receive_bytes_total Number of bytes of each message type received.
+# TYPE tendermint_p2p_message_receive_bytes_total counter
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="blocksync_BlockResponse"} 3.961593e+06
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="blocksync_StatusRequest"} 8
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="blocksync_StatusResponse"} 252
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="consensus_BlockPart"} 7.571624865e+09
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="consensus_HasVote"} 1.184717816e+09
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="consensus_NewRoundStep"} 2.8040596e+07
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="consensus_NewValidBlock"} 2.295576e+07
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="consensus_Proposal"} 7.7661993e+07
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="consensus_Vote"} 2.0293492138e+10
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="consensus_VoteSetBits"} 18608
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="consensus_VoteSetMaj23"} 1.7081759e+07
+tendermint_p2p_message_receive_bytes_total{chain_id="phoenix-1",message_type="mempool_Txs"} 1.446247678e+09
+# HELP tendermint_p2p_message_send_bytes_total Number of bytes of each message type sent.
+# TYPE tendermint_p2p_message_send_bytes_total counter
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="blocksync_BlockRequest"} 1526
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="blocksync_StatusRequest"} 14
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="blocksync_StatusResponse"} 216
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="consensus_BlockPart"} 1.4857003e+07
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="consensus_HasVote"} 1.183084077e+09
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="consensus_NewRoundStep"} 2.8181091e+07
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="consensus_NewValidBlock"} 2.3136429e+07
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="consensus_Proposal"} 150727
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="consensus_Vote"} 1.67266295e+08
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="consensus_VoteSetBits"} 8.088694e+06
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="consensus_VoteSetMaj23"} 9.093371e+06
+tendermint_p2p_message_send_bytes_total{chain_id="phoenix-1",message_type="mempool_Txs"} 40411
+# HELP tendermint_p2p_peer_pending_send_bytes Pending bytes to be sent to a given peer.
+# TYPE tendermint_p2p_peer_pending_send_bytes gauge
+tendermint_p2p_peer_pending_send_bytes{chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 0
+# HELP tendermint_p2p_peer_receive_bytes_total Number of bytes received from a given peer.
+# TYPE tendermint_p2p_peer_receive_bytes_total counter
+tendermint_p2p_peer_receive_bytes_total{chID="0x20",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 1.252795931e+09
+tendermint_p2p_peer_receive_bytes_total{chID="0x21",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 7.649286858e+09
+tendermint_p2p_peer_receive_bytes_total{chID="0x22",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 2.0293492138e+10
+tendermint_p2p_peer_receive_bytes_total{chID="0x23",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 18608
+tendermint_p2p_peer_receive_bytes_total{chID="0x30",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 1.446247678e+09
+tendermint_p2p_peer_receive_bytes_total{chID="0x40",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 3.961853e+06
+# HELP tendermint_p2p_peer_send_bytes_total Number of bytes sent to a given peer.
+# TYPE tendermint_p2p_peer_send_bytes_total counter
+tendermint_p2p_peer_send_bytes_total{chID="0x20",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 1.243494968e+09
+tendermint_p2p_peer_send_bytes_total{chID="0x21",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 1.500773e+07
+tendermint_p2p_peer_send_bytes_total{chID="0x22",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 1.67266295e+08
+tendermint_p2p_peer_send_bytes_total{chID="0x23",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 8.088694e+06
+tendermint_p2p_peer_send_bytes_total{chID="0x30",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 40411
+tendermint_p2p_peer_send_bytes_total{chID="0x40",chain_id="phoenix-1",peer_id="f051f9d5b936db716539a7f9cc9f0dfeae467fea"} 1756
+# HELP tendermint_p2p_peers Number of peers.
+# TYPE tendermint_p2p_peers gauge
+tendermint_p2p_peers{chain_id="phoenix-1"} 1
+# HELP tendermint_state_block_processing_time Time spent processing FinalizeBlock
+# TYPE tendermint_state_block_processing_time histogram
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="1"} 0
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="11"} 0
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="21"} 0
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="31"} 0
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="41"} 69637
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="51"} 187837
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="61"} 274710
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="71"} 319148
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="81"} 342341
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="91"} 355788
+tendermint_state_block_processing_time_bucket{chain_id="phoenix-1",le="+Inf"} 441923
+tendermint_state_block_processing_time_sum{chain_id="phoenix-1"} 5.238847578760297e+07
+tendermint_state_block_processing_time_count{chain_id="phoenix-1"} 441923
+# HELP tendermint_state_consensus_param_updates Number of consensus parameter updates returned by the application since process start.
+# TYPE tendermint_state_consensus_param_updates counter
+tendermint_state_consensus_param_updates{chain_id="phoenix-1"} 441923
+# HELP tendermint_state_validator_set_updates Number of validator set updates returned by the application since process start.
+# TYPE tendermint_state_validator_set_updates counter
+tendermint_state_validator_set_updates{chain_id="phoenix-1"} 11422
