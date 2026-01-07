@@ -1,6 +1,6 @@
 # Tendermint Metrics Monitor (tmm)
 
-![TMM Screenshot](assets/screenshot.png)
+![TMM Screenshot](https://raw.githubusercontent.com/bert2002/tmm/main/assets/screenshot.png)
 
 A beautiful terminal-based TUI (Text User Interface) for monitoring Tendermint/CometBFT blockchain metrics from Prometheus endpoints.
 

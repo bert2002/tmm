@@ -518,7 +518,11 @@ class MetricsMonitor(App):
     
     def _update_status_bar(self):
         """Update the status bar with connection info"""
-        status_widget = self.query_one("#status-bar", Static)
+        status_widgets = self.query("#status-bar")
+        if not status_widgets:
+            return
+            
+        status_widget = status_widgets.first()
         
         chain_name = self.chain_config.get("name", self.chain)
         status_text = f"[bold cyan]{chain_name}[/bold cyan] | "
@@ -634,7 +638,7 @@ def main():
     parser.add_argument(
         "--version",
         action="version",
-        version="%(prog)s 1.0.2",
+        version="%(prog)s 1.0.3",
         help="Show program's version number and exit"
     )
 
