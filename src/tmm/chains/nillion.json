@@ -11,13 +11,13 @@
         "block_consensus": [
             {
                 "name": "Block Height",
-                "metric": "cometbft_consensus_height",
+                "metric": "consensus_height",
                 "type": "gauge",
                 "format": "int"
             },
             {
                 "name": "Latest Block Height",
-                "metric": "cometbft_consensus_latest_block_height",
+                "metric": "consensus_latest_block_height",
                 "type": "gauge",
                 "format": "int"
             },
@@ -29,32 +29,32 @@
             },
             {
                 "name": "Block Size",
-                "metric": "cometbft_consensus_block_size_bytes",
+                "metric": "consensus_block_size_bytes",
                 "type": "gauge",
                 "format": "bytes"
             },
             {
                 "name": "Block Interval",
-                "metric": "cometbft_consensus_block_interval_seconds",
+                "metric": "consensus_block_interval_seconds",
                 "type": "histogram",
                 "format": "duration",
                 "stat": "avg"
             },
             {
                 "name": "Catching Up",
-                "metric": "cometbft_blocksync_syncing",
+                "metric": "blocksync_syncing",
                 "type": "gauge",
                 "format": "bool"
             },
             {
                 "name": "Num Transactions",
-                "metric": "cometbft_consensus_num_txs",
+                "metric": "consensus_num_txs",
                 "type": "gauge",
                 "format": "int"
             },
             {
                 "name": "Total Transactions",
-                "metric": "cometbft_consensus_total_txs",
+                "metric": "consensus_total_txs",
                 "type": "gauge",
                 "format": "int"
             }
@@ -62,37 +62,37 @@
         "validators": [
             {
                 "name": "Validators",
-                "metric": "cometbft_consensus_validators",
+                "metric": "consensus_validators",
                 "type": "gauge",
                 "format": "int"
             },
             {
                 "name": "Total Voting Power",
-                "metric": "cometbft_consensus_validators_power",
+                "metric": "consensus_validators_power",
                 "type": "gauge",
                 "format": "int"
             },
             {
                 "name": "Missing Validators",
-                "metric": "cometbft_consensus_missing_validators",
+                "metric": "consensus_missing_validators",
                 "type": "gauge",
                 "format": "int"
             },
             {
                 "name": "Missing Power",
-                "metric": "cometbft_consensus_missing_validators_power",
+                "metric": "consensus_missing_validators_power",
                 "type": "gauge",
                 "format": "int"
             },
             {
                 "name": "Byzantine Validators",
-                "metric": "cometbft_consensus_byzantine_validators",
+                "metric": "consensus_byzantine_validators",
                 "type": "gauge",
                 "format": "int"
             },
             {
                 "name": "Byzantine Power",
-                "metric": "cometbft_consensus_byzantine_validators_power",
+                "metric": "consensus_byzantine_validators_power",
                 "type": "gauge",
                 "format": "int"
             }
@@ -100,25 +100,25 @@
         "mempool": [
             {
                 "name": "Mempool Size",
-                "metric": "cometbft_mempool_size",
+                "metric": "mempool_size",
                 "type": "gauge",
                 "format": "int"
             },
             {
                 "name": "Mempool Bytes",
-                "metric": "cometbft_mempool_size_bytes",
+                "metric": "mempool_size_bytes",
                 "type": "gauge",
                 "format": "bytes"
             },
             {
                 "name": "Failed Txs",
-                "metric": "cometbft_mempool_failed_txs",
+                "metric": "mempool_failed_txs",
                 "type": "counter",
                 "format": "int"
             },
             {
                 "name": "Recheck Times",
-                "metric": "cometbft_mempool_recheck_times",
+                "metric": "mempool_recheck_times",
                 "type": "counter",
                 "format": "int"
             }
@@ -126,31 +126,31 @@
         "network": [
             {
                 "name": "Number of Peers",
-                "metric": "cometbft_p2p_peers",
+                "metric": "p2p_peers",
                 "type": "gauge",
                 "format": "peer_count"
             },
             {
                 "name": "Duplicate Votes",
-                "metric": "cometbft_consensus_duplicate_vote",
+                "metric": "consensus_duplicate_vote",
                 "type": "counter",
                 "format": "int"
             },
             {
                 "name": "Duplicate Block Parts",
-                "metric": "cometbft_consensus_duplicate_block_part",
+                "metric": "consensus_duplicate_block_part",
                 "type": "counter",
                 "format": "int"
             },
             {
                 "name": "P2P Bytes Received",
-                "metric": "cometbft_p2p_peer_receive_bytes_total",
+                "metric": "p2p_peer_receive_bytes_total",
                 "type": "counter",
                 "format": "bytes_sum"
             },
             {
                 "name": "P2P Bytes Sent",
-                "metric": "cometbft_p2p_peer_send_bytes_total",
+                "metric": "p2p_peer_send_bytes_total",
                 "type": "counter",
                 "format": "bytes_sum"
             }
@@ -158,14 +158,14 @@
         "performance": [
             {
                 "name": "Round Duration",
-                "metric": "cometbft_consensus_round_duration_seconds",
+                "metric": "consensus_round_duration_seconds",
                 "type": "histogram",
                 "format": "duration",
                 "stat": "avg"
             },
             {
                 "name": "Finalize Block Time",
-                "metric": "cometbft_abci_connection_method_timing_seconds",
+                "metric": "abci_connection_method_timing_seconds",
                 "type": "histogram",
                 "format": "duration",
                 "stat": "avg",
@@ -175,7 +175,7 @@
             },
             {
                 "name": "Commit Time",
-                "metric": "cometbft_abci_connection_method_timing_seconds",
+                "metric": "abci_connection_method_timing_seconds",
                 "type": "histogram",
                 "format": "duration",
                 "stat": "avg",
@@ -185,7 +185,7 @@
             },
             {
                 "name": "Process Proposal Time",
-                "metric": "cometbft_abci_connection_method_timing_seconds",
+                "metric": "abci_connection_method_timing_seconds",
                 "type": "histogram",
                 "format": "duration",
                 "stat": "avg",
