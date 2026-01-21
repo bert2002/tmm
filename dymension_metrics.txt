@@ -1,0 +1,842 @@
+# HELP cometbft_abci_connection_method_timing_seconds Timing for each ABCI method.
+# TYPE cometbft_abci_connection_method_timing_seconds histogram
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="0.002"} 12
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="0.009"} 37
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="0.02"} 47
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="0.1"} 50
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="0.65"} 50
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="2"} 50
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="6"} 50
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="25"} 50
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="check_tx",type="async",le="+Inf"} 50
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="dymension_1100-1",method="check_tx",type="async"} 0.3229256019999999
+cometbft_abci_connection_method_timing_seconds_count{chain_id="dymension_1100-1",method="check_tx",type="async"} 50
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="0.002"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="0.009"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="0.02"} 504
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="0.1"} 1116
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="0.65"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="2"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="6"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="25"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="commit",type="sync",le="+Inf"} 1120
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="dymension_1100-1",method="commit",type="sync"} 25.29157959800003
+cometbft_abci_connection_method_timing_seconds_count{chain_id="dymension_1100-1",method="commit",type="sync"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="0.002"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="0.009"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="0.02"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="0.1"} 1099
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="0.65"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="2"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="6"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="25"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="finalize_block",type="sync",le="+Inf"} 1120
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="dymension_1100-1",method="finalize_block",type="sync"} 48.62351728900004
+cometbft_abci_connection_method_timing_seconds_count{chain_id="dymension_1100-1",method="finalize_block",type="sync"} 1120
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="0.0001"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="0.0004"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="0.002"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="0.009"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="0.02"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="0.1"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="0.65"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="2"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="6"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="25"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="flush",type="sync",le="+Inf"} 1138
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="dymension_1100-1",method="flush",type="sync"} 0.002095621999999996
+cometbft_abci_connection_method_timing_seconds_count{chain_id="dymension_1100-1",method="flush",type="sync"} 1138
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="0.002"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="0.009"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="0.02"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="0.1"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="0.65"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="2"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="6"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="25"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="info",type="sync",le="+Inf"} 1
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="dymension_1100-1",method="info",type="sync"} 0.000883653
+cometbft_abci_connection_method_timing_seconds_count{chain_id="dymension_1100-1",method="info",type="sync"} 1
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="0.002"} 62
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="0.009"} 63
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="0.02"} 63
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="0.1"} 63
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="0.65"} 63
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="2"} 63
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="6"} 63
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="25"} 63
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="prepare_proposal",type="sync",le="+Inf"} 63
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="dymension_1100-1",method="prepare_proposal",type="sync"} 0.06737181799999999
+cometbft_abci_connection_method_timing_seconds_count{chain_id="dymension_1100-1",method="prepare_proposal",type="sync"} 63
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="0.0004"} 7
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="0.002"} 1059
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="0.009"} 1063
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="0.02"} 1065
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="0.1"} 1065
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="0.65"} 1065
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="2"} 1065
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="6"} 1065
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="25"} 1065
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="process_proposal",type="sync",le="+Inf"} 1065
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="dymension_1100-1",method="process_proposal",type="sync"} 0.9517569639999987
+cometbft_abci_connection_method_timing_seconds_count{chain_id="dymension_1100-1",method="process_proposal",type="sync"} 1065
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="0.0001"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="0.0004"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="0.002"} 0
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="0.009"} 56
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="0.02"} 254
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="0.1"} 295
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="0.65"} 295
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="2"} 295
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="6"} 295
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="25"} 295
+cometbft_abci_connection_method_timing_seconds_bucket{chain_id="dymension_1100-1",method="query",type="sync",le="+Inf"} 295
+cometbft_abci_connection_method_timing_seconds_sum{chain_id="dymension_1100-1",method="query",type="sync"} 4.014827185000003
+cometbft_abci_connection_method_timing_seconds_count{chain_id="dymension_1100-1",method="query",type="sync"} 295
+# HELP cometbft_blocksync_block_size_bytes Size of the latest block.
+# TYPE cometbft_blocksync_block_size_bytes gauge
+cometbft_blocksync_block_size_bytes{chain_id="dymension_1100-1"} 11643
+# HELP cometbft_blocksync_latest_block_height The height of the latest block.
+# TYPE cometbft_blocksync_latest_block_height gauge
+cometbft_blocksync_latest_block_height{chain_id="dymension_1100-1"} 1.3730052e+07
+# HELP cometbft_blocksync_num_txs Number of transactions in the latest block.
+# TYPE cometbft_blocksync_num_txs gauge
+cometbft_blocksync_num_txs{chain_id="dymension_1100-1"} 0
+# HELP cometbft_blocksync_syncing Whether or not a node is block syncing. 1 if yes, 0 if no.
+# TYPE cometbft_blocksync_syncing gauge
+cometbft_blocksync_syncing{chain_id="dymension_1100-1"} 0
+# HELP cometbft_blocksync_total_txs Total number of transactions.
+# TYPE cometbft_blocksync_total_txs gauge
+cometbft_blocksync_total_txs{chain_id="dymension_1100-1"} 5
+# HELP cometbft_consensus_block_gossip_parts_received Number of block parts received by the node, separated by whether the part was relevant to the block the node is trying to gather or not.
+# TYPE cometbft_consensus_block_gossip_parts_received counter
+cometbft_consensus_block_gossip_parts_received{chain_id="dymension_1100-1",matches_current="false"} 2623
+cometbft_consensus_block_gossip_parts_received{chain_id="dymension_1100-1",matches_current="true"} 4976
+# HELP cometbft_consensus_block_interval_seconds Time between this and the last block.
+# TYPE cometbft_consensus_block_interval_seconds histogram
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="0.005"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="0.01"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="0.025"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="0.05"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="0.1"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="0.25"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="0.5"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="1"} 0
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="2.5"} 1016
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="5"} 1073
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="10"} 1073
+cometbft_consensus_block_interval_seconds_bucket{chain_id="dymension_1100-1",le="+Inf"} 1073
+cometbft_consensus_block_interval_seconds_sum{chain_id="dymension_1100-1"} 1545.5035264179999
+cometbft_consensus_block_interval_seconds_count{chain_id="dymension_1100-1"} 1073
+# HELP cometbft_consensus_block_parts Number of block parts transmitted by each peer.
+# TYPE cometbft_consensus_block_parts counter
+cometbft_consensus_block_parts{chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 659
+cometbft_consensus_block_parts{chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 1072
+cometbft_consensus_block_parts{chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 857
+cometbft_consensus_block_parts{chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 1076
+cometbft_consensus_block_parts{chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 980
+cometbft_consensus_block_parts{chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 963
+cometbft_consensus_block_parts{chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 928
+cometbft_consensus_block_parts{chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 1001
+# HELP cometbft_consensus_block_size_bytes Size of the block.
+# TYPE cometbft_consensus_block_size_bytes gauge
+cometbft_consensus_block_size_bytes{chain_id="dymension_1100-1"} 11629
+# HELP cometbft_consensus_byzantine_validators Number of validators who tried to double sign.
+# TYPE cometbft_consensus_byzantine_validators gauge
+cometbft_consensus_byzantine_validators{chain_id="dymension_1100-1"} 0
+# HELP cometbft_consensus_byzantine_validators_power Total power of the byzantine validators.
+# TYPE cometbft_consensus_byzantine_validators_power gauge
+cometbft_consensus_byzantine_validators_power{chain_id="dymension_1100-1"} 0
+# HELP cometbft_consensus_chain_size_bytes Size of the chain in bytes.
+# TYPE cometbft_consensus_chain_size_bytes counter
+cometbft_consensus_chain_size_bytes{chain_id="dymension_1100-1"} 1.2615035e+07
+# HELP cometbft_consensus_duplicate_block_part Number of times we received a duplicate block part
+# TYPE cometbft_consensus_duplicate_block_part counter
+cometbft_consensus_duplicate_block_part{chain_id="dymension_1100-1"} 3848
+# HELP cometbft_consensus_duplicate_vote Number of times we received a duplicate vote
+# TYPE cometbft_consensus_duplicate_vote counter
+cometbft_consensus_duplicate_vote{chain_id="dymension_1100-1"} 823962
+# HELP cometbft_consensus_full_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the latest prevote in a round where all validators voted.
+# TYPE cometbft_consensus_full_prevote_delay gauge
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="001CD306AE89DD73DD1907DD21AE63E0EE8A8BA1"} 656.342780343
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="092AA7437FA8D2D50CF35116AB2F8752B41F82F1"} 656.544641226
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="09E9ED080170C605B1BEF77376D210A1ADF83304"} 656.312871547
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="12C6AC77F70C1AA11058163452AB5378A39ACD81"} 656.441914228
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="1558DCE586853075090FC80E4BF788FA552A1FE4"} 656.330373874
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="15A227978B4721BFF839F3A0DA53715FE627CEDC"} 656.327123728
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="1825352419E20293441EBF5A4C2D27EF047844FE"} 656.390275342
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="19275AECCF6BFDEF0660BEF8137BFB7A01ED2CEE"} 656.401525604
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="1ADDCC80B27A3A1DF1098FE21B1D24D35532946B"} 656.908535575
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="29FCAE89877A85947A7665D5898662807D3DAEBB"} 656.414951947
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="3A4EEA9004A10595443C50FC25767C51C49BA1AC"} 656.405418085
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="3A9C1B4D14570AE4B28FC7EA91A5199303F20FE9"} 656.417471757
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="3CC82BF3223B9E0A5DC8E7CB7CF70914A9DCC984"} 656.332919903
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="3FF16D3B179C514EEAD8C64AAB9339B8D63EF400"} 656.448248526
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="475796F09043F48FF9B0E404DACA64B1EB952420"} 656.489963884
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="475D969AB257C05B74E64D3AF82BC2128DB37A93"} 656.423673958
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="4A210A743F7EA1885B7402E194F5367010E284AB"} 656.563910138
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="54FA150460C29987B51C5461CF3D6F763ABEBA9A"} 656.402457748
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="559E6B4D6F7777094DAFC1EF9A6C5399B0A7541A"} 656.439349517
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="5913932D04595898553AADE2DD328F051B8B03BD"} 656.44521717
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="69CFE5D310BC18E41CA91DF51AECD2BC198B5E66"} 656.549986576
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="6AB2860BEF7E3B7DE7543223E1BE98243DE21221"} 656.415457973
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="6D82C004CC299D5DAA5F125156C8679DEB138F9B"} 656.440893933
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="705AF899C2A277AEAF123EB5A2013E2FB97BF8A8"} 656.455887216
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="7145059FCAA0A3786C034854C7C7F8B082ED15CE"} 656.372555025
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="7DF9A6A445D96BADD9381B925F586D7853BA5A35"} 656.339793089
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="82DBEC26748F41AEAE36BA1FA34F290F55ACFE28"} 656.434948964
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="8CC47573723552E27D15B9C790151A1C04CE7438"} 656.362279389
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="927F1387EC35137C21151B52D0A87327E8C321A0"} 656.307828732
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="94ED45C72578D9FDD14102A729F00B18463927F2"} 656.448955123
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="A022C93CA449382E572455249C32D7FDD020FBF2"} 656.408926394
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="A322C4A76C70BDF1CC0108605E1824CA78D6E01B"} 656.468731313
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="AA88AF350C67B6DD32E389DE5A701EA3139B3FDB"} 656.431724298
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="ABE0C28DB25B238A75A5A9F136ABF02235F80525"} 656.442740412
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="AC936551287D5AA5A21DADE22E51EB764B8D9FF0"} 656.404161225
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="AE51DCD191057211DD00B813A56D391DE376BD1A"} 656.509073416
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="AF99EC770F9768E694B100CA9D9F784C323B1A21"} 656.337278709
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="B0F290CE7F8F5CA2E14351C42A5A7E68BDC7D785"} 656.337041799
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="B36D2DB0DEF92A0858A296FC852DBDB69EA624CC"} 656.428633473
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="B521673933BA045B04CBF4AB1D41129EE9D8E949"} 656.320185998
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="B59CACC2ECCCE7246C426E777F67CE51B76E8A7E"} 656.419142824
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="BB3EE8FF5CAD16267450CCF3278EEADF9F0B74D9"} 656.338163035
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="C0D900BF6582F7C908C42108D0D4CAD4F8AEF639"} 656.464167122
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="C2D4AF3684F8576B9A1B0F7B1E31DF458B201DD8"} 656.438368719
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="C47EB6DAD16F200ABFED06C6C3FF9BC76B717A2A"} 656.394104179
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="C4AA4DB970437159E64630D92705DE8B9415BA2C"} 656.321894208
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="C9D858E094654769F9B005881880C018D374BD15"} 656.425006658
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="CFE736A4070309F082B66D584310A1990960E75D"} 0.003121326
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="D5A0003A1AA1DF7653E4E2A0E04BF33EEA0E84BC"} 656.346472246
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="D78985F6AB43DE5EE5FED43902322C00AC90497D"} 656.677607873
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="D90D3F41557451BCD14EA463AEDACDBFB124382F"} 656.326997343
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="D9BF71F0E3090B3FF534E48200D0BE56F1C4C931"} 656.335799493
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="DE615E737ADD3D441F77BFDD82AA05B16BF9C130"} 656.327667618
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="E2754763DCAC52DC8DCA81BC2A50A8E1FF890F88"} 656.467781402
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="E51F4632FD40578685437133EF5A926871754FA8"} 656.353567088
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="EEE6A636718AFF1B7B98DE3E5E543DF76873DC4E"} 656.380478347
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="EFFB75554E3DF1D1DE00AEA002A695D411B47A3E"} 656.435947116
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="F5893435ED36DB78A20A4957B7EAF03CBC263972"} 656.433997939
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="F83078D0A6AAAAD5D0943BC7C0AF27F6DC64C771"} 656.439092788
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="F8BBCF64D917F09450466001733FD8D5C3454E49"} 656.332546791
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="F9056F6E282B49592C2D1F9BBCBFDFF0DB837050"} 656.386099065
+cometbft_consensus_full_prevote_delay{chain_id="dymension_1100-1",proposer_address="FC7E56F3138FEA58FF5FF904249A5D1361F16528"} 656.407719096
+# HELP cometbft_consensus_height Height of the chain.
+# TYPE cometbft_consensus_height gauge
+cometbft_consensus_height{chain_id="dymension_1100-1"} 1.3731126e+07
+# HELP cometbft_consensus_late_votes LateVotes stores the number of votes that were received by this node that correspond to earlier heights and rounds than this node is currently in.
+# TYPE cometbft_consensus_late_votes counter
+cometbft_consensus_late_votes{chain_id="dymension_1100-1",vote_type="precommit"} 618720
+cometbft_consensus_late_votes{chain_id="dymension_1100-1",vote_type="prevote"} 11219
+# HELP cometbft_consensus_latest_block_height The latest block height.
+# TYPE cometbft_consensus_latest_block_height gauge
+cometbft_consensus_latest_block_height{chain_id="dymension_1100-1"} 1.3731125e+07
+# HELP cometbft_consensus_missing_validators Number of validators who did not sign.
+# TYPE cometbft_consensus_missing_validators gauge
+cometbft_consensus_missing_validators{chain_id="dymension_1100-1"} 0
+# HELP cometbft_consensus_missing_validators_power Total power of the missing validators.
+# TYPE cometbft_consensus_missing_validators_power gauge
+cometbft_consensus_missing_validators_power{chain_id="dymension_1100-1"} 0
+# HELP cometbft_consensus_num_txs Number of transactions.
+# TYPE cometbft_consensus_num_txs gauge
+cometbft_consensus_num_txs{chain_id="dymension_1100-1"} 0
+# HELP cometbft_consensus_precommits_counted PrecommitsCounted is the number of precommit votes counted after the timeout commit period has ended.
+# TYPE cometbft_consensus_precommits_counted gauge
+cometbft_consensus_precommits_counted{chain_id="dymension_1100-1"} 106
+# HELP cometbft_consensus_precommits_staking_percentage PrecommitsStakingPercentage is the voting power percentage of precommit votes once the timeout commit period has ended.
+# TYPE cometbft_consensus_precommits_staking_percentage gauge
+cometbft_consensus_precommits_staking_percentage{chain_id="dymension_1100-1"} 1
+# HELP cometbft_consensus_proposal_create_count ProposalCreationCount is the total number of proposals created by this node since process start. The metric is annotated by the status of the proposal from the application, either 'accepted' or 'rejected'.
+# TYPE cometbft_consensus_proposal_create_count counter
+cometbft_consensus_proposal_create_count{chain_id="dymension_1100-1"} 63
+# HELP cometbft_consensus_proposal_receive_count ProposalReceiveCount is the total number of proposals received by this node since process start. The metric is annotated by the status of the proposal from the application, either 'accepted' or 'rejected'.
+# TYPE cometbft_consensus_proposal_receive_count counter
+cometbft_consensus_proposal_receive_count{chain_id="dymension_1100-1",status="accepted"} 1065
+# HELP cometbft_consensus_quorum_precommit_delay Interval in seconds between the proposal timestamp and the timestamp of the earliest precommit that achieved a quorum.
+# TYPE cometbft_consensus_quorum_precommit_delay gauge
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="001CD306AE89DD73DD1907DD21AE63E0EE8A8BA1"} 656.569330823
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="092AA7437FA8D2D50CF35116AB2F8752B41F82F1"} 0.756007257
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="09E9ED080170C605B1BEF77376D210A1ADF83304"} 0.52293003
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="12C6AC77F70C1AA11058163452AB5378A39ACD81"} 656.672972659
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="141D3E6C24AC5D919BA17EBFCC16EC54771C7867"} 0.522568108
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="1558DCE586853075090FC80E4BF788FA552A1FE4"} 656.651580262
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="15A227978B4721BFF839F3A0DA53715FE627CEDC"} 0.538699083
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="1825352419E20293441EBF5A4C2D27EF047844FE"} 656.648824613
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="19275AECCF6BFDEF0660BEF8137BFB7A01ED2CEE"} 0.531265784
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="1ADDCC80B27A3A1DF1098FE21B1D24D35532946B"} 657.11275007
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="29FCAE89877A85947A7665D5898662807D3DAEBB"} 0.63187825
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="35B2B9AF890C690041E4E54A903F3D770BD5A3B3"} 0.669292538
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="3A4EEA9004A10595443C50FC25767C51C49BA1AC"} 0.551884423
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="3A9C1B4D14570AE4B28FC7EA91A5199303F20FE9"} 656.708988335
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="3CC82BF3223B9E0A5DC8E7CB7CF70914A9DCC984"} 0.597413044
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="3FF16D3B179C514EEAD8C64AAB9339B8D63EF400"} 0.54900272
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="46D8725ED7990895B17AA3F59D8A48A088204BAF"} 0.505694996
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="475796F09043F48FF9B0E404DACA64B1EB952420"} 656.698282706
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="475D969AB257C05B74E64D3AF82BC2128DB37A93"} 656.66772826
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="4A210A743F7EA1885B7402E194F5367010E284AB"} 0.751274577
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="4CBDC46FD7FDEE9E70F13CDB73708147004A7869"} 656.645411734
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="54FA150460C29987B51C5461CF3D6F763ABEBA9A"} 0.612809159
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="559E6B4D6F7777094DAFC1EF9A6C5399B0A7541A"} 0.536241443
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="5913932D04595898553AADE2DD328F051B8B03BD"} 0.58579361
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="61FC16BACAF2A7930E43FDF58926838E2F0537CA"} 0.537037122
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="69CFE5D310BC18E41CA91DF51AECD2BC198B5E66"} 656.764043396
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="6AB2860BEF7E3B7DE7543223E1BE98243DE21221"} 0.570177978
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="6D82C004CC299D5DAA5F125156C8679DEB138F9B"} 0.651775188
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="705AF899C2A277AEAF123EB5A2013E2FB97BF8A8"} 656.785601852
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="7145059FCAA0A3786C034854C7C7F8B082ED15CE"} 0.551189893
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="7DF9A6A445D96BADD9381B925F586D7853BA5A35"} 0.522142189
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="82DBEC26748F41AEAE36BA1FA34F290F55ACFE28"} 0.657294716
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="8CC47573723552E27D15B9C790151A1C04CE7438"} 0.54531587
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="927F1387EC35137C21151B52D0A87327E8C321A0"} 656.641575795
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="94ED45C72578D9FDD14102A729F00B18463927F2"} 656.657531523
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="A022C93CA449382E572455249C32D7FDD020FBF2"} 0.608509987
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="A322C4A76C70BDF1CC0108605E1824CA78D6E01B"} 656.680020083
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="AA88AF350C67B6DD32E389DE5A701EA3139B3FDB"} 656.641087395
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="ABE0C28DB25B238A75A5A9F136ABF02235F80525"} 0.613208629
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="AC936551287D5AA5A21DADE22E51EB764B8D9FF0"} 0.615475903
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="AE51DCD191057211DD00B813A56D391DE376BD1A"} 0.680592337
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="AF99EC770F9768E694B100CA9D9F784C323B1A21"} 656.645797244
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="B0F290CE7F8F5CA2E14351C42A5A7E68BDC7D785"} 0.522275933
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="B36D2DB0DEF92A0858A296FC852DBDB69EA624CC"} 0.618254416
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="B521673933BA045B04CBF4AB1D41129EE9D8E949"} 0.546633726
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="B59CACC2ECCCE7246C426E777F67CE51B76E8A7E"} 0.539589303
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="BB3EE8FF5CAD16267450CCF3278EEADF9F0B74D9"} 0.539253686
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="C0D900BF6582F7C908C42108D0D4CAD4F8AEF639"} 0.683208714
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="C2D4AF3684F8576B9A1B0F7B1E31DF458B201DD8"} 0.618364087
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="C3AA40C7EDE60C2DCDAB88A124E664C9F3C01596"} 0.559700669
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="C47EB6DAD16F200ABFED06C6C3FF9BC76B717A2A"} 656.643868056
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="C4AA4DB970437159E64630D92705DE8B9415BA2C"} 0.529603802
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="C9D858E094654769F9B005881880C018D374BD15"} 656.650777634
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="CFE736A4070309F082B66D584310A1990960E75D"} 0.441454904
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="D5A0003A1AA1DF7653E4E2A0E04BF33EEA0E84BC"} 0.542148681
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="D78985F6AB43DE5EE5FED43902322C00AC90497D"} 0.866260293
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="D90D3F41557451BCD14EA463AEDACDBFB124382F"} 656.653306142
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="D9BF71F0E3090B3FF534E48200D0BE56F1C4C931"} 656.629084716
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="DE615E737ADD3D441F77BFDD82AA05B16BF9C130"} 656.599414211
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="E2754763DCAC52DC8DCA81BC2A50A8E1FF890F88"} 0.57847123
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="E51F4632FD40578685437133EF5A926871754FA8"} 656.627948647
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="EEE6A636718AFF1B7B98DE3E5E543DF76873DC4E"} 656.612111315
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="EFFB75554E3DF1D1DE00AEA002A695D411B47A3E"} 656.668313031
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="F5893435ED36DB78A20A4957B7EAF03CBC263972"} 656.640208858
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="F716A99DDD266F20EE86A911AA251A5C55F4B69A"} 656.642702091
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="F83078D0A6AAAAD5D0943BC7C0AF27F6DC64C771"} 0.562585464
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="F8BBCF64D917F09450466001733FD8D5C3454E49"} 656.662344241
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="F9056F6E282B49592C2D1F9BBCBFDFF0DB837050"} 656.691268546
+cometbft_consensus_quorum_precommit_delay{chain_id="dymension_1100-1",proposer_address="FC7E56F3138FEA58FF5FF904249A5D1361F16528"} 0.52296975
+# HELP cometbft_consensus_quorum_prevote_delay Interval in seconds between the proposal timestamp and the timestamp of the earliest prevote that achieved a quorum.
+# TYPE cometbft_consensus_quorum_prevote_delay gauge
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="001CD306AE89DD73DD1907DD21AE63E0EE8A8BA1"} 0.169179052
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="092AA7437FA8D2D50CF35116AB2F8752B41F82F1"} 0.450179105
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="09E9ED080170C605B1BEF77376D210A1ADF83304"} 0.196738406
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="12C6AC77F70C1AA11058163452AB5378A39ACD81"} 0.23536126
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="141D3E6C24AC5D919BA17EBFCC16EC54771C7867"} 0.218231672
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="1558DCE586853075090FC80E4BF788FA552A1FE4"} 0.23670247
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="15A227978B4721BFF839F3A0DA53715FE627CEDC"} 0.237712177
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="1825352419E20293441EBF5A4C2D27EF047844FE"} 0.234295691
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="19275AECCF6BFDEF0660BEF8137BFB7A01ED2CEE"} 0.238665297
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="1ADDCC80B27A3A1DF1098FE21B1D24D35532946B"} 0.708261137
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="29FCAE89877A85947A7665D5898662807D3DAEBB"} 0.237961315
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="35B2B9AF890C690041E4E54A903F3D770BD5A3B3"} 0.27401645
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="3A4EEA9004A10595443C50FC25767C51C49BA1AC"} 0.252993898
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="3A9C1B4D14570AE4B28FC7EA91A5199303F20FE9"} 0.251127491
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="3CC82BF3223B9E0A5DC8E7CB7CF70914A9DCC984"} 0.240316731
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="3FF16D3B179C514EEAD8C64AAB9339B8D63EF400"} 0.25158586
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="46D8725ED7990895B17AA3F59D8A48A088204BAF"} 0.211103362
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="475796F09043F48FF9B0E404DACA64B1EB952420"} 0.282979617
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="475D969AB257C05B74E64D3AF82BC2128DB37A93"} 0.242514417
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="4A210A743F7EA1885B7402E194F5367010E284AB"} 0.402422509
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="4CBDC46FD7FDEE9E70F13CDB73708147004A7869"} 0.24774702
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="54FA150460C29987B51C5461CF3D6F763ABEBA9A"} 0.271337585
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="559E6B4D6F7777094DAFC1EF9A6C5399B0A7541A"} 0.230948796
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="5913932D04595898553AADE2DD328F051B8B03BD"} 0.262486932
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="61FC16BACAF2A7930E43FDF58926838E2F0537CA"} 0.240295842
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="69CFE5D310BC18E41CA91DF51AECD2BC198B5E66"} 0.35281739
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="6AB2860BEF7E3B7DE7543223E1BE98243DE21221"} 0.293407873
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="6D82C004CC299D5DAA5F125156C8679DEB138F9B"} 0.344307123
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="705AF899C2A277AEAF123EB5A2013E2FB97BF8A8"} 0.376251382
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="7145059FCAA0A3786C034854C7C7F8B082ED15CE"} 0.228054351
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="7DF9A6A445D96BADD9381B925F586D7853BA5A35"} 0.229111605
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="82DBEC26748F41AEAE36BA1FA34F290F55ACFE28"} 0.305340562
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="8CC47573723552E27D15B9C790151A1C04CE7438"} 0.221472186
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="927F1387EC35137C21151B52D0A87327E8C321A0"} 0.241946305
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="94ED45C72578D9FDD14102A729F00B18463927F2"} 0.249415467
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="A022C93CA449382E572455249C32D7FDD020FBF2"} 0.285888162
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="A322C4A76C70BDF1CC0108605E1824CA78D6E01B"} 0.25150524
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="AA88AF350C67B6DD32E389DE5A701EA3139B3FDB"} 0.238405912
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="ABE0C28DB25B238A75A5A9F136ABF02235F80525"} 0.250193375
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="AC936551287D5AA5A21DADE22E51EB764B8D9FF0"} 0.305564241
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="AE51DCD191057211DD00B813A56D391DE376BD1A"} 0.349100492
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="AF99EC770F9768E694B100CA9D9F784C323B1A21"} 0.241091042
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="B0F290CE7F8F5CA2E14351C42A5A7E68BDC7D785"} 0.231722099
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="B36D2DB0DEF92A0858A296FC852DBDB69EA624CC"} 0.250925272
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="B521673933BA045B04CBF4AB1D41129EE9D8E949"} 0.234823766
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="B59CACC2ECCCE7246C426E777F67CE51B76E8A7E"} 0.229821436
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="BB3EE8FF5CAD16267450CCF3278EEADF9F0B74D9"} 0.234915503
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="C0D900BF6582F7C908C42108D0D4CAD4F8AEF639"} 0.372850929
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="C2D4AF3684F8576B9A1B0F7B1E31DF458B201DD8"} 0.253754897
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="C3AA40C7EDE60C2DCDAB88A124E664C9F3C01596"} 0.287437884
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="C47EB6DAD16F200ABFED06C6C3FF9BC76B717A2A"} 0.229748661
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="C4AA4DB970437159E64630D92705DE8B9415BA2C"} 0.231678693
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="C9D858E094654769F9B005881880C018D374BD15"} 0.27182771
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="CFE736A4070309F082B66D584310A1990960E75D"} -655.981601743
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="D5A0003A1AA1DF7653E4E2A0E04BF33EEA0E84BC"} 0.234436556
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="D78985F6AB43DE5EE5FED43902322C00AC90497D"} 0.462679238
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="D90D3F41557451BCD14EA463AEDACDBFB124382F"} 0.246660809
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="D9BF71F0E3090B3FF534E48200D0BE56F1C4C931"} 0.183081234
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="DE615E737ADD3D441F77BFDD82AA05B16BF9C130"} 0.199924784
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="E2754763DCAC52DC8DCA81BC2A50A8E1FF890F88"} 0.264310571
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="E51F4632FD40578685437133EF5A926871754FA8"} 0.231940976
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="EEE6A636718AFF1B7B98DE3E5E543DF76873DC4E"} 0.213071103
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="EFFB75554E3DF1D1DE00AEA002A695D411B47A3E"} 0.258556106
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="F5893435ED36DB78A20A4957B7EAF03CBC263972"} 0.203869654
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="F716A99DDD266F20EE86A911AA251A5C55F4B69A"} 0.263423695
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="F83078D0A6AAAAD5D0943BC7C0AF27F6DC64C771"} 0.245813052
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="F8BBCF64D917F09450466001733FD8D5C3454E49"} 0.239916372
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="F9056F6E282B49592C2D1F9BBCBFDFF0DB837050"} 0.270050301
+cometbft_consensus_quorum_prevote_delay{chain_id="dymension_1100-1",proposer_address="FC7E56F3138FEA58FF5FF904249A5D1361F16528"} 0.227711388
+# HELP cometbft_consensus_round_duration_seconds Histogram of round duration.
+# TYPE cometbft_consensus_round_duration_seconds histogram
+cometbft_consensus_round_duration_seconds_bucket{chain_id="dymension_1100-1",le="0.1"} 1070
+cometbft_consensus_round_duration_seconds_bucket{chain_id="dymension_1100-1",le="0.2682695795279726"} 1071
+cometbft_consensus_round_duration_seconds_bucket{chain_id="dymension_1100-1",le="0.7196856730011522"} 1073
+cometbft_consensus_round_duration_seconds_bucket{chain_id="dymension_1100-1",le="1.9306977288832508"} 1073
+cometbft_consensus_round_duration_seconds_bucket{chain_id="dymension_1100-1",le="5.1794746792312125"} 1181
+cometbft_consensus_round_duration_seconds_bucket{chain_id="dymension_1100-1",le="13.894954943731381"} 1181
+cometbft_consensus_round_duration_seconds_bucket{chain_id="dymension_1100-1",le="37.27593720314942"} 1181
+cometbft_consensus_round_duration_seconds_bucket{chain_id="dymension_1100-1",le="100.00000000000006"} 1181
+cometbft_consensus_round_duration_seconds_bucket{chain_id="dymension_1100-1",le="+Inf"} 1181
+cometbft_consensus_round_duration_seconds_sum{chain_id="dymension_1100-1"} 410.6107368159996
+cometbft_consensus_round_duration_seconds_count{chain_id="dymension_1100-1"} 1181
+# HELP cometbft_consensus_round_voting_power_percent RoundVotingPowerPercent is the percentage of the total voting power received with a round. The value begins at 0 for each round and approaches 1.0 as additional voting power is observed. The metric is labeled by vote type.
+# TYPE cometbft_consensus_round_voting_power_percent gauge
+cometbft_consensus_round_voting_power_percent{chain_id="dymension_1100-1",vote_type="precommit"} 0.05661715084876646
+cometbft_consensus_round_voting_power_percent{chain_id="dymension_1100-1",vote_type="prevote"} 0.8583698071524443
+# HELP cometbft_consensus_rounds Number of rounds.
+# TYPE cometbft_consensus_rounds gauge
+cometbft_consensus_rounds{chain_id="dymension_1100-1"} 0
+# HELP cometbft_consensus_step_duration_seconds Histogram of durations for each step in the consensus protocol.
+# TYPE cometbft_consensus_step_duration_seconds histogram
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Commit",le="0.1"} 830
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Commit",le="0.2682695795279726"} 1066
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Commit",le="0.7196856730011522"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Commit",le="1.9306977288832508"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Commit",le="5.1794746792312125"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Commit",le="13.894954943731381"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Commit",le="37.27593720314942"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Commit",le="100.00000000000006"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Commit",le="+Inf"} 1073
+cometbft_consensus_step_duration_seconds_sum{chain_id="dymension_1100-1",step="Commit"} 101.51920707200003
+cometbft_consensus_step_duration_seconds_count{chain_id="dymension_1100-1",step="Commit"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewHeight",le="0.1"} 3
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewHeight",le="0.2682695795279726"} 9
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewHeight",le="0.7196856730011522"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewHeight",le="1.9306977288832508"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewHeight",le="5.1794746792312125"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewHeight",le="13.894954943731381"} 1074
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewHeight",le="37.27593720314942"} 1074
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewHeight",le="100.00000000000006"} 1074
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewHeight",le="+Inf"} 1074
+cometbft_consensus_step_duration_seconds_sum{chain_id="dymension_1100-1",step="NewHeight"} 449.7205930499997
+cometbft_consensus_step_duration_seconds_count{chain_id="dymension_1100-1",step="NewHeight"} 1074
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewRound",le="0.1"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewRound",le="0.2682695795279726"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewRound",le="0.7196856730011522"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewRound",le="1.9306977288832508"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewRound",le="5.1794746792312125"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewRound",le="13.894954943731381"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewRound",le="37.27593720314942"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewRound",le="100.00000000000006"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="NewRound",le="+Inf"} 1126
+cometbft_consensus_step_duration_seconds_sum{chain_id="dymension_1100-1",step="NewRound"} 0.9302269120000001
+cometbft_consensus_step_duration_seconds_count{chain_id="dymension_1100-1",step="NewRound"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Precommit",le="0.1"} 12
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Precommit",le="0.2682695795279726"} 840
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Precommit",le="0.7196856730011522"} 1073
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Precommit",le="1.9306977288832508"} 1127
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Precommit",le="5.1794746792312125"} 1127
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Precommit",le="13.894954943731381"} 1127
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Precommit",le="37.27593720314942"} 1127
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Precommit",le="100.00000000000006"} 1127
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Precommit",le="+Inf"} 1127
+cometbft_consensus_step_duration_seconds_sum{chain_id="dymension_1100-1",step="Precommit"} 317.3176592800002
+cometbft_consensus_step_duration_seconds_count{chain_id="dymension_1100-1",step="Precommit"} 1127
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Prevote",le="0.1"} 7
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Prevote",le="0.2682695795279726"} 810
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Prevote",le="0.7196856730011522"} 1108
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Prevote",le="1.9306977288832508"} 1119
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Prevote",le="5.1794746792312125"} 1119
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Prevote",le="13.894954943731381"} 1119
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Prevote",le="37.27593720314942"} 1119
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Prevote",le="100.00000000000006"} 1119
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Prevote",le="+Inf"} 1119
+cometbft_consensus_step_duration_seconds_sum{chain_id="dymension_1100-1",step="Prevote"} 285.4023687470001
+cometbft_consensus_step_duration_seconds_count{chain_id="dymension_1100-1",step="Prevote"} 1119
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Propose",le="0.1"} 80
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Propose",le="0.2682695795279726"} 608
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Propose",le="0.7196856730011522"} 1058
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Propose",le="1.9306977288832508"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Propose",le="5.1794746792312125"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Propose",le="13.894954943731381"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Propose",le="37.27593720314942"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Propose",le="100.00000000000006"} 1126
+cometbft_consensus_step_duration_seconds_bucket{chain_id="dymension_1100-1",step="Propose",le="+Inf"} 1126
+cometbft_consensus_step_duration_seconds_sum{chain_id="dymension_1100-1",step="Propose"} 392.0299548889999
+cometbft_consensus_step_duration_seconds_count{chain_id="dymension_1100-1",step="Propose"} 1126
+# HELP cometbft_consensus_total_txs Total number of transactions.
+# TYPE cometbft_consensus_total_txs gauge
+cometbft_consensus_total_txs{chain_id="dymension_1100-1"} 28
+# HELP cometbft_consensus_validator_last_signed_height Last height signed by this validator if the node is a validator.
+# TYPE cometbft_consensus_validator_last_signed_height gauge
+cometbft_consensus_validator_last_signed_height{chain_id="dymension_1100-1",validator_address="092AA7437FA8D2D50CF35116AB2F8752B41F82F1"} 1.3731125e+07
+# HELP cometbft_consensus_validator_missed_blocks Amount of blocks missed per validator.
+# TYPE cometbft_consensus_validator_missed_blocks gauge
+cometbft_consensus_validator_missed_blocks{chain_id="dymension_1100-1",validator_address="092AA7437FA8D2D50CF35116AB2F8752B41F82F1"} 22
+# HELP cometbft_consensus_validator_power Power of a validator.
+# TYPE cometbft_consensus_validator_power gauge
+cometbft_consensus_validator_power{chain_id="dymension_1100-1",validator_address="092AA7437FA8D2D50CF35116AB2F8752B41F82F1"} 2.5358035e+07
+# HELP cometbft_consensus_validators Number of validators.
+# TYPE cometbft_consensus_validators gauge
+cometbft_consensus_validators{chain_id="dymension_1100-1"} 106
+# HELP cometbft_consensus_validators_power Total power of all validators.
+# TYPE cometbft_consensus_validators_power gauge
+cometbft_consensus_validators_power{chain_id="dymension_1100-1"} 4.47886102e+08
+# HELP cometbft_mempool_active_outbound_connections Number of connections being actively used for gossiping transactions (experimental feature).
+# TYPE cometbft_mempool_active_outbound_connections gauge
+cometbft_mempool_active_outbound_connections{chain_id="dymension_1100-1"} 9
+# HELP cometbft_mempool_failed_txs FailedTxs defines the number of failed transactions. These are transactions that failed to make it into the mempool because they were deemed invalid. metrics:Number of failed transactions.
+# TYPE cometbft_mempool_failed_txs counter
+cometbft_mempool_failed_txs{chain_id="dymension_1100-1"} 4
+# HELP cometbft_mempool_recheck_times Number of times transactions are rechecked in the mempool.
+# TYPE cometbft_mempool_recheck_times counter
+cometbft_mempool_recheck_times{chain_id="dymension_1100-1"} 18
+# HELP cometbft_mempool_size Number of uncommitted transactions in the mempool.
+# TYPE cometbft_mempool_size gauge
+cometbft_mempool_size{chain_id="dymension_1100-1"} 0
+# HELP cometbft_mempool_size_bytes Total size of the mempool in bytes.
+# TYPE cometbft_mempool_size_bytes gauge
+cometbft_mempool_size_bytes{chain_id="dymension_1100-1"} 0
+# HELP cometbft_mempool_tx_size_bytes Histogram of transaction sizes in bytes.
+# TYPE cometbft_mempool_tx_size_bytes histogram
+cometbft_mempool_tx_size_bytes_bucket{chain_id="dymension_1100-1",le="1"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="dymension_1100-1",le="3"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="dymension_1100-1",le="9"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="dymension_1100-1",le="27"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="dymension_1100-1",le="81"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="dymension_1100-1",le="243"} 0
+cometbft_mempool_tx_size_bytes_bucket{chain_id="dymension_1100-1",le="729"} 21
+cometbft_mempool_tx_size_bytes_bucket{chain_id="dymension_1100-1",le="+Inf"} 28
+cometbft_mempool_tx_size_bytes_sum{chain_id="dymension_1100-1"} 110443
+cometbft_mempool_tx_size_bytes_count{chain_id="dymension_1100-1"} 28
+# HELP cometbft_p2p_message_receive_bytes_total Number of bytes of each message type received.
+# TYPE cometbft_p2p_message_receive_bytes_total counter
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="blocksync_BlockResponse"} 1.02234e+06
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="blocksync_StatusResponse"} 108
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="consensus_BlockPart"} 8.9282492e+07
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="consensus_HasVote"} 2.0096724e+07
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="consensus_NewRoundStep"} 443507
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="consensus_NewValidBlock"} 448594
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="consensus_Proposal"} 875055
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="consensus_Vote"} 2.58503286e+08
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="consensus_VoteSetBits"} 7595
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="consensus_VoteSetMaj23"} 204439
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="mempool_Txs"} 713497
+cometbft_p2p_message_receive_bytes_total{chain_id="dymension_1100-1",message_type="p2p_PexRequest"} 6
+# HELP cometbft_p2p_message_send_bytes_total Number of bytes of each message type sent.
+# TYPE cometbft_p2p_message_send_bytes_total counter
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="blocksync_BlockRequest"} 602
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="blocksync_StatusResponse"} 110
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="consensus_BlockPart"} 6.8759361e+07
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="consensus_HasVote"} 2.0373792e+07
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="consensus_NewRoundStep"} 405343
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="consensus_NewValidBlock"} 435758
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="consensus_Proposal"} 916733
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="consensus_Vote"} 7.8671926e+07
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="consensus_VoteSetBits"} 33366
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="consensus_VoteSetMaj23"} 86113
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="mempool_Txs"} 769151
+cometbft_p2p_message_send_bytes_total{chain_id="dymension_1100-1",message_type="p2p_PexAddrs"} 47311
+# HELP cometbft_p2p_peer_pending_send_bytes Pending bytes to be sent to a given peer.
+# TYPE cometbft_p2p_peer_pending_send_bytes gauge
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="10ed1e176d874c8bb3c7c065685d2da6a4b86475"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 245
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="2031373ae11f2ce79a5e61fb15308c860559cc64"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="400f3d9e30b69e78a7fb891f60d76fa3c73f0ecc"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="8169edb9a1da52f960f5b49f94af69d04e19589c"} 301
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 131
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 0
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 301
+cometbft_p2p_peer_pending_send_bytes{chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 0
+# HELP cometbft_p2p_peer_receive_bytes_total Number of bytes received from a given peer.
+# TYPE cometbft_p2p_peer_receive_bytes_total counter
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 2
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 2
+cometbft_p2p_peer_receive_bytes_total{chID="0x0",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 2
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 2.482471e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 2.737259e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 2.410152e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 2.753277e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="8169edb9a1da52f960f5b49f94af69d04e19589c"} 241626
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 2.759035e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 2.577152e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 2.645105e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 2.587187e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 7.831987e+06
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 1.2886171e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 1.0305088e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 1.2933908e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 1.1615294e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 1.1591862e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 1.0949633e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 1.2043604e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 1.587287e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 4.3049078e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 3.5343582e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 4.3806423e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 2.0917153e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 3.9650027e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 1.863173e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 4.1232423e+07
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 1925
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 1330
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 1330
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 2065
+cometbft_p2p_peer_receive_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 945
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 5745
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 110615
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 103137
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 110615
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 83196
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 109972
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 80245
+cometbft_p2p_peer_receive_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 109972
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 12
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 328344
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 12
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 333421
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="8169edb9a1da52f960f5b49f94af69d04e19589c"} 12
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 360611
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 12
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 12
+cometbft_p2p_peer_receive_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 12
+# HELP cometbft_p2p_peer_send_bytes_total Number of bytes sent to a given peer.
+# TYPE cometbft_p2p_peer_send_bytes_total counter
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 15792
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 15740
+cometbft_p2p_peer_send_bytes_total{chID="0x0",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 15779
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 2.182557e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 2.739016e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 2.636457e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 2.737154e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="8169edb9a1da52f960f5b49f94af69d04e19589c"} 816237
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 2.712043e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 2.580836e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 2.316241e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x20",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 2.580465e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 8.755347e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 9.211777e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 8.428619e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 7.990619e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="8169edb9a1da52f960f5b49f94af69d04e19589c"} 4.459766e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 9.961677e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 5.893969e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 7.809751e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x21",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 7.164569e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 3.195728e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 1.826792e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 1.1930812e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 1.5617876e+07
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="8169edb9a1da52f960f5b49f94af69d04e19589c"} 1.841371e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 6.021952e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 8.601464e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 4.539794e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x22",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 8.654818e+06
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 6656
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 5820
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 6796
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 8237
+cometbft_p2p_peer_send_bytes_total{chID="0x23",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 5857
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 108910
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 109614
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 108028
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 110296
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 110615
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 11730
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 109972
+cometbft_p2p_peer_send_bytes_total{chID="0x30",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 99986
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="1951cffc3790e36174dd17f92cb2dba08b314551"} 11
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="2725fa85153ef4bcfd4a8760b49d6f38156b6957"} 200
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="2d06fbc9c1ce418cf5f1569165de9793d41ce8e3"} 11
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="59350d9f30b81779846e76cd642095e6a6c223d5"} 11
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="72d83094836fdc02f0537606ab97d04307ca8efa"} 207
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="8169edb9a1da52f960f5b49f94af69d04e19589c"} 11
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="84a4e3682f75b87ce27f88dfa4c5538ecbdf4eac"} 228
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="bb8d24c0f633b0ce3f01da5e0377ecc2195548e4"} 11
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="bed8386183c86d1dd50894592d3602d05b708f09"} 11
+cometbft_p2p_peer_send_bytes_total{chID="0x40",chain_id="dymension_1100-1",peer_id="c08638b532d31334a9523c60ac4748cb218bc10c"} 11
+# HELP cometbft_p2p_peers Number of peers.
+# TYPE cometbft_p2p_peers gauge
+cometbft_p2p_peers{chain_id="dymension_1100-1"} 9
+# HELP cometbft_state_block_processing_time Time spent processing FinalizeBlock
+# TYPE cometbft_state_block_processing_time histogram
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="1"} 0
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="11"} 0
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="21"} 0
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="31"} 71
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="41"} 474
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="51"} 974
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="61"} 1068
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="71"} 1086
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="81"} 1092
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="91"} 1096
+cometbft_state_block_processing_time_bucket{chain_id="dymension_1100-1",le="+Inf"} 1120
+cometbft_state_block_processing_time_sum{chain_id="dymension_1100-1"} 50035.26651100008
+cometbft_state_block_processing_time_count{chain_id="dymension_1100-1"} 1120
+# HELP cometbft_state_consensus_param_updates Number of consensus parameter updates returned by the application since process start.
+# TYPE cometbft_state_consensus_param_updates counter
+cometbft_state_consensus_param_updates{chain_id="dymension_1100-1"} 1120
+# HELP cometbft_state_validator_set_updates Number of validator set updates returned by the application since process start.
+# TYPE cometbft_state_validator_set_updates counter
+cometbft_state_validator_set_updates{chain_id="dymension_1100-1"} 4
+# HELP go_gc_duration_seconds A summary of the wall-time pause (stop-the-world) duration in garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 8.7785e-05
+go_gc_duration_seconds{quantile="0.25"} 0.000154752
+go_gc_duration_seconds{quantile="0.5"} 0.000303606
+go_gc_duration_seconds{quantile="0.75"} 0.001582337
+go_gc_duration_seconds{quantile="1"} 0.197107856
+go_gc_duration_seconds_sum 0.267148854
+go_gc_duration_seconds_count 66
+# HELP go_gc_gogc_percent Heap size target percentage configured by the user, otherwise 100. This value is set by the GOGC environment variable, and the runtime/debug.SetGCPercent function. Sourced from /gc/gogc:percent.
+# TYPE go_gc_gogc_percent gauge
+go_gc_gogc_percent 100
+# HELP go_gc_gomemlimit_bytes Go runtime memory limit configured by the user, otherwise math.MaxInt64. This value is set by the GOMEMLIMIT environment variable, and the runtime/debug.SetMemoryLimit function. Sourced from /gc/gomemlimit:bytes.
+# TYPE go_gc_gomemlimit_bytes gauge
+go_gc_gomemlimit_bytes 9.223372036854776e+18
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 3732
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.24.10"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated in heap and currently in use. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 3.431579976e+09
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated in heap until now, even if released already. Equals to /gc/heap/allocs:bytes.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 6.0945233304e+10
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table. Equals to /memory/classes/profiling/buckets:bytes.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 4.824693e+06
+# HELP go_memstats_frees_total Total number of heap objects frees. Equals to /gc/heap/frees:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 6.46284325e+08
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata. Equals to /memory/classes/metadata/other:bytes.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 6.1843376e+07
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and currently in use, same as go_memstats_alloc_bytes. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 3.431579976e+09
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used. Equals to /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 2.826821632e+09
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 3.868106752e+09
+# HELP go_memstats_heap_objects Number of currently allocated objects. Equals to /gc/heap/objects:objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 2.7250824e+07
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS. Equals to /memory/classes/heap/released:bytes.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 1.242103808e+09
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes + /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 6.694928384e+09
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.7689627753668456e+09
+# HELP go_memstats_mallocs_total Total number of heap objects allocated, both live and gc-ed. Semantically a counter version for go_memstats_heap_objects gauge. Equals to /gc/heap/allocs:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 6.73535149e+08
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures. Equals to /memory/classes/metadata/mcache/inuse:bytes.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 4832
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system. Equals to /memory/classes/metadata/mcache/inuse:bytes + /memory/classes/metadata/mcache/free:bytes.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 15704
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures. Equals to /memory/classes/metadata/mspan/inuse:bytes.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 4.178752e+07
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system. Equals to /memory/classes/metadata/mspan/inuse:bytes + /memory/classes/metadata/mspan/free:bytes.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 6.782592e+07
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place. Equals to /gc/heap/goal:bytes.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 5.514032506e+09
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations. Equals to /memory/classes/other:bytes.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 7.247099e+06
+# HELP go_memstats_stack_inuse_bytes Number of bytes obtained from system for stack allocator in non-CGO environments. Equals to /memory/classes/heap/stacks:bytes.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 1.5958016e+07
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator. Equals to /memory/classes/heap/stacks:bytes + /memory/classes/os-stacks:bytes.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 1.5958016e+07
+# HELP go_memstats_sys_bytes Number of bytes obtained from system. Equals to /memory/classes/total:byte.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 6.852643192e+09
+# HELP go_sched_gomaxprocs_threads The current runtime.GOMAXPROCS setting, or the number of operating system threads that can execute user-level Go code simultaneously. Sourced from /sched/gomaxprocs:threads.
+# TYPE go_sched_gomaxprocs_threads gauge
+go_sched_gomaxprocs_threads 4
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 13
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 1437.38
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP process_network_receive_bytes_total Number of bytes received by the process over the network.
+# TYPE process_network_receive_bytes_total counter
+process_network_receive_bytes_total 4.88986008e+08
+# HELP process_network_transmit_bytes_total Number of bytes sent by the process over the network.
+# TYPE process_network_transmit_bytes_total counter
+process_network_transmit_bytes_total 5.0359452e+08
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 543
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 5.717311488e+09
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.76896117288e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 8.195248128e+09
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes 1.8446744073709552e+19
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 164
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0
+

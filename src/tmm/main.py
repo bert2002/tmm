@@ -638,7 +638,7 @@ def main():
     parser.add_argument(
         "--version",
         action="version",
-        version="%(prog)s 1.1.5",
+        version="%(prog)s 1.1.6",
         help="Show program's version number and exit"
     )
 
