@@ -1,0 +1,112 @@
+{
+    "name": "Neutron",
+    "chain_id": [
+        "neutron-1",
+        "pion-1"
+    ],
+    "endpoints": [
+        "http://localhost:26660/metrics"
+    ],
+    "metrics": {
+        "block_consensus": [
+            {
+                "name": "Block Height",
+                "metric": "consensus_height",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Latest Block Height",
+                "metric": "blocksync_latest_block_height",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Block Age",
+                "metric": "block_age",
+                "type": "gauge",
+                "format": "duration"
+            },
+            {
+                "name": "Block Size",
+                "metric": "blocksync_block_size_bytes",
+                "type": "gauge",
+                "format": "bytes"
+            },
+            {
+                "name": "Catching Up",
+                "metric": "blocksync_syncing",
+                "type": "gauge",
+                "format": "bool"
+            },
+            {
+                "name": "Num Transactions",
+                "metric": "blocksync_num_txs",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Total Transactions",
+                "metric": "blocksync_total_txs",
+                "type": "gauge",
+                "format": "int"
+            }
+        ],
+        "mempool": [
+            {
+                "name": "Mempool Size",
+                "metric": "mempool_size",
+                "type": "gauge",
+                "format": "int"
+            },
+            {
+                "name": "Mempool Bytes",
+                "metric": "mempool_size_bytes",
+                "type": "gauge",
+                "format": "bytes"
+            }
+        ],
+        "network": [
+            {
+                "name": "Number of Peers",
+                "metric": "p2p_peers",
+                "type": "gauge",
+                "format": "peer_count"
+            },
+            {
+                "name": "P2P Bytes Received",
+                "metric": "p2p_peer_receive_bytes_total",
+                "type": "counter",
+                "format": "bytes_sum"
+            },
+            {
+                "name": "P2P Bytes Sent",
+                "metric": "p2p_peer_send_bytes_total",
+                "type": "counter",
+                "format": "bytes_sum"
+            }
+        ],
+        "performance": [
+            {
+                "name": "Finalize Block Time",
+                "metric": "abci_connection_method_timing_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg",
+                "labels": {
+                    "method": "finalize_block"
+                }
+            },
+            {
+                "name": "Commit Time",
+                "metric": "abci_connection_method_timing_seconds",
+                "type": "histogram",
+                "format": "duration",
+                "stat": "avg",
+                "labels": {
+                    "method": "commit"
+                }
+            }
+        ]
+    }
+}

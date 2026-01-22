@@ -22,6 +22,7 @@ A beautiful terminal-based TUI (Text User Interface) for monitoring Tendermint/C
 | Cosmos Hub | `cosmoshub-4`, `theta-testnet-001` |
 | Dymension | `dymension_1100-1`, `blumbus_111-1` |
 | Mantra | `mantra-dukong-1`, `mantra-1` |
+| Neutron | `neutron-1`, `pion-1` |
 | Nillion | `nillion-1`, `nillion-chain-testnet-1` |
 | Terra | `phoenix-1`, `pisco-1` |
 | Xion | `xion-mainnet-1`, `xion-testnet-2` |
